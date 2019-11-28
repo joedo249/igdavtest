@@ -1,0 +1,44 @@
+/*
+Affichage du figcaption quelques secondes
+ après chargement de la page index.
+*/
+
+figcaption {
+    position: absolute;
+    animation-name: grow;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    font-size: 0em;
+    font-weight: bold;
+    color: white;
+    padding: 0px 0px 20% 15px;
+    bottom: 30px;
+}
+
+@-webkit-keyframes grow {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 1.4em;
+    }
+}
+
+@-moz-keyframes grow {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 1.4em;
+    }
+}
+
+@keyframes grow {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 1.4em;
+    }
+}

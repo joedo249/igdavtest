@@ -1,0 +1,130 @@
+footer {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-top: 3px solid var(--main-bg-color);
+}
+
+footer ul {
+    position: relative;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer li {
+    font-size: 1em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+footer a:link {
+    color: var(--main-bg-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: var(--main-bg-color);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Bouton de retour vers le haut de page */
+
+#returnOnTop {
+    z-index: 1;
+    bottom: 1%;
+    cursor: pointer;
+    display: none;
+    filter: alpha(opacity=50);
+    /* IE < 8 */
+    height: 40px;
+    opacity: 0.5;
+    position: fixed;
+    right: 1%;
+    width: 40px;
+}
+
+#returnOnTop:hover {
+    filter: alpha(opacity=100);
+    /* IE < 8 */
+    opacity: 1;
+}
+
+/*
+   CSS Styles for animated modal fancyBox
+   #2 - Custom open/close animation
+   ======================================
+*/
+
+#fancybox-wrap{
+    position: relative;
+}
+
+#fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#modal{
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    min-width: 220px;
+}
+
+#modal h4{
+    font-size: 1em;
+    line-height: 1em;
+    margin-left: 10%;
+}
+
+
+/* Start state */
+/*remarque: justify-content ne fonctionne pas ? */
+.animated-modal {
+    max-width: 550px;
+    border-radius: 4px;
+    overflow: hidden;
+    transform: translateY(-50px);
+    transition: all .7s;
+    text-align: justify;
+}
+
+.animated-modal h2,
+.animated-modal p {
+    transform: translateY(-50px);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: .4s;
+}
+
+/* Final state */
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+    transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+    transition-delay: .3s;
+}
+
+
+/* --- Media queries pour tablets et desktop --- */
+
+@media only screen and (min-width: 380px) {
+    footer ul {
+        right: 0px;
+    }
+}
