@@ -94,37 +94,58 @@
       <h2 id="formTitle">Formulaire de contact</h2>
       <br>
 
-      <form method="post" action="">
-         <p><label>Votre nom (obligatoire)</label><br>
-         <input type="text" name="sender_name" required><br></p>
+      <form method="post">
+        <p><label>Votre nom (obligatoire)</label><br>
+        <input type="text" name="name" required placeholder="Your name" required=""><br></p>
 
-         <p><label>Votre email (obligatoire)</label><br>
-         <input type="email" name="sender_email" required><br></p>
+        <p><label>Votre email (obligatoire)</label><br>
+        <input type="email" name="email" required placeholder="Your email" required=""><br></p>
 
-         <p><label>Objet</label><br>
-         <input type="text" name="sender_subject"><br></p>
+        <p><label>Objet</label><br>
+        <input type="text" name="objet"><br></p>
 
-         <p><label>Message</label><br>
-         <textarea name="sender_message" required></textarea><br></p>
-         <br>
+        <p><label>Message</label><br>
+        <textarea name="message" required></textarea><br></p>
 
-<!-- reCaptcha en fin de formulaire -->
-         <div class="g-recaptcha" data-sitekey="6LfPJMIUAAAAAK1TM_Fri-c1ILuVxZAwdmYyHGeL"></div>
-         <br><br>
-         <input type="submit" value="Valider">
-      </form>
+        <div class="g-recaptcha" data-sitekey="6LcaKMMUAAAAANgw3CsmQ7QZc2qOtjUVzlJlZhCJ"></div>
+   
+        <button type="submit" name="submit" value="SUBMIT">Envoyer</button>
+    </form>
 
-      <?php
+<?php
 
-         require_once 'recaptcha/autoload.php';
-         $recaptcha = new \ReCaptcha\ReCaptcha('6LfPJMIUAAAAALGMM3Sao2RgYuwYe1p_MUFpwT18');
-         $resp = $recaptcha->verify($_POST['g-recaptcha-response']);
-         if ($resp->isSuccess()) {
-            // Verified! envoi email ?
+   $secretKey = '6LcaKMMUAAAAAD7AU3jlaFJAljD0a_59Xe1k0ine';   
+
+   // Always set content-type when sending HTML email
+   $headers = "MIME-Version: 1.0" . "\r\n";
+   $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+   $to      = 'info1@igd-avocats.fr';
+   $from    = "name";
+   $email   = "email";
+   $subject = "Objet";
+   $message = "Message";
+   $headers = "From:" .$from . "\r\n";
+   $headers .= "Objet : " .$subject . "\r\n";
+   $headers .= "Email : " .$email . "\r\n";
+   $headers .= "Message : " .$message . "\r\n";
+
+   ini_set('SMTP', 'smtp.orange.fr');
+   ini_set('smtp_port', '465');
+   ini_set('sendmail_from', 'info1@igd-avocats.fr');
+
+   require_once 'recaptcha/autoload.php';
+   if(!empty($_POST['submit']) && isset($_POST['g-recaptcha-response'])) {
+      $recaptcha = new \ReCaptcha\ReCaptcha($secretKey);
+      $resp = $recaptcha->verify($_POST['g-recaptcha-response']);
+      if ($resp->isSuccess()) {
+         mail($to, $subject, $message, $headers);
+         echo '<p>Votre message a été envoyé.</p>';
          } else {
-            $errors = $resp->getErrorCodes();
-         }      
-      ?>
+            echo '<p>Erreur</p>';
+      }
+   }  
+?>
 
    </section>
 

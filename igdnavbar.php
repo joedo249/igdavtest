@@ -9,6 +9,7 @@
     </li>
     <li><a href="honoraires.php">Honoraires</a></li>
     <li><a href="contact.php">Contact</a></li>
+    <li><a href="form.html">Formulaire</a></li>
   </ul>  
 </nav>
 
