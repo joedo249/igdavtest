@@ -188,7 +188,8 @@ section {
     text-decoration: underline;
 }
 
-#parMail {
+#parMail,
+#invitForm {
     margin-left: 5%;
 }
 
@@ -212,6 +213,11 @@ section {
 
 #titrePlan {
     margin-left: 2%;
+}
+
+#access {
+    margin-left: 2%;
+    padding-top: 30px;
 }
 
 .googlemap {

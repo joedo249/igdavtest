@@ -43,53 +43,18 @@
             <a href="tel:+33143181025">01 43 18 10 25</a></p>
         </div>
 
-        <p id="parMail">- par mail :
-          <span id="contactEmail">
-            <script src="js/contactEmailScript.js" async></script>
-          </span>
-        </p>
+        <div id="parMail">
+          <p>- par mail :
+            <span id="contactEmail">
+              <script src="js/contactEmailScript.js" async></script>
+            </span></p>
+        </div>
+
+        <div id="invitForm">
+          <p>- ou en remplissant le formulaire ci-après</p>
+        </div>
       </article>
     </section>
-
-    <section id="plan">
-      <div class="container">
-        <div class="col-plan">
-          <h1 id="titrePlan"><br>Plan<br></h1>
-          <div class="googlemap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2664201594857!2d2.2894286158885726!3d48.8721974792889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fee7a0e2df7%3A0xf4ae84b6af56588!2s19+Avenue+Victor+Hugo%2C+75116+Paris%2C+France!5e0!3m2!1sfr!2sus!4v1523180688554" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div class="col-acces">
-          <h1>Accès</h1>
-          <p><b>Métro : Station Charles de Gaulle - Etoile :</b><br>
-            Lignes
-            <img src="img/lignemetro1.png" alt="métro 1" class="metro">
-            <img src="img/lignemetro2.png" alt="métro 2" class="metro">
-            <img src="img/lignemetro6.png" alt="métro 6" class="metro"><br></p>
-          <p><b>RER : Station Charles de Gaulle - Etoile:</b><br>
-            Ligne
-            <img src="img/ligneRER-A.png" alt="RER A" class="rer"></p>
-          <p><b>Bus : Arrêt Charles de Gaulle - Etoile:</b><br>
-            Lignes
-            <img src="img/lignebus22.png" alt="bus 22" class="bus">
-            <img src="img/lignebus30.png" alt="bus 30" class="bus">
-            <img src="img/lignebus31.png" alt="bus 31" class="bus">
-            <img src="img/lignebus52.png" alt="bus 52" class="bus">
-            <img src="img/lignebus73.png" alt="bus 73" class="bus">
-            <img src="img/lignebus82.png" alt="bus 82" class="bus">
-            <img src="img/lignebus92.png" alt="bus 92" class="bus">
-            <br></p>
-          <p><b>Parking :</b><br>
-            <ul>
-              <li>Park Etoile-Foch 8 Avenue Foch à 3 minutes (240 m.)</li>
-              <li>Indigo 20 Avenue Carnot à 6 minutes (500 m.)</li>
-              <li>Q-Park Champs-Elysées 77 Avenue Marceau à 7 minutes (550 m.)</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </section> <!-- close section plan -->
 
     <?php
     require('constant.php');
@@ -157,6 +122,46 @@
         <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
       </div>
     </div><!-- content -->
+
+    <section id="plan">
+      <div class="container">
+        <div class="col-plan">
+          <h1 id="titrePlan"><br>Plan<br></h1>
+          <div class="googlemap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2664201594857!2d2.2894286158885726!3d48.8721974792889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fee7a0e2df7%3A0xf4ae84b6af56588!2s19+Avenue+Victor+Hugo%2C+75116+Paris%2C+France!5e0!3m2!1sfr!2sus!4v1523180688554" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-acces">
+          <h1 id="access">Accès</h1>
+          <p><b>Métro : Station Charles de Gaulle - Etoile :</b><br>
+            Lignes
+            <img src="img/lignemetro1.png" alt="métro 1" class="metro">
+            <img src="img/lignemetro2.png" alt="métro 2" class="metro">
+            <img src="img/lignemetro6.png" alt="métro 6" class="metro"><br></p>
+          <p><b>RER : Station Charles de Gaulle - Etoile:</b><br>
+            Ligne
+            <img src="img/ligneRER-A.png" alt="RER A" class="rer"></p>
+          <p><b>Bus : Arrêt Charles de Gaulle - Etoile:</b><br>
+            Lignes
+            <img src="img/lignebus22.png" alt="bus 22" class="bus">
+            <img src="img/lignebus30.png" alt="bus 30" class="bus">
+            <img src="img/lignebus31.png" alt="bus 31" class="bus">
+            <img src="img/lignebus52.png" alt="bus 52" class="bus">
+            <img src="img/lignebus73.png" alt="bus 73" class="bus">
+            <img src="img/lignebus82.png" alt="bus 82" class="bus">
+            <img src="img/lignebus92.png" alt="bus 92" class="bus">
+            <br></p>
+          <p><b>Parking :</b><br>
+            <ul>
+              <li>Park Etoile-Foch 8 Avenue Foch à 3 minutes (240 m.)</li>
+              <li>Indigo 20 Avenue Carnot à 6 minutes (500 m.)</li>
+              <li>Q-Park Champs-Elysées 77 Avenue Marceau à 7 minutes (550 m.)</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </section> <!-- close section plan -->
 
   </div> <!-- end wrapper -->
 
