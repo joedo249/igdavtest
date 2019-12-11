@@ -6,10 +6,10 @@
     <title>IGD Avocats est spécialisé en droit du travail.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="IGD Avocats intervient en droit du travail, droit de la sécurité dans les secteurs du transport de personnes et de marchandises, du recyclage et du traitement des déchets. Le cabinet intervient également en droit de la famille et en droit pénal.">
-    <meta name="keywords" content="avocat, avocats, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité, famille, divorce, séparation, enfants">    
+    <meta name="keywords" content="avocat, avocats, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité, famille, divorce, séparation, enfants">
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="stylesheets/stylesheet_header.css">    
+    <link rel="stylesheet" href="stylesheets/stylesheet_header.css">
     <link rel="stylesheet" href="stylesheets/stylesheet_body.css">
     <link rel="stylesheet" href="stylesheets/stylesheet_navbar.css">
     <link rel="stylesheet" href="stylesheets/stylesheet_footer.css">
@@ -19,100 +19,101 @@
 
 <body>
     <div id="wrapper">
-     
+
         <?php include("igdheader.php"); ?>
 
-        <?php include("igdnavbar.php"); ?> 
+        <?php include("igdnavbar.php"); ?>
 
         <picture>
-            <source media="(max-width: 479px)" srcset="images_igdav/fronton-palais-justice-7-mob.jpg">
-            <source media="(min-width: 480px)" srcset="images_igdav/fronton-palais-justice-7.jpg">          
-            <img src="images_igdav/fronton-palais-justice-mob.jpg" alt="Palais de Justice de Paris" class="image">
+            <source media="(max-width: 479px)" srcset="img/fronton-palais-justice-7-mob.jpg">
+            <source media="(min-width: 480px)" srcset="img/fronton-palais-justice-7.jpg">
+            <img src="img/fronton-palais-justice-mob.jpg" alt="Palais de Justice de Paris" class="image">
         </picture>
 
-    <article id="expertise">
-        <h1>Domaines d'expertise</h1>
-        <p>Le cabinet IGD est compétent en <strong>Droit de la famille </strong>et en <strong>Droit du travail </strong>notamment dans les secteurs du transport et de la sécurité.</p>
-        <h2>Le secteur du transport</h2>
-        <p>Nous sommes les avocats de nombreux transporteurs routiers de marchandises et de personnes, certains parmi les plus importants du secteur. Une part importante de notre clientèle relève du secteur du transport et de ses nombreuses activités annexes:</p>
-        <ul>
-            <li>logistique</li>
-            <li>déménagement</li>
-            <li>autocars</li>
-            <li>taxis</li>
-            <li>ambulances</li>
-            <li>location de véhicules</li>
-            <li>levage et manutention</li>
-            <li>ainsi que des sociétés de services liées au secteur du transport terrestre et aérien.</li>
-        </ul>
-        <p>Le cabinet est le conseil d'organisations syndicales et patronales du transport</p>   
-            
-        <h2>Le secteur de la sécurité</h2>
-        <p>En suivant notre clientèle, notre domaine d'intervention s'est étendu à la sécurité des sites aéroportuaires, des sites industriels, des salons et expositions.</p>
-        <p>Nous comptons dans notre clientèle d'importantes sociétés de sécurité, parmi les leaders du marché.</p>
-        <h2>Les autres secteurs</h2>
-        <p>Depuis quelques années, notre clientèle s'est élargie aux domaines du recyclage et du traitement des déchets ainsi qu'aux entreprises de propreté.</p>
-        
-    </article>
+        <article id="expertise">
+            <h1>Domaines d'expertise</h1>
+            <p>Le cabinet IGD est compétent en <strong>Droit de la famille </strong>et en <strong>Droit du travail </strong>notamment dans les secteurs du transport et de la sécurité.</p>
+            <h2>Le secteur du transport</h2>
+            <p>Nous sommes les avocats de nombreux transporteurs routiers de marchandises et de personnes, certains parmi les plus importants du secteur. Une part importante de notre clientèle relève du secteur du transport et de ses nombreuses activités annexes:</p>
+            <ul>
+                <li>logistique</li>
+                <li>déménagement</li>
+                <li>autocars</li>
+                <li>taxis</li>
+                <li>ambulances</li>
+                <li>location de véhicules</li>
+                <li>levage et manutention</li>
+                <li>ainsi que des sociétés de services liées au secteur du transport terrestre et aérien.</li>
+            </ul>
+            <p>Le cabinet est le conseil d'organisations syndicales et patronales du transport</p>
 
-    <section class="expert">
-        <article class="expertiseField" id="famille">
-            <h1>Droit de la famille</h1>
-            <p>Le droit de la famille est la branche du droit civil qui régit les relations juridiques entre des personnes physiques unies par un lien de parenté, d’alliance ou d’adoption.</p>
-            <p>Le Cabinet vous conseille pour le règlement amiable ou contentieux des différends familiaux:</p>
-            <h2>Litiges concernant les couples</h2>
-            <ul>
-                <li>Divorce: consentement mutuel, altération définitive du lien conjugal, faute…</li>
-                <li>PACS ou concubinage: droits, rupture…</li>
-                <li>Séparation: prestation compensatoire, domicile conjugal…</li>
-                <li>Violences conjugales : ordonnance de protection…</li>
-            </ul>
-            <h2>Litiges concernant les enfants</h2>
-            <ul>
-                <li>Autorité parentale</li>
-                <li>Pension alimentaire et recouvrement</li>
-                <li>Droits de visite et d’hébergement</li>
-            </ul>
-            <h2>Protection des personnes vulnérables</h2>
-            <ul>
-                <li>Tutelle</li>
-                <li>Curatelle</li>
-                <li>Sauvegarde de justice</li>
-                <li>Hospitalisation d'office</li>
-            </ul>
-            <p>Le cabinet IGD Avocats saura vous conseiller pour choisir la stratégie la plus adaptée à vos besoins et vous assister tout au long de la procédure qui sera mise en œuvre pour assurer la défense de vos intérêts.</p>
+            <h2>Le secteur de la sécurité</h2>
+            <p>En suivant notre clientèle, notre domaine d'intervention s'est étendu à la sécurité des sites aéroportuaires, des sites industriels, des salons et expositions.</p>
+            <p>Nous comptons dans notre clientèle d'importantes sociétés de sécurité, parmi les leaders du marché.</p>
+            <h2>Les autres secteurs</h2>
+            <p>Depuis quelques années, notre clientèle s'est élargie aux domaines du recyclage et du traitement des déchets ainsi qu'aux entreprises de propreté.</p>
+
         </article>
 
-        <article class="expertiseField" id="travail">
-            <h1>Droit du travail et droit social</h1>
-            <p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
-            Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
-            <p><b>Les domaines d'intervention du cabinet sont notamment les suivants:</b><br>
-            <ul>
-                <li>Rédaction de contrats de travail et d'avenants</li>	
-                <li>Conseil et analyse des clauses du contrat de travail</li>	
-                <li>Sanctions et pouvoir disciplinaire</li>
-                <li>Faute grave</li>
-                <li>Démission et prise d'acte de la rupture</li>	
-                <li>Rupture conventionnelle</li>	
-                <li>Licenciement économique</li>	
-                <li>Licenciement pour motif personnel</li>	
-                <li>Inaptitude et accident du travail</li>
-                <li>Harcèlement moral ou sexuel</li>
-                <li>Heures supplémentaires</li>	
-                <li>Télétravail</li>	
-                <li>Représentation du personnel (CSE)</li>	
-                <li>Contentieux électoral</li>	
-                <li>Accord d’entreprise</li>	
-                <li>Salariés protégés</li>	
-            </ul></p>
-            <p>A toutes les étapes de la vie d'un contrat de travail, l'avis de l'avocat est souhaitable. C'est un droit d'actualité avec une réglementation abondante et en perpétuelle évolution qui suscite des questions et litiges très nombreux.</p> 
-            <p>Il suffit de consulter le site <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank"><b>Service-Public</b></a> de l'administration française en cliquant sur le logo ci-dessous pour constater que la réglementation du travail est en perpétuelle évolution.</p>
-            <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank">
-                <img src="images_igdav/logo-service-public-pro.png" alt="site Service Public" id="servpub-pro"></a>
-        </article>   
-    </section>
+        <section class="expert">
+            <article class="expertiseField" id="famille">
+                <h1>Droit de la famille</h1>
+                <p>Le droit de la famille est la branche du droit civil qui régit les relations juridiques entre des personnes physiques unies par un lien de parenté, d’alliance ou d’adoption.</p>
+                <p>Le Cabinet vous conseille pour le règlement amiable ou contentieux des différends familiaux:</p>
+                <h2>Litiges concernant les couples</h2>
+                <ul>
+                    <li>Divorce: consentement mutuel, altération définitive du lien conjugal, faute…</li>
+                    <li>PACS ou concubinage: droits, rupture…</li>
+                    <li>Séparation: prestation compensatoire, domicile conjugal…</li>
+                    <li>Violences conjugales : ordonnance de protection…</li>
+                </ul>
+                <h2>Litiges concernant les enfants</h2>
+                <ul>
+                    <li>Autorité parentale</li>
+                    <li>Pension alimentaire et recouvrement</li>
+                    <li>Droits de visite et d’hébergement</li>
+                </ul>
+                <h2>Protection des personnes vulnérables</h2>
+                <ul>
+                    <li>Tutelle</li>
+                    <li>Curatelle</li>
+                    <li>Sauvegarde de justice</li>
+                    <li>Hospitalisation d'office</li>
+                </ul>
+                <p>Le cabinet IGD Avocats saura vous conseiller pour choisir la stratégie la plus adaptée à vos besoins et vous assister tout au long de la procédure qui sera mise en œuvre pour assurer la défense de vos intérêts.</p>
+            </article>
 
-<?php include("igdfooter.php"); ?>
+            <article class="expertiseField" id="travail">
+                <h1>Droit du travail et droit social</h1>
+                <p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
+                    Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
+                <p><b>Les domaines d'intervention du cabinet sont notamment les suivants:</b><br>
+                    <ul>
+                        <li>Rédaction de contrats de travail et d'avenants</li>
+                        <li>Conseil et analyse des clauses du contrat de travail</li>
+                        <li>Sanctions et pouvoir disciplinaire</li>
+                        <li>Faute grave</li>
+                        <li>Démission et prise d'acte de la rupture</li>
+                        <li>Rupture conventionnelle</li>
+                        <li>Licenciement économique</li>
+                        <li>Licenciement pour motif personnel</li>
+                        <li>Inaptitude et accident du travail</li>
+                        <li>Harcèlement moral ou sexuel</li>
+                        <li>Heures supplémentaires</li>
+                        <li>Télétravail</li>
+                        <li>Représentation du personnel (CSE)</li>
+                        <li>Contentieux électoral</li>
+                        <li>Accord d’entreprise</li>
+                        <li>Salariés protégés</li>
+                    </ul>
+                </p>
+                <p>A toutes les étapes de la vie d'un contrat de travail, l'avis de l'avocat est souhaitable. C'est un droit d'actualité avec une réglementation abondante et en perpétuelle évolution qui suscite des questions et litiges très nombreux.</p>
+                <p>Il suffit de consulter le site <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank"><b>Service-Public</b></a> de l'administration française en cliquant sur le logo ci-dessous pour constater que la réglementation du travail est en perpétuelle évolution.</p>
+                <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank">
+                    <img src="img/logo-service-public-pro.png" alt="site Service Public" id="servpub-pro"></a>
+            </article>
+        </section>
+
+        <?php include("igdfooter.php"); ?>
 
 </html>

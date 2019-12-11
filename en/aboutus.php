@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>IGD Avocats specializes in Employment and Labor Law</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="IGD Avocats is a Law Firm in Paris specializing in Employment and Labor Law, Social Security Law, Family Law and Criminal Law.">
-    <meta name="keywords" content="Isabelle Guyader Dousset, Claire Dousset, lawyer, Paris, unfair dismissal, moral harassment, sexual harassment, labor law, social law, social security, family, transportation, logistics, litigation, Labor Court, High Court">    
+    <meta name="keywords" content="Isabelle Guyader Dousset, Claire Dousset, lawyer, Paris, unfair dismissal, moral harassment, sexual harassment, labor law, social law, social security, family, transportation, logistics, litigation, Labor Court, High Court">
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../stylesheets/stylesheet_header.css">    
+    <link rel="stylesheet" href="../stylesheets/stylesheet_header.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_body.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_navbar.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_footer.css">
@@ -20,15 +20,15 @@
 
 <body>
     <div id="wrapper">
-     
+
         <?php include("en_header.php"); ?>
 
-        <?php include("en_navbar.php"); ?> 
+        <?php include("en_navbar.php"); ?>
 
         <picture>
-            <source media="(max-width: 479px)" srcset="../images_igdav/arc-de-triomphe-7-mob.jpg">
-            <source media="(min-width: 480px)" srcset="../images_igdav/arc-de-triomphe-7.jpg">          
-            <img src="../images_igdav/arc-de-triomphe-7-mob.jpg" alt="L'Arc de Triomphe" class="image">
+            <source media="(max-width: 479px)" srcset="../img/arc-de-triomphe-7-mob.jpg">
+            <source media="(min-width: 480px)" srcset="../img/arc-de-triomphe-7.jpg">
+            <img src="../img/arc-de-triomphe-7-mob.jpg" alt="L'Arc de Triomphe" class="image">
             <figcaption>Defending <br>your rights</figcaption>
         </picture>
 

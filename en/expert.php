@@ -6,10 +6,10 @@
     <title>IGD Avocats specializes in Employment and Labor Law</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="IGD Avocats provides legal expertise in the fields of labor law, Social Security Law, safety law in the sectors of goods and passenger transport, security, recycling and waste treatment. The firm is also involved in family law and criminal law">
-    <meta name="keywords" content="lawyer, lawyers, labor law, dismissal, misconduct, unfair, harassment, transportation, logistic, security, family, divorce, separation, children, childcare">    
+    <meta name="keywords" content="lawyer, lawyers, labor law, dismissal, misconduct, unfair, harassment, transportation, logistic, security, family, divorce, separation, children, childcare">
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../stylesheets/stylesheet_header.css">    
+    <link rel="stylesheet" href="../stylesheets/stylesheet_header.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_body.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_navbar.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_footer.css">
@@ -19,20 +19,20 @@
 
 <body>
     <div id="wrapper">
-     
+
         <?php include("en_header.php"); ?>
 
-        <?php include("en_navbar.php"); ?> 
+        <?php include("en_navbar.php"); ?>
 
         <picture>
-            <source media="(max-width: 479px)" srcset="../images_igdav/fronton-palais-justice-7-mob.jpg">
-            <source media="(min-width: 480px)" srcset="../images_igdav/fronton-palais-justice-7.jpg">          
-            <img src="../images_igdav/fronton-palais-justice-7-mob.jpg" alt="Palais de Justice de Paris" class="image">
+            <source media="(max-width: 479px)" srcset="../img/fronton-palais-justice-7-mob.jpg">
+            <source media="(min-width: 480px)" srcset="../img/fronton-palais-justice-7.jpg">
+            <img src="../img/fronton-palais-justice-7-mob.jpg" alt="Palais de Justice de Paris" class="image">
         </picture>
-      
+
         <article id="expertise">
             <h1>Expertise</h1>
-            <p>IGD Labor Law firm provides legal expertise mainly in the fields of <strong>Family Law</strong> and <strong>Labor Law</strong> particularly in the following sectors :</p>                  
+            <p>IGD Labor Law firm provides legal expertise mainly in the fields of <strong>Family Law</strong> and <strong>Labor Law</strong> particularly in the following sectors :</p>
             <h2>The transportation sector</h2>
             <p>This sector has developed specific regulations related to the liability of the road carrier and a complex labor law.</p>
             <p>We count as clients many goods and passenger transport companies, some among the largest in the industry, and also logistics companies, moving companies, ambulances and taxis, coaches, car rental companies, lifting and handling as well as service companies related to transportation.</p>
@@ -50,7 +50,7 @@
                 </ul>
             </p>
         </article>
-        
+
         <section class="expert">
             <article class="field" id="family">
                 <h1>Family and divorce</h1>

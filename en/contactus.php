@@ -27,9 +27,9 @@
     <?php include("en_navbar.php"); ?>
 
     <picture>
-      <source media="(max-width: 479px)" srcset="../images_igdav/immeuble-7-mob.jpg">
-      <source media="(min-width: 480px)" srcset="../images_igdav/immeuble-7.jpg">
-      <img src="../images_igdav/immeuble-7-mob.jpg" alt="immeuble 19 avenue Victor Hugo Paris" class="image">
+      <source media="(max-width: 479px)" srcset="../img/immeuble-7-mob.jpg">
+      <source media="(min-width: 480px)" srcset="../img/immeuble-7.jpg">
+      <img src="../img/immeuble-7-mob.jpg" alt="immeuble 19 avenue Victor Hugo Paris" class="image">
     </picture>
 
     <section id="contact">
@@ -65,21 +65,21 @@
           <h1>Access</h1>
           <p><b>Métro : Station Charles de Gaulle - Etoile :</b><br>
             Lignes
-            <img src="../images_igdav/lignemetro1.png" alt="métro 1" class="metro">
-            <img src="../images_igdav/lignemetro2.png" alt="métro 2" class="metro">
-            <img src="../images_igdav/lignemetro6.png" alt="métro 6" class="metro"><br></p>
+            <img src="../img/lignemetro1.png" alt="métro 1" class="metro">
+            <img src="../img/lignemetro2.png" alt="métro 2" class="metro">
+            <img src="../img/lignemetro6.png" alt="métro 6" class="metro"><br></p>
           <p><b>RER : Station Charles de Gaulle - Etoile:</b><br>
             Ligne
-            <img src="../images_igdav/ligneRER-A.png" alt="RER A" class="rer"></p>
+            <img src="../img/ligneRER-A.png" alt="RER A" class="rer"></p>
           <p><b>Bus : Arrêt Charles de Gaulle - Etoile:</b><br>
             Lignes
-            <img src="../images_igdav/lignebus22.png" alt="bus 22" class="bus">
-            <img src="../images_igdav/lignebus30.png" alt="bus 30" class="bus">
-            <img src="../images_igdav/lignebus31.png" alt="bus 31" class="bus">
-            <img src="../images_igdav/lignebus52.png" alt="bus 52" class="bus">
-            <img src="../images_igdav/lignebus73.png" alt="bus 73" class="bus">
-            <img src="../images_igdav/lignebus82.png" alt="bus 82" class="bus">
-            <img src="../images_igdav/lignebus92.png" alt="bus 92" class="bus">
+            <img src="../img/lignebus22.png" alt="bus 22" class="bus">
+            <img src="../img/lignebus30.png" alt="bus 30" class="bus">
+            <img src="../img/lignebus31.png" alt="bus 31" class="bus">
+            <img src="../img/lignebus52.png" alt="bus 52" class="bus">
+            <img src="../img/lignebus73.png" alt="bus 73" class="bus">
+            <img src="../img/lignebus82.png" alt="bus 82" class="bus">
+            <img src="../img/lignebus92.png" alt="bus 92" class="bus">
             <br></p>
           <p><b>Parking :</b><br>
             <ul>
