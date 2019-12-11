@@ -56,7 +56,7 @@
     </article>
 
     <section class="expert">
-        <article class="field" id="famille">
+        <article class="expertiseField" id="famille">
             <h1>Droit de la famille</h1>
             <p>Le droit de la famille est la branche du droit civil qui régit les relations juridiques entre des personnes physiques unies par un lien de parenté, d’alliance ou d’adoption.</p>
             <p>Le Cabinet vous conseille pour le règlement amiable ou contentieux des différends familiaux:</p>
@@ -83,7 +83,7 @@
             <p>Le cabinet IGD Avocats saura vous conseiller pour choisir la stratégie la plus adaptée à vos besoins et vous assister tout au long de la procédure qui sera mise en œuvre pour assurer la défense de vos intérêts.</p>
         </article>
 
-        <article class="field" id="travail">
+        <article class="expertiseField" id="travail">
             <h1>Droit du travail et droit social</h1>
             <p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
             Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>

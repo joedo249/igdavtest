@@ -15,7 +15,7 @@
 <url>
   <loc>https://www.igd-avocats.fr/index.php</loc>
   <lastmod>2019-10-17T14:23:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://www.igd-avocats.fr/en/aboutus.php</loc>
@@ -28,28 +28,13 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.igd-avocats.fr/famille.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.igd-avocats.fr/travail.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.igd-avocats.fr/honoraires.php</loc>
   <lastmod>2019-10-17T14:23:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.igd-avocats.fr/contact.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.igd-avocats.fr/plan.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
+  <lastmod>2019-12-11T14:23:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -63,28 +48,13 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.igd-avocats.fr/en/family.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.igd-avocats.fr/en/labor.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.igd-avocats.fr/en/fees.php</loc>
   <lastmod>2019-10-17T14:23:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.igd-avocats.fr/en/contactus.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.igd-avocats.fr/en/findus.php</loc>
-  <lastmod>2019-10-17T14:23:10+00:00</lastmod>
+  <lastmod>2019-12-11T14:23:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -92,6 +62,4 @@
   <lastmod>2019-10-17T14:23:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-
 </urlset>
