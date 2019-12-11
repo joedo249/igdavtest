@@ -2,7 +2,7 @@
 Taille normale par défaut ("mobile first")  */
 
 :root {
-    --main-bg-color: rgb(0,85,131);
+    --main-bg-color: rgb(0, 85, 131);
     --title-color: rgb(50, 102, 158);
 }
 
@@ -75,14 +75,15 @@ picture {
 }
 
 .button:hover {
-    background-color: rgb(0,84,131);
+    background-color: rgb(0, 84, 131);
 
 }
+
 .inner-text {
     color: black;
     font-size: 1.2em;
     vertical-align: middle;
-}    
+}
 
 .inner-text a {
     color: white;
@@ -113,12 +114,14 @@ picture {
         Droit du travail --- Labor Law
         Droit de la famille --- Family Law --- */
 
-#famille, #family {
+#famille,
+#family {
     padding-top: 1em;
     margin-top: -1em;
 }
 
-#travail, #labor {
+#travail,
+#labor {
     padding-top: 1em;
     margin-top: -1em;
 }
@@ -193,11 +196,13 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
+
 .col-plan {
-   flex: 2 0;
+    flex: 2 0;
     min-width: 360px;
     width: 50vw;
 }
+
 .col-acces {
     flex: 1 0;
     min-width: 360px;
@@ -205,7 +210,7 @@ section {
     padding-left: 2%;
 }
 
-#titrePlan{
+#titrePlan {
     margin-left: 2%;
 }
 
@@ -245,67 +250,6 @@ section {
     margin-top: 5px;
 }
 
-/* Formulaire de contact */
-
-form {
-    margin-top: 10px;
-    margin-left: 3em;
-    width: 400px;    
-    background-color: rgb(151, 206, 151);
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-}
-
-form div + div {
-    margin-top: 1em;
-}
-
-#formTitle {
-    margin-top: 30px;
-    margin-left: 2%;
-}
-
-label {
-    display: inline-block;
-    width: 220px;
-    text-align: left;
-}
-
-input, textarea {
-    font: 1em sans-serif;
-    box-sizing: border-box;
-    border: 1px solid #CCC;
-    background-color: #CCC;
-    margin-bottom: 10px;
-}
-
-input {
-    width: 220px;
-}
-
-textarea {
-    width: 380px;
-}
-
-input:focus, textarea:focus {
-    border-color: #000;
-}
-
-textarea {
-    vertical-align: top;
-    height: 6em;
-}
-
-button {
-    margin-top: 10px;
-    margin-left: 2em;
-    width: 100px;
-    padding: 8px 15px;
-    background-color: #CCC;
-    border-radius: 1em;
-}
-
 
 /* Attention, il faut mettre les media queries
    après le reste du code */
@@ -315,17 +259,20 @@ button {
     body {
         font-size: 80%;
     }
+
     address {
         display: inline-flex;
     }
+
     #wrapper {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .portrait {
         display: block;
         min-height: 180px;
-    } 
+    }
 }
 
 /*  Media queries pour desktop */
@@ -334,23 +281,24 @@ button {
     body {
         font-size: 85%;
     }
+
     section {
         flex-direction: row;
     }
 
     /*--- Accueil --- */
-    br {
+    figcaption br {
         display: none;
     }
 
     /*--- Expertise -- Expert --*/
-   
+
 
     .expert {
         display: flex;
     }
-    
-    .field {
+
+    .expertiseField {
         width: 100px;
         margin: 0.5em;
         padding: 0.5em;
@@ -358,21 +306,25 @@ button {
         border: 2px solid var(--main-bg-color);
         border-radius: 5px;
     }
-    
-    #famille, #family {
+
+    #famille,
+    #family {
         flex-grow: 1;
     }
-    
-    #travail, #labor {
-         flex-grow: 2;
-     }
 
-     #famille, #family {
+    #travail,
+    #labor {
+        flex-grow: 2;
+    }
+
+    #famille,
+    #family {
         padding-top: 0;
         margin-top: 1em;
     }
-    
-    #travail, #labor {
+
+    #travail,
+    #labor {
         padding-top: 0;
         margin-top: 1em;
     }
