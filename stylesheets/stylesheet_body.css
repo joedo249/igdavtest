@@ -7,6 +7,8 @@ Taille normale par défaut ("mobile first")  */
 }
 
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -190,6 +192,8 @@ section {
 #invitForm {
     margin-left: 5%;
 }
+
+/* stylesheet_form */
 
 .container {
     display: flex;
