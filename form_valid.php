@@ -2,9 +2,9 @@
 if ($_POST) {
 	require('constant.php');
 
-	$user_name      = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
-	$user_email     = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-	$content   = filter_var($_POST["content"], FILTER_SANITIZE_STRING);
+	$user_name  = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
+	$user_email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+	$content    = filter_var($_POST["content"], FILTER_SANITIZE_STRING);
 
 	if (empty($user_name)) {
 		$empty[] = "<b>Name</b>";
@@ -27,7 +27,7 @@ if ($_POST) {
 		die($output);
 	}
 
-	$from = "info1@igd-avocats.fr";  //uniquement en localhost ?
+	$from = "info1@igd-avocats.fr";
 	ini_set('SMTP', 'smtp.orange.fr');
 	ini_set('smtp_port', '25');
 	ini_set('sendmail_from', $from);
