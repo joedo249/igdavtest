@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="../stylesheets/stylesheet_body.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_navbar.css">
     <link rel="stylesheet" href="../stylesheets/stylesheet_footer.css">
-    <link rel="stylesheet" type="text/css" href="../fancybox-master/dist/jquery.fancybox.min.css">
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -52,7 +50,7 @@
         </article>
 
         <section class="expert">
-            <article class="field" id="family">
+            <article class="expertiseField" id="family">
                 <h1>Family and divorce</h1>
                 <p>Separation is often one of the hardest times in somebody’s life. The way you handle your divorce can deeply impact every aspect of your life : your family and your children, obviously, but also your home, your finances, your retirement….</p>
                 <p>The firm’s lawyers take care of the legal aspects of your divorce or relationship breakdown, providing all the advice and support you may need to bring an end to your marriage or civil partnership. In such difficult times, we know every case is personal and we attach great importance ensuring that we understand what is at stake.</p>
@@ -60,7 +58,7 @@
                 <p>As much as possible, we help parties reach peaceful and workable settlements that serve their separate but common interests.</p>
             </article>
 
-            <article class="field" id="labor">
+            <article class="expertiseField" id="labor">
                 <h1>Employment and Labor law</h1>
                 <p>The firm practices mainly in the fields of labor law and social security law. We provide legal expertise to both <strong>employees</strong> and <strong>employers</strong> in all aspects of employment law.</p>
                 <p>By representing employers as well as employees in workplace disputes, our lawyers understand employment law from both a plaintiff and a defendant point of view.</p>

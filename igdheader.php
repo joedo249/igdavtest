@@ -11,5 +11,4 @@
     <a href="en/aboutus.php">
         <img src="img/UK-flag-icon.png" alt="UK flag" class="flag">
     </a>
-
 </header>

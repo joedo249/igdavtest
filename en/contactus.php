@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="../stylesheets/stylesheet_navbar.css">
   <link rel="stylesheet" href="../stylesheets/stylesheet_form.css">
   <link rel="stylesheet" href="../stylesheets/stylesheet_footer.css">
-  <link rel="stylesheet" type="text/css" href="../fancybox-master/dist/jquery.fancybox.min.css">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="../component/jquery/jquery-3.2.1.min.js"></script>
 </head>
@@ -123,7 +122,7 @@
         </form>
         <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
       </div>
-    </div><!-- content -->
+    </div> <!-- content -->
 
     <section id="plan">
       <div class="container">
@@ -156,9 +155,9 @@
             <br></p>
           <p><b>Parking :</b><br>
             <ul>
-              <li>Park Etoile-Foch 8 Avenue Foch à 3 minutes (240 m.)</li>
-              <li>Indigo 20 Avenue Carnot à 6 minutes (500 m.)</li>
-              <li>Q-Park Champs-Elysées 77 Avenue Marceau à 7 minutes (550 m.)</li>
+              <li>Park Etoile-Foch 8 Avenue Foch at 3 minutes walk (240 m.)</li>
+              <li>Indigo 20 Avenue Carnot at 6 minutes walk (500 m.)</li>
+              <li>Q-Park Champs-Elysées 77 Avenue Marceau at 7 minutes (550 m.)</li>
             </ul>
           </p>
         </div>

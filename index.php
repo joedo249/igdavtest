@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="stylesheets/stylesheet_navbar.css">
     <link rel="stylesheet" href="stylesheets/stylesheet_footer.css">
     <link rel="stylesheet" href="stylesheets/stylesheet_body_slidein.css">
-    <link rel="stylesheet" type="text/css" href="fancybox-master/dist/jquery.fancybox.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 

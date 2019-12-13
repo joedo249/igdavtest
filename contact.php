@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="stylesheets/stylesheet_navbar.css">
   <link rel="stylesheet" href="stylesheets/stylesheet_form.css">
   <link rel="stylesheet" href="stylesheets/stylesheet_footer.css">
-  <link rel="stylesheet" type="text/css" href="fancybox-master/dist/jquery.fancybox.min.css">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="component/jquery/jquery-3.2.1.min.js"></script>
 </head>
@@ -121,7 +120,7 @@
         </form>
         <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
       </div>
-    </div><!-- content -->
+    </div> <!-- content -->
 
     <section id="plan">
       <div class="container">

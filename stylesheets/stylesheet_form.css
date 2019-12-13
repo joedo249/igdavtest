@@ -1,5 +1,6 @@
 .content {
     min-width: 360px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -29,16 +30,18 @@ form {
 
 input {
     width: 70%;
-    padding: 8px;
+    font-family: sans-serif;
     font-size: 0.9rem;
+    padding: 10px;
     border: 1px solid #A1A1A1;
 }
 
 textarea {
     width: 90%;
-    height: 100px;
-    padding: 15px;
+    height: 120px;
+    font-family: sans-serif;
     font-size: 0.9rem;
+    padding: 10px;
     border: 1px solid #A1A1A1;
 }
 
@@ -88,7 +91,7 @@ button {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     form {
         margin-right: 20%;
     }
