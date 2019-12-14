@@ -160,8 +160,7 @@
           </p>
         </div>
       </div>
-    </section> <!-- close section plan -->
-
+    </section> <!-- end section plan -->
   </div> <!-- end wrapper -->
 
   <?php include("igdfooter.php"); ?>

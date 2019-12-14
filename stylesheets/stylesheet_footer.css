@@ -10,6 +10,7 @@ footer ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 
 footer li {
@@ -60,7 +61,7 @@ footer a:hover {
    ======================================
 */
 
-#fancybox-wrap{
+#fancybox-wrap {
     position: relative;
 }
 
@@ -70,14 +71,14 @@ footer a:hover {
     left: 0;
 }
 
-#modal{
+#modal {
     top: 0;
     left: 0;
     border-radius: 4px;
     min-width: 220px;
 }
 
-#modal h4{
+#modal h4 {
     font-size: 1em;
     line-height: 1em;
     margin-left: 10%;

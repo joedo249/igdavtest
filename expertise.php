@@ -85,7 +85,7 @@
                 <h1>Droit du travail et droit social</h1>
                 <p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
                     Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
-                <p><b>Les domaines d'intervention du cabinet sont notamment les suivants:</b><br>
+                <h2>Les domaines d'intervention du cabinet sont notamment les suivants:</h2>
                     <ul>
                         <li>Rédaction de contrats de travail et d'avenants</li>
                         <li>Conseil et analyse des clauses du contrat de travail</li>

@@ -64,7 +64,7 @@
                 <p>By representing employers as well as employees in workplace disputes, our lawyers understand employment law from both a plaintiff and a defendant point of view.</p>
                 <p>This enables us to put our clients in the strongest possible position both in negotiations and in litigation.</p>
                 <p>Beyond the knowledge of the many texts governing the matter, the daily practice of Courts gives lawyers in labor law a strategic place in the management of human relationships.</p>
-                <p><strong>Our team acts in the following areas:</strong></p>
+                <h2>Our team acts in the following areas:</h2>
                 <ul>
                     <li>Employment contracts</li>
                     <li>Dismissals</li>
