@@ -22,12 +22,6 @@
 
         <?php include("igdnavbar.php"); ?>
 
-        <picture>
-            <source media="(max-width: 479px)" srcset="img/avocats-7-mob.jpg">
-            <source media="(min-width: 480px)" srcset="img/avocats-7.jpg">
-            <img src="img/avocats-7-mob.jpg" alt="Isabelle Guyader Dousset et Claire Dousset" class="image">
-        </picture>
-
         <section>
             <article id="equipe">
                 <h1>L'équipe</h1>

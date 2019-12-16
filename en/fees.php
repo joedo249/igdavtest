@@ -40,6 +40,11 @@
                 <p>In all cases, the amount of the fees is established in agreement with the customer.</p>
             </article>
         </section>
+        <br><br>
+        <button class="button">
+            <p class="inner-text"><a href="contactus.php#contactForm">Contact us on line for a free quote</a></p>
+        </button>
+        <br><br>
 
         <?php include("en_footer.php"); ?>
 

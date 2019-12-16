@@ -97,7 +97,7 @@
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
-    <div class="content">
+    <div class="content" id="contactForm">
       <h1>Formulaire de contact</h1>
       <p>Envoyez votre message via ce formulaire et nous vous répondrons rapidement.</p>
       <div id="message">

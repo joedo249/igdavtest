@@ -30,23 +30,7 @@
 
         <article id="expertise">
             <h1>Expertise</h1>
-            <p>IGD Labor Law firm provides legal expertise mainly in the fields of <strong>Family Law</strong> and <strong>Labor Law</strong> particularly in the following sectors :</p>
-            <h2>The transportation sector</h2>
-            <p>This sector has developed specific regulations related to the liability of the road carrier and a complex labor law.</p>
-            <p>We count as clients many goods and passenger transport companies, some among the largest in the industry, and also logistics companies, moving companies, ambulances and taxis, coaches, car rental companies, lifting and handling as well as service companies related to transportation.</p>
-            <p>As a result, we gained a significant expertise in this particular sector.</p>
-            <p>We also counsel trade unions and transport employers’ organizations.</p>
-            <p>We are proud to be one of the few Labor Law firms specialized in the transportation sector.</p>
-            <h2>The security sector</h2>
-            <p>Driven by our clients’ businesses, our field of activity has enlarged to security regarding airports, industrial sites, trade fairs and exhibition sites.</p>
-            <p>Some of the major security companies are part of our clientele.</p>
-            <h2>Other Sectors</h2>
-            <p>Over the years our clientele has expanded to other areas, especially:
-                <ul>
-                    <li>recycling and waste treatment</li>
-                    <li>cleaning companies</li>
-                </ul>
-            </p>
+            <p>IGD Labor Law firm provides legal expertise mainly in the fields of <strong>Family Law</strong> and <strong>Labor Law</strong> particularly in the transportation sector.</p>
         </article>
 
         <section class="expert">
@@ -60,7 +44,12 @@
 
             <article class="expertiseField" id="labor">
                 <h1>Employment and Labor law</h1>
-                <p>The firm practices mainly in the fields of labor law and social security law. We provide legal expertise to both <strong>employees</strong> and <strong>employers</strong> in all aspects of employment law.</p>
+                <p>The firm practices mainly in the fields of labor law and social security law. We provide legal expertise to both <strong>employees</strong> and <strong>employers</strong> especially in some sectors in which we have acquired particular expertise.</p>
+                <br><br>
+                <button class="button">
+                    <p class="inner-text"><a href="transportation.php">Know more about us !</a></p>
+                </button>
+                <br><br>
                 <p>By representing employers as well as employees in workplace disputes, our lawyers understand employment law from both a plaintiff and a defendant point of view.</p>
                 <p>This enables us to put our clients in the strongest possible position both in negotiations and in litigation.</p>
                 <p>Beyond the knowledge of the many texts governing the matter, the daily practice of Courts gives lawyers in labor law a strategic place in the management of human relationships.</p>

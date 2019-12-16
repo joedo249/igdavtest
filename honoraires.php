@@ -39,9 +39,13 @@
                 <p>Si le client décide, en accord avec l'avocat, qu’une procédure doit être engagée ou poursuivie, en demande ou en défense, une convention d'honoraires sera signée.</p>
                 <p>Les honoraires sont facturés au forfait ou au temps passé. Le cas échéant, un honoraire de résultat peut également s'appliquer.</p>
                 <p>Dans tous les cas, le montant des honoraires est établi en accord avec le client.</p>
-
             </article>
         </section>
+        <br><br>
+        <button class="button">
+            <p class="inner-text"><a href="contact.php#contactForm">Demander un devis gratuit en ligne</a></p>
+        </button>
+        <br><br>
 
         <?php include("igdfooter.php"); ?>
 

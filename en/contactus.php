@@ -99,7 +99,7 @@
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
-    <div class="content">
+    <div class="content" id="contactForm">
       <h1>Contact Form</h1>
       <p>Send your message through this form and we will get back to you. </p>
       <div id="message">

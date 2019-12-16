@@ -1,6 +1,6 @@
 /*
-Affichage du figcaption quelques secondes
- après chargement de la page index.
+Affichage du figcaption de la page index
+quelques secondes après chargement.
 */
 
 figcaption {
@@ -20,6 +20,7 @@ figcaption {
     0% {
         font-size: 0;
     }
+
     100% {
         font-size: 1.4em;
     }
@@ -29,6 +30,7 @@ figcaption {
     0% {
         font-size: 0;
     }
+
     100% {
         font-size: 1.4em;
     }
@@ -38,6 +40,7 @@ figcaption {
     0% {
         font-size: 0;
     }
+
     100% {
         font-size: 1.4em;
     }

@@ -29,27 +29,7 @@
         </picture>
 
         <article id="expertise">
-            <h1>Domaines d'expertise</h1>
             <p>Le cabinet IGD est compétent en <strong>Droit de la famille </strong>et en <strong>Droit du travail </strong>notamment dans les secteurs du transport et de la sécurité.</p>
-            <h2>Le secteur du transport</h2>
-            <p>Nous sommes les avocats de nombreux transporteurs routiers de marchandises et de personnes, certains parmi les plus importants du secteur. Une part importante de notre clientèle relève du secteur du transport et de ses nombreuses activités annexes:</p>
-            <ul>
-                <li>logistique</li>
-                <li>déménagement</li>
-                <li>autocars</li>
-                <li>taxis</li>
-                <li>ambulances</li>
-                <li>location de véhicules</li>
-                <li>levage et manutention</li>
-                <li>ainsi que des sociétés de services liées au secteur du transport terrestre et aérien.</li>
-            </ul>
-            <p>Le cabinet est le conseil d'organisations syndicales et patronales du transport</p>
-
-            <h2>Le secteur de la sécurité</h2>
-            <p>En suivant notre clientèle, notre domaine d'intervention s'est étendu à la sécurité des sites aéroportuaires, des sites industriels, des salons et expositions.</p>
-            <p>Nous comptons dans notre clientèle d'importantes sociétés de sécurité, parmi les leaders du marché.</p>
-            <h2>Les autres secteurs</h2>
-            <p>Depuis quelques années, notre clientèle s'est élargie aux domaines du recyclage et du traitement des déchets ainsi qu'aux entreprises de propreté.</p>
 
         </article>
 
@@ -85,6 +65,12 @@
                 <h1>Droit du travail et droit social</h1>
                 <p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
                     Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
+                <p>Notre cabinet conseille les entreprises notamment dans quelques secteurs dans lesquels nous avons acquis une expertise particulière.</p>
+                <br><br>
+                <button class="button">
+                    <p class="inner-text"><a href="transport.php">En savoir plus sur notre cabinet !</a></p>
+                </button>
+
                 <h2>Les domaines d'intervention du cabinet sont notamment les suivants:</h2>
                 <ul>
                     <li>Rédaction de contrats de travail et d'avenants</li>

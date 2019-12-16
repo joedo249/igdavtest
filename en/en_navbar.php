@@ -1,12 +1,7 @@
     <nav class="fixnavbar">
         <ul>
             <li><a href="aboutus.php">About Us</a></li>
-            <li class="dropdown"><a href="expert.php">Expertise</a>
-                <div class="sousmenu">
-                    <a href="expert.php#family">Family Law</a>
-                    <a href="expert.php#labor">Labor Law</a>
-                </div>
-            </li>
+            <li><a href="practices.php">Practices</a></li>
             <li><a href="fees.php">Fees</a></li>
             <li><a href="contactus.php">Contact</a></li>
         </ul>

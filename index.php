@@ -39,14 +39,13 @@
                 <h2>Conseil et activité contentieuse</h2>
                 <p>La pratique quotidienne des Juridictions nous permet d'offrir un conseil pertinent intégrant le risque contentieux, alors que notre activité de conseil conforte, dans nos domaines de compétence, la qualité de l'argumentation qui sera développée à la barre.</p>
                 <h2>Disponibilité et souplesse</h2>
-                <p>Nous avons à cœur d'être réactifs face aux demandes de nos clients. Notre privilège est de pouvoir installer un rapport direct et personnalisé avec les clients, désireux d'avoir un interlocuteur unique et de communiquer avec leur avocat sans formalisme excessif.
-                    <p>Le choix de consacrer notre pratique à certains aspects du droit nous permet d'offrir une prestation aussi efficace et productive que possible et ainsi d'en optimiser le coût.</p>
-                    <p>Si nous pensons que nous ne sommes pas en mesure de défendre au mieux les intérêts du client, nous l'en informons et pouvons le diriger vers un cabinet spécialisé.</p>
-                    <br><br>
+                <p>Le choix de consacrer notre pratique à certains aspects du droit nous permet d'offrir une prestation aussi efficace et productive que possible et ainsi d'en optimiser le coût.</p>
+                <p>Nous avons à cœur d'être réactifs face aux demandes de nos clients.Si nous pensons que nous ne sommes pas en mesure de défendre au mieux vos intérêts, nous vous en informons et pouvons vous diriger vers un cabinet spécialisé.</p>
+                <br><br>
 
-                    <button class="button">
-                        <p class="inner-text"><a href="equipe.php">En savoir plus sur notre cabinet !</a></p>
-                    </button>
+                <button class="button">
+                    <p class="inner-text"><a href="equipe.php">En savoir plus sur notre cabinet !</a></p>
+                </button>
             </article>
         </section>
 

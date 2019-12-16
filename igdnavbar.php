@@ -1,12 +1,7 @@
 <nav class="fixnavbar">
   <ul>
     <li><a href="index.php">Accueil</a></li>
-    <li class="dropdown"><a href="expertise.php">Expertise</a>
-      <div class="sousmenu">
-        <a href="expertise.php#famille">Droit de la famille</a>
-        <a href="expertise.php#travail">Droit du travail</a>
-      </div>
-    </li>
+    <li><a href="expertise.php">Expertise</a></li>
     <li><a href="honoraires.php">Honoraires</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul>
