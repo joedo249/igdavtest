@@ -9,10 +9,10 @@
     <meta name="keywords" content="fees, transparency, value-for-money, agreement, trust, flat rate, inclusive, follow-up, monitoring">
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../stylesheets/stylesheet_header.css">
-    <link rel="stylesheet" href="../stylesheets/stylesheet_body.css">
-    <link rel="stylesheet" href="../stylesheets/stylesheet_navbar.css">
-    <link rel="stylesheet" href="../stylesheets/stylesheet_footer.css">
+    <link rel="stylesheet" href="../css/stylesheet_header.css">
+    <link rel="stylesheet" href="../css/stylesheet_body.css">
+    <link rel="stylesheet" href="../css/stylesheet_navbar.css">
+    <link rel="stylesheet" href="../css/stylesheet_footer.css">
 </head>
 
 <body>

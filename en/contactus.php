@@ -9,11 +9,11 @@
   <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du General de Gaule, Etoile, public transport, metro, bus, RER, parking">
   <meta name="robots" content="index,follow">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_header.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_body.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_navbar.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_form.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_footer.css">
+  <link rel="stylesheet" href="../css/stylesheet_header.css">
+  <link rel="stylesheet" href="../css/stylesheet_body.css">
+  <link rel="stylesheet" href="../css/stylesheet_navbar.css">
+  <link rel="stylesheet" href="../css/stylesheet_form.css">
+  <link rel="stylesheet" href="../css/stylesheet_footer.css">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="../component/jquery/jquery-3.2.1.min.js"></script>
 </head>

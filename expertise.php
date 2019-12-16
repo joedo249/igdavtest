@@ -9,10 +9,10 @@
     <meta name="keywords" content="avocat, avocats, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité, famille, divorce, séparation, enfants">
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="stylesheets/stylesheet_header.css">
-    <link rel="stylesheet" href="stylesheets/stylesheet_body.css">
-    <link rel="stylesheet" href="stylesheets/stylesheet_navbar.css">
-    <link rel="stylesheet" href="stylesheets/stylesheet_footer.css">
+    <link rel="stylesheet" href="css/stylesheet_header.css">
+    <link rel="stylesheet" href="css/stylesheet_body.css">
+    <link rel="stylesheet" href="css/stylesheet_navbar.css">
+    <link rel="stylesheet" href="css/stylesheet_footer.css">
 </head>
 
 <body>
@@ -86,24 +86,24 @@
                 <p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
                     Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
                 <h2>Les domaines d'intervention du cabinet sont notamment les suivants:</h2>
-                    <ul>
-                        <li>Rédaction de contrats de travail et d'avenants</li>
-                        <li>Conseil et analyse des clauses du contrat de travail</li>
-                        <li>Sanctions et pouvoir disciplinaire</li>
-                        <li>Faute grave</li>
-                        <li>Démission et prise d'acte de la rupture</li>
-                        <li>Rupture conventionnelle</li>
-                        <li>Licenciement économique</li>
-                        <li>Licenciement pour motif personnel</li>
-                        <li>Inaptitude et accident du travail</li>
-                        <li>Harcèlement moral ou sexuel</li>
-                        <li>Heures supplémentaires</li>
-                        <li>Télétravail</li>
-                        <li>Représentation du personnel (CSE)</li>
-                        <li>Contentieux électoral</li>
-                        <li>Accord d’entreprise</li>
-                        <li>Salariés protégés</li>
-                    </ul>
+                <ul>
+                    <li>Rédaction de contrats de travail et d'avenants</li>
+                    <li>Conseil et analyse des clauses du contrat de travail</li>
+                    <li>Sanctions et pouvoir disciplinaire</li>
+                    <li>Faute grave</li>
+                    <li>Démission et prise d'acte de la rupture</li>
+                    <li>Rupture conventionnelle</li>
+                    <li>Licenciement économique</li>
+                    <li>Licenciement pour motif personnel</li>
+                    <li>Inaptitude et accident du travail</li>
+                    <li>Harcèlement moral ou sexuel</li>
+                    <li>Heures supplémentaires</li>
+                    <li>Télétravail</li>
+                    <li>Représentation du personnel (CSE)</li>
+                    <li>Contentieux électoral</li>
+                    <li>Accord d’entreprise</li>
+                    <li>Salariés protégés</li>
+                </ul>
                 </p>
                 <p>A toutes les étapes de la vie d'un contrat de travail, l'avis de l'avocat est souhaitable. C'est un droit d'actualité avec une réglementation abondante et en perpétuelle évolution qui suscite des questions et litiges très nombreux.</p>
                 <p>Il suffit de consulter le site <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank"><b>Service-Public</b></a> de l'administration française en cliquant sur le logo ci-dessous pour constater que la réglementation du travail est en perpétuelle évolution.</p>

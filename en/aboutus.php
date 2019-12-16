@@ -9,11 +9,11 @@
   <meta name="keywords" content="Isabelle Guyader Dousset, Claire Dousset, lawyer, Paris, unfair dismissal, moral harassment, sexual harassment, labor law, social law, social security, family, transportation, logistics, litigation, Labor Court, High Court">
   <meta name="robots" content="index,follow">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_header.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_body.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_navbar.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_footer.css">
-  <link rel="stylesheet" href="../stylesheets/stylesheet_body_slidein.css">
+  <link rel="stylesheet" href="../css/stylesheet_header.css">
+  <link rel="stylesheet" href="../css/stylesheet_body.css">
+  <link rel="stylesheet" href="../css/stylesheet_navbar.css">
+  <link rel="stylesheet" href="../css/stylesheet_footer.css">
+  <link rel="stylesheet" href="../css/stylesheet_body_slidein.css">
   <link rel="icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
