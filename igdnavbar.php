@@ -8,7 +8,7 @@
 </nav>
 
 <!-- Identification de la page active -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" async></script>
 <script>
   $(function() {
     $('a').each(function() {

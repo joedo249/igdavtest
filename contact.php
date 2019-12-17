@@ -136,13 +136,13 @@
           <p><b>Métro : </b>station Charles de Gaulle - Etoile : lignes
             <img src="img/lignemetro1.png" alt="métro 1" class="metro">
             <img src="img/lignemetro2.png" alt="métro 2" class="metro">
-            <p id="station">station Kléber: ligne
+            <p class="station">station Kléber: ligne
               <img src="img/lignemetro6.png" alt="métro 6" class="metro">
             </p>
             <p><b>RER : </b>station Charles de Gaulle - Etoile ligne
               <img src="img/ligneRER-A.png" alt="RER A" class="rer"></p>
             <p><b>Bus : </b>arrêt Charles de Gaulle - Etoile:</p>
-            <p id="station">lignes
+            <p class="station">lignes
               <img src="img/lignebus22.png" alt="bus 22" class="bus">
               <img src="img/lignebus30.png" alt="bus 30" class="bus">
               <img src="img/lignebus31.png" alt="bus 31" class="bus">
