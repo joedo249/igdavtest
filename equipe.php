@@ -36,7 +36,7 @@
                 <div class="portrait">
                     <img src="img/portrait-claire-3.jpg" alt="Claire Dousset" class="photoID" id="portrait-claire">
                     <p class="presentation"><b>Claire DOUSSET</b>, avocat au barreau de Paris, est diplômée de l’Université de Droit de Paris-Nanterre, diplômée de communication juridique interculturelle en anglais à l'ISIT (Institut Supérieur d'Interprétation et Traduction), titulaire d'une licence de droit espagnol obtenue à l'Université Las Comillas de Madrid.<br>
-                        <br>Claire intervient en droit du travail, en droit pénal et en droit de la famille. Elle est bilingue français-anglais.<br><br></p>
+                        <br>Claire intervient en droit du travail, en droit pénal et en droit de la famille. Elle est parfaitement bilingue français-anglais.<br><br></p>
                 </div>
 
             </article>

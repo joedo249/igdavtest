@@ -69,7 +69,7 @@
           $('#send-message').hide();
           $('#loader-icon').show();
           $.ajax({
-            url: "../form_valid.php",
+            url: "form_valid_en.php",
             type: "POST",
             dataType: 'json',
             data: {
@@ -120,7 +120,7 @@
           <div id="mail-status"></div>
           <button type="Submit" id="send-message" style="clear:both;">Send Message</button>
         </form>
-        <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
+        <div id="loader-icon" style="display:none;"><img src="../img/loader.gif" /></div>
       </div>
     </div> <!-- content -->
 

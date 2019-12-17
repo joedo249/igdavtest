@@ -67,7 +67,7 @@
           $('#send-message').hide();
           $('#loader-icon').show();
           $.ajax({
-            url: "form_valid.php",
+            url: "form_valid_fr.php",
             type: "POST",
             dataType: 'json',
             data: {

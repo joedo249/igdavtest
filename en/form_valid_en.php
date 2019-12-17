@@ -1,6 +1,6 @@
 <?php
 if ($_POST) {
-	require('constant.php');
+	require('../constant.php');
 
 	$user_name  = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
 	$user_email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
@@ -35,7 +35,7 @@ if ($_POST) {
 	//reCAPTCHA validation
 	if (isset($_POST['g-recaptcha-response'])) {
 
-		require('component/recaptcha/src/autoload.php');
+		require('../component/recaptcha/src/autoload.php');
 
 		$recaptcha = new \ReCaptcha\ReCaptcha(SECRET_KEY, new \ReCaptcha\RequestMethod\SocketPost());
 

@@ -35,7 +35,8 @@
 
                 <div class="portrait">
                     <img src="../img/portrait-claire-3.jpg" alt="Claire Dousset" class="photoID" id="portrait-claire">
-                    <p class="presentation"><b>Claire DOUSSET</b>, lawyer at the Paris Bar, graduated in English of Legal Communication at ISIT (Institute of Interpretation and Translation), holder of a degree in Spanish Law obtained at Las Comillas University of Madrid.<br>She works in labor law, criminal law and family law. Claire is bilingual French-English.<br>
+                    <p class="presentation"><b>Claire DOUSSET</b>, lawyer at the Paris Bar, graduated in English of Legal Communication at ISIT (Institute of Interpretation and Translation), holder of a degree in Spanish Law obtained at Las Comillas University of Madrid.<br>
+                        She works in labor law, criminal law and family law. Claire is fully bilingual French-English.<br>
                         <br><br></p>
                 </div>
 

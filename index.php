@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Le cabinet IGD Avocats est spécialisé en droit du travail et en droit de la famille.</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cabinet d'avocats spécialisé en droit du travail notamment dans le secteur du transport et de la sécurité. Le cabinet intervient en droit de la famille">
     <meta name="keywords" content="Isabelle Guyader Dousset, Claire Dousset, avocat, Paris, licenciement, abusif, harcèlement, droit du travail, droit social, sécurité sociale, transport, conseil, contentieux, litige, tribunal, prud'hommes, famille, divorce, garde des enfants, cour d'appel">
