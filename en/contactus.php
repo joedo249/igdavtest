@@ -104,15 +104,15 @@
       <p>Send your message through this form and we will get back to you. </p>
       <div id="message">
         <form id="frmContact" action="" method="POST" novalidate="novalidate">
-          <div class="label">Name:</div>
+          <label for="name">Name:</label>
           <div class="field">
             <input type="text" id="name" name="name" placeholder="enter your name here" title="Please enter your name" class="required" aria-required="true" required>
           </div>
-          <div class="label">Email:</div>
+          <label for="email">Email:</label>
           <div class="field">
             <input type="email" id="email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
           </div>
-          <div class="label">Message:</div>
+          <label for="comment-content">Message:</label>
           <div class="field">
             <textarea id="comment-content" name="content" placeholder="enter your message here"></textarea>
           </div>

@@ -102,15 +102,15 @@
       <p>Envoyez votre message via ce formulaire et nous vous répondrons rapidement.</p>
       <div id="message">
         <form id="frmContact" action="" method="POST" novalidate="novalidate">
-          <div class="label">Nom:</div>
+          <label for="name">Nom :</label>
           <div class="field">
             <input type="text" id="name" name="name" placeholder="entrez votre nom ici" class="required" aria-required="true" required>
           </div>
-          <div class="label">Email:</div>
+          <label for="email">Email :</label>
           <div class="field">
             <input type="email" id="email" name="email" placeholder="entrez votre adresse mail ici" class="required email" aria-required="true" required>
           </div>
-          <div class="label">Message:</div>
+          <label for="comment-content">Message :</label>
           <div class="field">
             <textarea id="comment-content" name="content" placeholder="entrez votre message ici"></textarea>
           </div>
@@ -164,7 +164,5 @@
   </div> <!-- end wrapper -->
 
   <?php include("igdfooter.php"); ?>
-
-</body>
 
 </html>
