@@ -237,6 +237,10 @@ section {
     margin-top: 5px;
 }
 
+#station {
+    margin-left: 48px;
+}
+
 .rer {
     width: 40px;
     height: auto;

@@ -40,7 +40,7 @@
     </div>
 </footer>
 
-<link rel="stylesheet" type="text/css" href="fancybox-master/dist/jquery.fancybox.min.css">
+<link rel="stylesheet" type="text/css" href="fancybox-master/dist/jquery.fancybox.min.css" async>
 
 <!-- Animated fancyBox 
             ================== -->
