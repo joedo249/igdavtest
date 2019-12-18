@@ -70,9 +70,9 @@ picture {
 
 .button {
     display: block;
-    margin: 0 auto;
+    margin: 2em auto;
     background-color: var(--title-color);
-    padding: 0px 10px 10px 5px;
+    padding: 0px 5px 10px 5px;
     border-radius: 0.5em;
 }
 

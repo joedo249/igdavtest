@@ -52,7 +52,6 @@
           <li>Responsiveness and pragmatism</li>
           <li>Loyalty and ethics</li>
         </ul>
-        <br><br>
         <button class="button">
           <p class=inner-text><a href="team.php">Know more about us !</a></p>
         </button>

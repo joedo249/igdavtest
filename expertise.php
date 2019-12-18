@@ -67,7 +67,6 @@
                 <p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
                     Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
                 <p>Notre cabinet conseille les entreprises notamment dans quelques secteurs dans lesquels nous avons acquis une expertise particulière.</p>
-                <br><br>
                 <button class="button">
                     <p class="inner-text"><a href="transport.php">En savoir plus sur notre cabinet !</a></p>
                 </button>

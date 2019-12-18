@@ -43,8 +43,6 @@
                 <h2>Disponibilité et souplesse</h2>
                 <p>Le choix de consacrer notre pratique à certains aspects du droit nous permet d'offrir une prestation aussi efficace et productive que possible et ainsi d'en optimiser le coût.</p>
                 <p>Nous avons à cœur d'être réactifs face aux demandes de nos clients.Si nous pensons que nous ne sommes pas en mesure de défendre au mieux vos intérêts, nous vous en informons et pouvons vous diriger vers un cabinet spécialisé.</p>
-                <br><br>
-
                 <button class="button">
                     <p class="inner-text"><a href="equipe.php">En savoir plus sur notre cabinet !</a></p>
                 </button>
