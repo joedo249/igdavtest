@@ -1,7 +1,7 @@
 <header>
     <div id="entete">
         <a href="index.php">
-            <img src="img/logo-IGD-5w.png" alt="Logo avocat" id="logo">
+            <img src="img/logo-IGD-6w.png" alt="Logo avocat" id="logo">
         </a>
         <div>
             <h3>Cabinet d'avocats</h3>
