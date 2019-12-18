@@ -2,8 +2,8 @@
 Taille normale par défaut ("mobile first")  */
 
 :root {
-    --main-bg-color: rgb(0, 85, 131);
-    --title-color: rgb(50, 102, 158);
+    --main-bg-color: #0a4263;
+    --title-color: #21639f;
 }
 
 * {

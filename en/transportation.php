@@ -8,6 +8,7 @@
     <meta name="description" content="IGD Avocats provides legal expertise in the fields of labor law, Social Security Law, safety law in the sectors of goods and passenger transport, security, recycling and waste treatment. The firm is also involved in family law and criminal law">
     <meta name="keywords" content="lawyer, lawyers, labor law, dismissal, misconduct, unfair, harassment, transportation, logistic, security">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#0a4263">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/stylesheet_header.css">
     <link rel="stylesheet" href="../css/stylesheet_body.css">

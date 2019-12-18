@@ -8,6 +8,7 @@
   <meta name="description" content="IGD Avocats answers quickly to all requests by phone or email. The office is easily accessible by public transport">
   <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du General de Gaule, Etoile, public transport, metro, bus, RER, parking">
   <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/stylesheet_header.css">
   <link rel="stylesheet" href="../css/stylesheet_body.css">

@@ -8,6 +8,7 @@
   <meta name="description" content="IGD Avocats répond rapidement à toutes demandes par téléphone ou par courriel. Vous avez un interlocuteur unique tout au long de l'affaire. Le cabinet est facilement accessible par les transports en commun.">
   <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du Général de Gaule, Etoile, transport en commun, métro, bus, RER, autolib, parking">
   <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/stylesheet_header.css">
   <link rel="stylesheet" href="css/stylesheet_body.css">

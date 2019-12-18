@@ -8,6 +8,7 @@
     <meta name="description" content="IGD Avocats intervient en droit du travail, droit de la sécurité dans les secteurs du transport de personnes et de marchandises, du recyclage et du traitement des déchets.">
     <meta name="keywords" content="avocat, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#0a4263">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/stylesheet_header.css">
     <link rel="stylesheet" href="css/stylesheet_body.css">

@@ -8,6 +8,7 @@
     <meta name="description" content="IGD Avocats specializes in labor law, social security law, criminal law, family law. The firm is a light and responsive structure. We are committed to being responsive to any demand from our customers and to setting up a direct and personalized relationship with our clients">
     <meta name="keywords" content="lawyer, lawyers, negotiation, result, indemnity, competence, quality, rigor, availability, responsiveness, pragmatism, tenacity, loyalty, ethics, transparency, training">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#0a4263">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/stylesheet_header.css">
     <link rel="stylesheet" href="../css/stylesheet_body.css">

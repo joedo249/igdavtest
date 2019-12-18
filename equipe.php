@@ -8,6 +8,7 @@
     <meta name="description" content="IGD Avocats est spécialisé en droit du travail, en droit de la famille et en droit pénal. Le cabinet IGD Avocats est une structure légère et réactive.">
     <meta name="keywords" content="avocat, avocats, droit du travail, social, famille, pénal, négociation, résultat, indemnité, compétence, qualité, rigueur, disponibilité, réactivité, pragmatisme, ténacité, loyauté, éthique, transparence, formation permanente">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#0a4263">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/stylesheet_header.css">
     <link rel="stylesheet" href="css/stylesheet_body.css">

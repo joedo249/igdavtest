@@ -8,6 +8,7 @@
     <meta name="description" content="Our light structure allows us to provide cost-effective client service, offering good value for money. Fees are established in agreement with the customer.">
     <meta name="keywords" content="fees, transparency, value-for-money, agreement, trust, flat rate, inclusive, follow-up, monitoring">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#0a4263">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/stylesheet_header.css">
     <link rel="stylesheet" href="../css/stylesheet_body.css">

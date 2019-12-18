@@ -9,6 +9,7 @@
     <meta name="description" content="Cabinet d'avocats spécialisé en droit du travail notamment dans le secteur du transport et de la sécurité. Le cabinet intervient en droit de la famille">
     <meta name="keywords" content="Isabelle Guyader Dousset, Claire Dousset, avocat, Paris, licenciement, abusif, harcèlement, droit du travail, droit social, sécurité sociale, transport, conseil, contentieux, litige, tribunal, prud'hommes, famille, divorce, garde des enfants, cour d'appel">
     <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#0a4263">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/stylesheet_header.css">
     <link rel="stylesheet" href="css/stylesheet_body.css">
