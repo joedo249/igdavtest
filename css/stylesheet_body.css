@@ -2,337 +2,354 @@
 Taille normale par défaut ("mobile first")  */
 
 :root {
-    --main-bg-color: #0a4263;
-    --title-color: #21639f;
+  --main-bg-color: #0a4263;
+  --title-color: #21639f;
 }
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin-top: 0px;
-    max-width: 1300px;
-    min-width: 360px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Helvetica, sans-serif;
-    text-align: justify;
-    font-size: 70%;
-    color: rgb(40, 40, 40);
+  margin-top: 0px;
+  max-width: 1300px;
+  min-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 70%;
+  color: rgb(40, 40, 40);
 }
 
 body h1 {
-    margin-bottom: 0px;
-    font-size: 1.7em;
-    color: var(--title-color);
+  margin-bottom: 0px;
+  font-size: 1.7em;
+  color: var(--title-color);
 }
 
 body h2 {
-    margin-top: 1.5em;
-    margin-bottom: -3px;
-    font-size: 1.2em;
-    color: var(--title-color);
+  margin-top: 1.5em;
+  margin-bottom: -3px;
+  font-size: 1.2em;
+  color: var(--title-color);
 }
 
 body h3 {
-    margin-bottom: -5px;
+  margin-bottom: -5px;
 }
 
 body p,
 ul {
-    font-size: 1.2em;
-    margin-top: 0.6em;
-    margin-bottom: 0px;
+  font-size: 1.2em;
+  margin-top: 0.6em;
+  margin-bottom: 0px;
 }
 
 body ul {
-    line-height: 22px;
+  line-height: 22px;
 }
 
 #wrapper {
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: rgb(240, 240, 240);
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(240, 240, 240);
 }
 
 .image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 picture {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .button {
-    display: block;
-    margin: 2em auto;
-    background-color: var(--title-color);
-    padding: 0px 5px 10px 5px;
-    border-radius: 0.5em;
+  display: block;
+  margin: 2em auto;
+  background-color: var(--title-color);
+  padding: 0px 5px 10px 5px;
+  border-radius: 0.5em;
 }
 
 .button:hover {
-    background-color: rgb(0, 84, 131);
+  background-color: var(--main-bg-color);
 }
 
 .inner-text {
-    color: black;
-    font-size: 1.2em;
-    vertical-align: middle;
+  color: black;
+  font-size: 1.2em;
+  vertical-align: middle;
 }
 
 .inner-text a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .inner-text a:visited {
-    color: white;
+  color: white;
 }
 
 .inner-text a:hover {
-    color: white;
+  color: white;
 }
-
 
 /*  --- L'équipe --- Our People --- */
 
 .photoID {
-    float: left;
-    margin: 5px 5% 5px 0px;
-    width: 30%;
-    max-width: 200px;
-    height: 100%;
+  float: left;
+  margin: 5px 5% 5px 0px;
+  width: 40%;
+  max-width: 260px;
+  height: auto;
 }
 
-/*  --- Domaines d'expertise --- Expertise
+.portrait {
+  padding-top: 1em;
+}
+
+/*  --- Expertise --- Practices
         Droit du travail --- Labor Law
         Droit de la famille --- Family Law --- */
 
 .expertiseField {
-    padding-top: 1em;
-    margin-top: -1em;
+  padding-top: 1em;
+  margin-top: -1em;
 }
 
 #servpub-pro {
-    display: block;
-    width: 30%;
-    border: 1px solid rgb(40, 40, 40);
-    margin-top: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  width: 30%;
+  border: 1px solid rgb(40, 40, 40);
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* --- Honoraires --- Fees --- */
 
 aside {
-    display: none;
-    float: left;
-    flex: 1;
-    height: auto;
-    width: auto;
-    margin-right: 40px;
+  display: none;
+  float: left;
+  flex: 1;
+  height: auto;
+  width: auto;
+  margin-right: 40px;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #avocats_paris {
-    float: left;
-    flex: 1;
-    margin: 60px 20px 20px 10px;
-    vertical-align: middle;
+  float: left;
+  flex: 1;
+  margin: 60px 20px 20px 10px;
+  vertical-align: middle;
 }
 
 #honoraires {
-    flex: 5;
+  flex: 5;
 }
 
 /* --- Contact--- */
 
 #adressePostale {
-    margin-bottom: 25px;
-    text-align: center;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 #contactTel {
-    margin-left: 5%;
-    font-size: 1em;
+  margin-left: 5%;
+  font-size: 1em;
 }
 
 #contactTel a:link {
-    color: var(--main-bg-color);
-    font-weight: bold;
-    text-decoration: none;
+  color: var(--main-bg-color);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 #contactTel a:visited {
-    color: var(--main-bg-color);
+  color: var(--main-bg-color);
 }
 
 #contactTel a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #parMail,
 #invitForm {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 
 /* Contact form */
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .col-plan {
-    flex: 2 0;
-    min-width: 360px;
-    width: 50vw;
+  flex: 2 0;
+  min-width: 360px;
+  width: 50vw;
 }
 
 .col-acces {
-    flex: 1 0;
-    min-width: 360px;
-    width: 50vw;
-    padding-left: 2%;
+  flex: 1 0;
+  min-width: 360px;
+  width: 50vw;
+  padding-left: 2%;
 }
 
 #titrePlan {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 #access {
-    margin-left: 2%;
-    padding-top: 30px;
+  margin-left: 2%;
+  padding-top: 30px;
 }
 
 .googlemap {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 75%;
-    height: 0;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 75%;
+  height: 0;
 }
 
 .googlemap iframe {
-    position: absolute;
-    top: 10px;
-    margin-left: 2%;
-    width: 100% !important;
-    height: 95% !important;
+  position: absolute;
+  top: 10px;
+  margin-left: 2%;
+  width: 100% !important;
+  height: 95% !important;
 }
 
 .metro {
-    width: 15px;
-    height: auto;
-    vertical-align: bottom;
-    margin-top: 5px;
+  width: 15px;
+  height: auto;
+  vertical-align: bottom;
+  margin-top: 5px;
 }
 
 .station {
-    margin-left: 48px;
+  margin-left: 48px;
 }
 
 .rer {
-    width: 40px;
-    height: auto;
-    vertical-align: -7px;
-    margin-top: 5px;
+  width: 40px;
+  height: auto;
+  vertical-align: -7px;
+  margin-top: 5px;
 }
 
 .bus {
-    width: 20px;
-    height: auto;
-    vertical-align: bottom;
-    margin-top: 5px;
+  width: 20px;
+  height: auto;
+  vertical-align: bottom;
+  margin-top: 5px;
 }
-
 
 /* Attention, media queries après le reste du code */
 /* --- Media queries pour tablets --- */
 
 @media screen and (min-width: 480px) {
-    body {
-        font-size: 80%;
-    }
+  body {
+    font-size: 80%;
+  }
 
-    address {
-        display: inline-flex;
-    }
+  address {
+    display: inline-flex;
+  }
 
-    #wrapper {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+  #wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-    .portrait {
-        display: block;
-        min-height: 180px;
-    }
+  .portrait {
+    display: block;
+    min-height: 180px;
+  }
 }
 
 /*  Media queries pour desktop */
 
 @media screen and (min-width: 768px) {
-    body {
-        font-size: 85%;
-    }
+  body {
+    font-size: 85%;
+  }
 
-    section {
-        flex-direction: row;
-    }
+  section {
+    flex-direction: row;
+  }
 
-    /*--- Accueil --- */
-    figcaption br {
-        display: none;
-    }
+  /*--- Accueil -- About Us --- */
+  figcaption br {
+    display: none;
+  }
 
-    /*--- Expertise -- Expert --*/
+  /*  --- L'équipe --- Our People --- */
 
-    .expert {
-        display: flex;
-    }
+  #equipe {
+    display: flex;
+  }
 
-    .expertiseField {
-        width: 100px;
-        margin: 1em 0.5em 0 0.5em;
-        padding: 0 0.5em 1em 0.5em;
-        text-align: left;
-        background-color: rgb(250, 250, 250);
-        border: 2px solid var(--main-bg-color);
-        border-radius: 5px;
-    }
+  .portrait {
+    width: 100px;
+    margin: 1em 0.5em 0 0.5em;
+    padding: 0 0.5em 1em 0.5em;
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+  }
 
-    #famille,
-    #family {
-        flex-grow: 1;
-    }
+  #portrait-isa,
+  #portrait-claire {
+    flex-grow: 1;
+  }
 
-    #travail,
-    #labor {
-        flex-grow: 2;
-    }
+  .photoID {
+    width: 45%;
+  }
 
-    /* --- Honoraires--- Fees */
-    aside {
-        display: block;
-    }
+  /*--- Expertise -- Practices --*/
 
-    /* --- Domaines d'expertise --- */
-    /* --- Droit du travail --- */
-    /* --- Secteur du transport ---*/
-    .navexpert {
-        min-width: 180px;
-        margin-top: 30px;
-        margin-right: 20px;
-        background-color: var(--main-bg-color);
-    }
+  .expert {
+    display: flex;
+  }
+
+  .expertiseField {
+    width: 100px;
+    margin: 1em 0.5em 0 0.5em;
+    padding: 0 0.5em 1em 0.5em;
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+  }
+
+  #famille,
+  #family {
+    flex-grow: 1;
+  }
+
+  #travail,
+  #labor {
+    flex-grow: 2;
+  }
+
+  /* --- Honoraires--- Fees */
+  aside {
+    display: block;
+  }
 }

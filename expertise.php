@@ -29,9 +29,8 @@
             <img src="img/fronton-palais-justice-mob.jpg" alt="Palais de Justice de Paris" class="image">
         </picture>
 
-        <article id="expertise">
+        <article>
             <p>Le cabinet IGD est compétent en <strong>Droit de la famille </strong>et en <strong>Droit du travail </strong>notamment dans les secteurs du transport et de la sécurité.</p>
-
         </article>
 
         <section class="expert">
