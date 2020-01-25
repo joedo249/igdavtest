@@ -2,6 +2,7 @@
 if ($_POST) {
     require('constant.php');
 
+    // Remove all illegal characters from string or email
     $user_name  = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
     $user_email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     $content    = filter_var($_POST["content"], FILTER_SANITIZE_STRING);

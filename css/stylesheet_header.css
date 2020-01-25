@@ -10,14 +10,9 @@ header {
     padding: 5px 0px;
 }
 
-#logo {
-    height: 3em;
-    width: 2.5em;
-}
-
 #entete h3 {
     margin: auto;
-    padding-top: 0.5em;
+    padding-top: 0.9em;
     padding-left: 0.7em;
     color: var(--main-bg-color);
     font-size: 1.6em;
@@ -27,4 +22,18 @@ header {
     width: 30px;
     height: 20px;
     margin: 1.3em 12px 0px 0px;
+}
+
+/* --- Media queries for tablets --- */
+@media screen and (min-width: 480px) {
+    #entete h3 {
+        padding-top: 0.7em;
+    }
+}
+
+/* --- Media queries for desktop --- */
+@media screen and (min-width: 768px) {
+    #entete h3 {
+        padding-top: 0.6em;
+    }
 }

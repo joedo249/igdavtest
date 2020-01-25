@@ -14,7 +14,7 @@ Taille normale par défaut ("mobile first")  */
 
 body {
   margin-top: 0px;
-  max-width: 1300px;
+  max-width: 1200px;
   min-width: 360px;
   margin-left: auto;
   margin-right: auto;
@@ -352,4 +352,9 @@ section {
   aside {
     display: block;
   }
+}
+
+/*--- Contact ---*/
+.station {
+  margin-left: 38px;
 }
