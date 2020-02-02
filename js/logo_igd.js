@@ -30,10 +30,3 @@ ctx.beginPath();
 ctx.fillStyle = "red";
 ctx.arc(20, 4, 3, 0, 2 * Math.PI);
 ctx.fill();
-
-//Fades in on page load
-
-$(document).ready(function() {
-  $("#logoIGD").css("display", "none");
-  $("#logoIGD").fadeIn(1000);
-});

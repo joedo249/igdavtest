@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="css/stylesheet_form.css">
   <link rel="stylesheet" href="css/stylesheet_footer.css">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script src="component/jquery/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
