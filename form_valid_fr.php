@@ -5,7 +5,7 @@ if ($_POST) {
     // Remove all illegal characters from string or email
     $user_name  = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
     $user_email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    $user_message    = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
+    $user_message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
     if (empty($user_name)) {
         $empty[] = "<b>Name</b>";
@@ -15,7 +15,7 @@ if ($_POST) {
     }
 
     if (empty($user_message)) {
-        $empty[] = "<b>Comments</b>";
+        $empty[] = "<b>Message</b>";
     }
 
     if (!empty($empty)) {

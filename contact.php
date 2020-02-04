@@ -74,7 +74,7 @@
               "name": $('input[name="name"]').val(),
               "email": $('input[name="email"]').val(),
               "phone": $('input[name="phone"]').val(),
-              "content": $('textarea[name="content"]').val(),
+              "message": $('textarea[name="message"]').val(),
               "g-recaptcha-response": $('textarea[id="g-recaptcha-response"]').val()
             },
             success: function(response) {
@@ -100,7 +100,7 @@
     <div class="content" id="contactForm">
       <h1>Formulaire de contact</h1>
       <p>Envoyez votre message via ce formulaire et nous vous répondrons rapidement.</p>
-      <div id="message">
+      <div id="formulaire">
         <form id="frmContact" action="" method="POST" novalidate="novalidate">
           <label for="contact_name">Nom :</label>
           <div class="field">
