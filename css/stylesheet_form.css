@@ -69,6 +69,11 @@ button {
     color: rgb(40, 40, 40);
 }
 
+.g-recaptcha {
+    margin: 0 0 25px 0;
+}
+
+/* --- PHP validation   ---*/
 .error {
     background-color: #F7902D;
     margin-bottom: 40px;
@@ -78,9 +83,6 @@ button {
     background-color: #48e0a4;
 }
 
-.g-recaptcha {
-    margin: 0 0 25px 0;
-}
 
 /* Attention, media queries après le reste du code */
 /* --- Media queries pour tablets --- */

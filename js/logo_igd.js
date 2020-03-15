@@ -1,32 +1,66 @@
+window.onload = function() {
+  drawCanvas();
+};
+
+let entete = document.querySelector("#entete");
+entete.style.width = "40px";
+entete.style.height = "48px";
 let canvas = document.querySelector("#logoIGD");
-let ctx = canvas.getContext("2d");
+let f = 1; //scale factor
 
-//cercle noir
-ctx.beginPath();
-ctx.lineWidth = "6";
-ctx.strokeStyle = "black";
-ctx.arc(20, 28, 16, 0 * Math.PI, 2 * Math.PI);
-ctx.closePath();
-ctx.stroke();
+function drawCanvas() {
+  canvas;
+  let ctx = canvas.getContext("2d");
 
-//barre du G
-ctx.fillStyle = "black";
-ctx.fillRect(13, 33, 4, 12);
+  //cercle noir (black circle)
+  ctx.beginPath();
+  ctx.lineWidth = 6 * f;
+  ctx.strokeStyle = "black";
+  ctx.arc(20 * f, 28 * f, 16 * f, 0 * f * Math.PI, 2 * Math.PI);
+  ctx.closePath();
+  ctx.stroke();
 
-//barre du D
-ctx.fillStyle = "black";
-ctx.fillRect(23, 10, 4, 12);
+  //barre du G (G cross)
+  ctx.fillStyle = "black";
+  ctx.fillRect(13 * f, 33 * f, 4 * f, 12 * f);
 
-//cache du haut du cercle à gauche du I
-ctx.fillStyle = "rgb(240,240,240)";
-ctx.fillRect(13, 9, 4, 8);
+  //barre du D
+  ctx.fillStyle = "black";
+  ctx.fillRect(23 * f, 10 * f, 4 * f, 12 * f);
 
-// I rouge
-ctx.fillStyle = "red";
-ctx.fillRect(17, 9, 6, 38);
+  //cache du haut du cercle à gauche du I
+  ctx.clearRect(13 * f, 9 * f, 4 * f, 8 * f);
 
-//point rouge
-ctx.beginPath();
-ctx.fillStyle = "red";
-ctx.arc(20, 4, 3, 0, 2 * Math.PI);
-ctx.fill();
+  // I rouge
+  ctx.fillStyle = "red";
+  ctx.fillRect(17 * f, 9 * f, 6 * f, 38 * f);
+
+  //point rouge (I dot)
+  ctx.beginPath();
+  ctx.fillStyle = "red";
+  ctx.arc(20 * f, 4 * f, 3 * f, 0, 2 * f * Math.PI);
+  ctx.fill();
+} //end of drawCanvas
+
+matchMedia;
+const mq = window.matchMedia("(max-width:480px)");
+mq.addListener(WidthChange);
+WidthChange(mq);
+
+function WidthChange(mq) {
+  if (mq.matches) {
+    clearRect();
+    f = 0.9;
+    drawCanvas();
+  } else {
+    clearRect();
+    f = 1;
+    drawCanvas();
+  }
+}
+
+function clearRect() {
+  canvas;
+  let ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, 40, 48);
+}

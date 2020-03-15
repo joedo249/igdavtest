@@ -10,10 +10,14 @@ header {
     padding: 5px 0px;
 }
 
+#cabinet{
+   min-width: 16em;
+}
+
 #entete h3 {
     margin: auto;
     padding-top: 0.9em;
-    padding-left: 0.7em;
+    padding-left: 0.6em;
     color: var(--main-bg-color);
     font-size: 1.6em;
 }
