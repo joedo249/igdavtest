@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="css/stylesheet_form.css">
   <link rel="stylesheet" href="css/stylesheet_footer.css">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script src="component/jquery/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
@@ -75,7 +74,7 @@
               "name": $('input[name="name"]').val(),
               "email": $('input[name="email"]').val(),
               "phone": $('input[name="phone"]').val(),
-              "content": $('textarea[name="content"]').val(),
+              "message": $('textarea[name="message"]').val(),
               "g-recaptcha-response": $('textarea[id="g-recaptcha-response"]').val()
             },
             success: function(response) {
@@ -101,19 +100,19 @@
     <div class="content" id="contactForm">
       <h1>Formulaire de contact</h1>
       <p>Envoyez votre message via ce formulaire et nous vous répondrons rapidement.</p>
-      <div id="message">
+      <div id="formulaire">
         <form id="frmContact" action="" method="POST" novalidate="novalidate">
-          <label for="name">Nom :</label>
+          <label for="contact_name">Nom :</label>
           <div class="field">
-            <input type="text" id="name" name="name" placeholder="entrez votre nom ici" class="required" aria-required="true" required>
+            <input type="text" id="contact_name" name="name" placeholder="entrez votre nom ici" class="required" aria-required="true" required>
           </div>
-          <label for="email">Email :</label>
+          <label for="contact_email">Email :</label>
           <div class="field">
-            <input type="email" id="email" name="email" placeholder="entrez votre adresse mail ici" class="required email" aria-required="true" required>
+            <input type="email" id="contact_email" name="email" placeholder="entrez votre adresse mail ici" class="required email" aria-required="true" required>
           </div>
-          <label for="comment-content">Message :</label>
+          <label for="contact_message">Message :</label>
           <div class="field">
-            <textarea id="comment-content" name="content" placeholder="entrez votre message ici"></textarea>
+            <textarea id="contact_message" name="message" placeholder="entrez votre message ici"></textarea>
           </div>
           <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
           <div id="mail-status"></div>

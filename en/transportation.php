@@ -29,7 +29,7 @@
 			<img src="../img/camion-7-mob.jpg" alt="lorry" class="image">
 		</picture>
 
-		<section>
+		<article>
 			<h1>In-depth knowledge of the transportation sector</h1>
 
 			<p>This sector has developed specific regulations related to the liability of the road carrier and a complex labor law.</p>
@@ -47,7 +47,7 @@
 					<li>cleaning companies</li>
 				</ul>
 			</p>
-		</section>
+		</article>
 
 		<?php include("en_footer.php"); ?>
 

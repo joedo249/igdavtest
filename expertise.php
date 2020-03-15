@@ -41,7 +41,7 @@
                 <h2>Litiges concernant les couples</h2>
                 <ul>
                     <li>Divorce: consentement mutuel, altération définitive du lien conjugal, faute…</li>
-                    <li>PACS ou concubinage: droits, rupture…</li>
+                    <li><abbr title="Pacte civil de solidarité">PACS</abbr> ou concubinage: droits, rupture…</li>
                     <li>Séparation: prestation compensatoire, domicile conjugal…</li>
                     <li>Violences conjugales : ordonnance de protection…</li>
                 </ul>
