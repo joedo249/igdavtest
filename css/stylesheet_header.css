@@ -1,43 +1,43 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    height: 55px;
-    color: var(--main-bg-color);
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  color: var(--main-bg-color);
 }
 
 #entete {
-    display: flex;
-    padding: 5px 0px;
+  display: flex;
+  padding: 5px 0px;
 }
 
-#cabinet{
-   min-width: 16em;
+#firme {
+  min-width: 16em;
 }
 
 #entete h3 {
-    margin: auto;
-    padding-top: 0.9em;
-    padding-left: 0.6em;
-    color: var(--main-bg-color);
-    font-size: 1.6em;
+  margin: auto;
+  padding-top: 0.9em;
+  padding-left: 0.6em;
+  color: var(--main-bg-color);
+  font-size: 1.6em;
 }
 
 .flag {
-    width: 30px;
-    height: 20px;
-    margin: 1.3em 12px 0px 0px;
+  width: 30px;
+  height: 20px;
+  margin: 1.3em 12px 0px 0px;
 }
 
 /* --- Media queries for tablets --- */
 @media screen and (min-width: 480px) {
-    #entete h3 {
-        padding-top: 0.7em;
-    }
+  #entete h3 {
+    padding-top: 0.7em;
+  }
 }
 
 /* --- Media queries for desktop --- */
 @media screen and (min-width: 768px) {
-    #entete h3 {
-        padding-top: 0.6em;
-    }
+  #entete h3 {
+    padding-top: 0.6em;
+  }
 }

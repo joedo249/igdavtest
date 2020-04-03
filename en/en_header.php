@@ -6,7 +6,7 @@
         <script src="../js/logo_igd.js"></script>
       </canvas>
     </a>
-    <div id="cabinet">
+    <div id="firme">
       <h3>Labor Law Firm</h3>
     </div>
   </div>
