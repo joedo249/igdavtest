@@ -47,7 +47,7 @@
                 <h1>Employment and Labor law</h1>
                 <p>The firm practices mainly in the fields of labor law and social security law. We provide legal expertise to both <strong>employees</strong> and <strong>employers</strong> especially in some sectors in which we have acquired particular expertise.</p>
                 <button class="button">
-                    <p class="inner-text"><a href="transportation.php">Know more about us !</a></p>
+                    <p class="inner-text"><a href="transportation.php">Know more about our practices !</a></p>
                 </button>
                 <p>By representing employers as well as employees in workplace disputes, our lawyers understand employment law from both a plaintiff and a defendant point of view.</p>
                 <p>This enables us to put our clients in the strongest possible position both in negotiations and in litigation.</p>
