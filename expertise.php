@@ -30,7 +30,7 @@
         </picture>
 
         <article>
-            <p>Le cabinet IGD est compétent en <strong>Droit de la famille </strong>et en <strong>Droit du travail </strong>notamment dans les secteurs du transport et de la sécurité.</p>
+            <p>Le cabinet IGD est spécialisé en <strong>Droit de la famille </strong>et en <strong>Droit du travail </strong>notamment dans les secteurs du transport et de la sécurité.</p>
         </article>
 
         <section class="expert">

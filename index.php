@@ -35,7 +35,7 @@
 
         <section>
             <article id="cabinet">
-                <h1>Le cabinet</h1>
+                <h1>Le cabinet IGD Avocats</h1>
                 <p>Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
                 <p>La force de notre cabinet repose sur une grande maîtrise de son cœur de métier et sur la diversité de sa clientèle qui va des grandes entreprises aux particuliers.</p>
                 <h2>Conseil et activité contentieuse</h2>
