@@ -1,2 +1,4 @@
 #ignore Google form constants
 constant.php
+#ignore .vscode
+.vscode
