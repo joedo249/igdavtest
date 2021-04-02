@@ -101,7 +101,9 @@
       <h1>Formulaire de contact</h1>
       <p>Envoyez votre message via ce formulaire et nous vous répondrons rapidement.</p>
       <div id="formulaire">
-        <form id="frmContact" action="" method="POST" novalidate="novalidate">
+        <form id="frmContact" action="?" method="POST" novalidate="novalidate">
+        <div class="g-recaptcha" data-sitekey="SITE_KEY"></div>
+        <br/>
           <label for="contact_name">Nom :</label>
           <div class="field">
             <input type="text" id="contact_name" name="name" placeholder="entrez votre nom ici" class="required" aria-required="true" required>

@@ -29,8 +29,8 @@ if ($_POST) {
     }
 
     $from = "info1@igd-avocats.fr";
-    ini_set('SMTP', 'smtp.orange.fr');
-    ini_set('smtp_port', '25');
+    ini_set('SMTP', 'SSL0.ovh.net');
+    ini_set('smtp_port', '993');
     ini_set('sendmail_from', $from);
 
     //reCAPTCHA validation
