@@ -31,7 +31,7 @@
 
         <section>
             <aside>
-                <img src="img/logo-avocats-paris.jpg" alt="ordre des avocats Paris" id="avocats_paris">
+                <img src="img/logo-avocats-paris.jpg" loading="lazy" alt="ordre des avocats Paris" id="avocats_paris">
             </aside>
             <article id="honoraires">
                 <h1>Honoraires</h1>

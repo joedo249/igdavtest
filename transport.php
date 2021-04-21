@@ -26,7 +26,7 @@
 		<picture>
 			<source media="(max-width: 479px)" srcset="img/camion-7-mob.jpg">
 			<source media="(min-width: 480px)" srcset="img/camion-7.jpg">
-			<img src="img/camion-7-mob.jpg.jpg" alt="camion" class="image">
+			<img src="img/camion-7-mob.jpg.jpg" loading="lazy" alt="camion" class="image">
 		</picture>
 
 		<article>
