@@ -116,7 +116,7 @@
 </div>
 
 <!-- FancyBox "Mentions légales" -->
-<script src="fancybox-master/dist/jquery.fancybox.min.js" async>
+<script>
     $("#boxml").on('click', function() {
         $.fancybox.open({
             src: '#animatedModal',

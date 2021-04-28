@@ -1,5 +1,5 @@
 <?php
-if ($_POST) {
+	if ($_POST) {
     require('constant.php');
 
     // Remove all illegal characters from string or email
@@ -61,4 +61,5 @@ if ($_POST) {
         $output = json_encode(array('type' => 'error', 'text' => 'Le message n\'a pas été envoyé, merci de contacter ' . $from));
         die($output);
     }
-}
+	}
+?>

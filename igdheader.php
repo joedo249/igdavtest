@@ -1,11 +1,11 @@
 <header>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   <div id="entete">
     <a href="index.php">
-      <canvas id="logoIGD" width="100" height="120">
-        <script src="logo_igd_svg.html"></script>
-      </canvas>
-    </a>
+        <img src="logoIGD.svg" id="logoIGD" width="35" height="42"/>
+     </a>
+
     <div id="firme">
       <h3>Cabinet d'avocats</h3>
     </div>

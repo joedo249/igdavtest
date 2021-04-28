@@ -6,16 +6,16 @@
   <title>IGD Avocats est ouvert tous les jours de la semaine.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IGD Avocats répond rapidement à toutes demandes par téléphone ou par courriel. Vous avez un interlocuteur unique tout au long de l'affaire. Le cabinet est facilement accessible par les transports en commun.">
-  <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du Général de Gaule, Etoile, transport en commun, métro, bus, RER, autolib, parking">
+  <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du Général de Gaule, Etoile, métro, bus, RER, autolib, parking">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/stylesheet_header.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' script-src 'self' img-src 'self' style-src 'self' form-action 'self' 'unsafe-inline' script-src https://ajax.googleapis.com https://www.google.com/recaptcha/api.js www.gstatic.com frame-src www.google.com">
   <link rel="stylesheet" href="css/stylesheet_body.css">
+  <link rel="stylesheet" href="css/stylesheet_header.css">
   <link rel="stylesheet" href="css/stylesheet_navbar.css">
   <link rel="stylesheet" href="css/stylesheet_form.css">
   <link rel="stylesheet" href="css/stylesheet_footer.css">
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -53,13 +53,11 @@
           <p>- ou en remplissant le formulaire ci-après</p>
         </div>
       </article>
-    </section>
+    </section> <!-- /section contact -->
 
-    <?php
-    require('constant.php');
-    ?>
-
+    <?php require("constant.php"); ?>
     <script>
+    //mail sending validation  
       $(document).ready(function(e) {
         $("#frmContact").on('submit', (function(e) {
           e.preventDefault();
@@ -95,8 +93,10 @@
       });
     </script>
 
+<!--Load the JavaScript API-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
+<!--contact form-->
     <div class="content" id="contactForm">
       <h1>Formulaire de contact</h1>
       <p>Envoyez votre message via ce formulaire et nous vous répondrons rapidement.</p>
@@ -117,9 +117,12 @@
           <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
           <div id="mail-status"></div>
           <button type="Submit" id="send-message" style="clear:both;">Envoyer</button>
+          <!--
+          <button type="Submit" class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit' id="send-message" style="clear:both;">Envoyer</button>
+          -->
         </form>
         <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
-      </div>
+      </div> <!-- formulaire -->
     </div> <!-- content -->
 
     <section id="plan">
@@ -129,19 +132,22 @@
           <div class="googlemap">
             <iframe title="mapGoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2664201594857!2d2.2894286158885726!3d48.8721974792889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fee7a0e2df7%3A0xf4ae84b6af56588!2s19+Avenue+Victor+Hugo%2C+75116+Paris%2C+France!5e0!3m2!1sfr!2sus!4v1523180688554" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-        </div>
+        </div> <!-- /col-plan-->
 
         <div class="col-acces">
           <h1 id="access">Accès</h1>
           <p><b>Métro : </b>station Charles de Gaulle - Etoile : lignes
             <img src="img/lignemetro1.png" alt="métro 1" class="metro">
             <img src="img/lignemetro2.png" alt="métro 2" class="metro">
+          </p>
             <p class="station">station Kléber: ligne
               <img src="img/lignemetro6.png" alt="métro 6" class="metro">
             </p>
-            <p><b>RER : </b>station Charles de Gaulle - Etoile ligne
-              <img src="img/ligneRER-A.png" alt="RER A" class="rer"></p>
-            <p><b>Bus : </b>arrêt Charles de Gaulle - Etoile:</p>
+      
+          <p><b>RER : </b>station Charles de Gaulle - Etoile ligne
+            <img src="img/ligneRER-A.png" alt="RER A" class="rer">
+          </p>
+          <p><b>Bus : </b>arrêt Charles de Gaulle - Etoile:</p>
             <p class="station">lignes
               <img src="img/lignebus22.png" alt="bus 22" class="bus">
               <img src="img/lignebus30.png" alt="bus 30" class="bus">
@@ -158,10 +164,9 @@
                 <li>Q-Park Champs-Elysées 77 Avenue Marceau à 7 minutes (550 m.)</li>
               </ul>
             </p>
-        </div>
-      </div>
-    </section> <!-- end section plan -->
-  </div> <!-- end wrapper -->
+        </div> <!-- /col-acces -->
+      </div> <!-- /container -->
+    </section> <!-- /section plan -->
 
   <?php include("igdfooter.php"); ?>
 

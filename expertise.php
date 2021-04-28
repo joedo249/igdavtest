@@ -2,22 +2,23 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <title>IGD Avocats est spécialisé en droit du travail.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IGD Avocats intervient en droit du travail, droit de la sécurité dans les secteurs du transport de personnes et de marchandises, du recyclage et du traitement des déchets. Le cabinet intervient également en droit de la famille et en droit pénal.">
-    <meta name="keywords" content="avocat, avocats, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité, famille, divorce, séparation, enfants">
-    <meta name="robots" content="index,follow">
-    <meta name="theme-color" content="#0a4263">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/stylesheet_header.css">
-    <link rel="stylesheet" href="css/stylesheet_body.css">
-    <link rel="stylesheet" href="css/stylesheet_navbar.css">
-    <link rel="stylesheet" href="css/stylesheet_footer.css">
+	<meta charset="UTF-8">
+	<title>IGD Avocats est spécialisé en droit du travail.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="IGD Avocats intervient en droit du travail, droit de la sécurité dans les secteurs du transport de personnes et de marchandises, du recyclage et du traitement des déchets. Le cabinet intervient également en droit de la famille et en droit pénal.">
+	<meta name="keywords" content="avocat, avocats, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité, famille, divorce, séparation, enfants">
+	<meta name="robots" content="index,follow">
+	<meta name="theme-color" content="#0a4263">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' script-src 'self' img-src 'self' style-src 'self' 'unsafe-inline' script-src 'strict-dynamic' https://ajax.googleapis.com">
+	<link rel="stylesheet" href="css/stylesheet_body.css">
+	<link rel="stylesheet" href="css/stylesheet_header.css">
+	<link rel="stylesheet" href="css/stylesheet_navbar.css">
+	<link rel="stylesheet" href="css/stylesheet_footer.css">
 </head>
 
 <body>
-    <div id="wrapper">
+	<div id="wrapper">
 
         <?php include("igdheader.php"); ?>
 
