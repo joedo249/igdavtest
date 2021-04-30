@@ -1,5 +1,5 @@
 $(function () {
-  $("a").each(function currentPage() {
+  $("a").each(function () {
     if ($(this).prop("href") == window.location.href) {
       $(this).addClass("current");
     }

@@ -1,11 +1,8 @@
 <header>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
   <div id="entete">
     <a href="index.php">
-        <img src="logoIGD.svg" id="logoIGD" width="35" height="42"/>
+      <img src="img/logoIGD.svg" id="logoIGD" width="40" height="48"/>
      </a>
-
     <div id="firme">
       <h3>Cabinet d'avocats</h3>
     </div>

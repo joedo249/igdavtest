@@ -1,10 +1,7 @@
-<header>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<header> 
   <div id="entete">
     <a href="aboutus.php">
-      <canvas id="logoIGD" width="40" height="48">
-        <script src="../js/logo_igd.js"></script>
-      </canvas>
+      <img src="../img/logoIGD.svg" id="logoIGD" width="40" height="48"/>
     </a>
     <div id="firme">
       <h3>Labor Law Firm</h3>
@@ -14,5 +11,4 @@
   <a href="../index.php">
     <img src="../img/French-flag-icon.png" alt="French flag" class="flag">
   </a>
-
 </header>

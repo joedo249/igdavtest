@@ -10,8 +10,9 @@
 	<meta name="robots" content="index,follow">
 	<meta name="theme-color" content="#0a4263">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="../css/stylesheet_header.css">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
 	<link rel="stylesheet" href="../css/stylesheet_body.css">
+	<link rel="stylesheet" href="../css/stylesheet_header.css">
 	<link rel="stylesheet" href="../css/stylesheet_navbar.css">
 	<link rel="stylesheet" href="../css/stylesheet_footer.css">
 </head>

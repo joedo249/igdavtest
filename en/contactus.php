@@ -3,20 +3,19 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>IGD Avocats is opened every working dayk</title>
+  <title>IGD Avocats is opened every working day</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IGD Avocats answers quickly to all requests by phone or email. The office is easily accessible by public transport">
   <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du General de Gaule, Etoile, public transport, metro, bus, RER, parking">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/stylesheet_header.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://www.google.com/recaptcha/api.js www.gstatic.com www.google.com">
   <link rel="stylesheet" href="../css/stylesheet_body.css">
+  <link rel="stylesheet" href="../css/stylesheet_header.css">
   <link rel="stylesheet" href="../css/stylesheet_navbar.css">
   <link rel="stylesheet" href="../css/stylesheet_form.css">
   <link rel="stylesheet" href="../css/stylesheet_footer.css">
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script src="../component/jquery/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
