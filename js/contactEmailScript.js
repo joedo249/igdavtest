@@ -1,9 +1,8 @@
 // Protection de l'adresse email
-let nom = "info1";
-let pseudo = "info";
-let domaine = "igd-avocats";
-let extension = "fr";
-let objet = "demande de rendez-vous";
+const nom = "info1";
+const pseudo = "info";
+const domaine = "igd-avocats";
+const extension = "fr";
 let adresse_mail = nom + "@" + domaine + "." + extension;
 let adresse_email = pseudo + "@" + domaine + "." + extension;
 
@@ -22,21 +21,21 @@ contactEmail.style.fontStyle = "normal";
 contactEmail.style.fontWeight = "bold";
 
 //underline when mouse is hovering #contactEmail
-$(function() {
+$(function () {
   $("#contactEmail").hover(
-    function() {
+    function () {
       $(contactEmail).css("text-decoration", "underline");
       $(contactEmail).css("cursor", "pointer");
     },
-    function() {
+    function () {
       $(contactEmail).css("text-decoration", "none");
     }
   );
 });
 
 //envoi de l'email
-$(function() {
-  $("#contactEmail").click(function() {
+$(function () {
+  $("#contactEmail").click(function () {
     location.href =
       "mailto:" + adresse_mail + "?subject=" + "demande%20d'information";
   });

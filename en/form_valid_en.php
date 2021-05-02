@@ -28,17 +28,17 @@ if ($_POST) {
 		die($output);
 	}
 
-	$from = "info1@igd-avocats.fr";
-	ini_set('SMTP', 'smtp.orange.fr');
-	ini_set('smtp_port', '25');
-	ini_set('sendmail_from', $from);
+    $from = "info1@igd-avocats.fr";
+    ini_set('SMTP', 'SSL0.ovh.net');
+    ini_set('smtp_port', '465');
+    ini_set('sendmail_from', $from);
 
 	//reCAPTCHA validation
 	if (isset($_POST['g-recaptcha-response'])) {
 
 		require('../component/recaptcha/src/autoload.php');
 
-		$recaptcha = new \ReCaptcha\ReCaptcha(SECRET_KEY, new \ReCaptcha\RequestMethod\SocketPost());
+        $recaptcha = new \ReCaptcha\ReCaptcha(SECRET_KEY);
 
 		$resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 

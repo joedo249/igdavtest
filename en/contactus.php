@@ -160,8 +160,8 @@
               <li>Q-Park Champs-Elysées 77 Avenue Marceau at 7 minutes (550 m.)</li>
             </ul>
           </p>
-        </div>
-      </div>
+        </div> <!-- /col-acces -->
+      </div> <!-- /container -->
     </section> <!-- close section plan -->
 
   </div> <!-- end wrapper -->
