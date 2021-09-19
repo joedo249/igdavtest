@@ -15,7 +15,7 @@ nav ul {
   align-items: center;
   font-weight: bold;
   font-size: 1.2em;
-  line-height: 1.8em;
+  line-height: 2.1em;
   list-style-type: none;
   padding-inline-start: 0px;
 }
@@ -31,5 +31,6 @@ nav a:hover {
 }
 
 nav .current {
-  text-decoration: underline;
+  /*  text-decoration: underline;*/
+  background-color: #666;
 }

@@ -20,9 +20,9 @@
 <body>
   <div id="wrapper">
 
-    <?php include("igdheader.php"); ?>
+    <?php include("igdheader.html"); ?>
 
-    <?php include("igdnavbar.php"); ?>
+    <?php include("igdnavbar.html"); ?>
 
     <article>
       <h1>L'équipe</h1>
@@ -45,6 +45,6 @@
 
     </section>
 
-    <?php include("igdfooter.php"); ?>
+    <?php include("igdfooter.html"); ?>
 
 </html>

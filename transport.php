@@ -20,9 +20,9 @@
 <body>
 	<div id="wrapper">
 
-		<?php include("igdheader.php"); ?>
+		<?php include("igdheader.html"); ?>
 
-		<?php include("igdnavbar.php"); ?>
+		<?php include("igdnavbar.html"); ?>
 
 		<picture>
 			<source media="(max-width: 479px)" srcset="img/camion-7-mob.jpg">
@@ -70,6 +70,6 @@
 			</p>
 		</article>
 
-		<?php include("igdfooter.php"); ?>
+		<?php include("igdfooter.html"); ?>
 
 </html>
