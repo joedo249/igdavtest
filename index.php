@@ -10,7 +10,9 @@
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
+-->
   <link rel="stylesheet" href="css/stylesheet_body.css">
   <link rel="stylesheet" href="css/stylesheet_header.css">
   <link rel="stylesheet" href="css/stylesheet_navbar.css">
@@ -26,14 +28,14 @@
 
     <?php include("igdnavbar.html"); ?>
 
-<!-- simulate click on link to activate index.php on website opening
+<!-- simulate click on first link to activate index.php on website opening
 https://www.javascripttutorial.net/javascript-dom/javascript-onload/
 https://stackoverflow.com/questions/31867229/how-can-i-execute-a-javascript-function-on-the-first-page-load
 using the window.session Storage stores the value only for that session.
 -->
 
 <script>
-  window.onload = function() {
+    window.onload = function() {
     if (!("hasRunBefore" in sessionStorage)) {
       document.getElementById("first").click();
       sessionStorage.setItem("hasRunBefore", true);
@@ -53,7 +55,7 @@ using the window.session Storage stores the value only for that session.
       <section>
         <article id="cabinet">
           <h1>Le cabinet IGD Avocats</h1>
-          <p>Ceci est la version test. Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
+          <p>Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
           <p>La force de notre cabinet repose sur une grande maîtrise de son cœur de métier et sur la diversité de sa clientèle qui va des grandes entreprises aux particuliers.</p>
           <h2>Conseil et activité contentieuse</h2>
           <p>La pratique quotidienne des Juridictions nous permet d'offrir un conseil pertinent intégrant le risque contentieux, alors que notre activité de conseil conforte, dans nos domaines de compétence, la qualité de l'argumentation qui sera développée à la barre.</p>
