@@ -9,6 +9,10 @@ nav {
   min-height: 2.5em;
 }
 
+nav .current {
+  background-color: #666;
+}
+
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -28,9 +32,4 @@ nav li a {
 
 nav a:hover {
   text-decoration: underline;
-}
-
-nav .current {
-  /*  text-decoration: underline;*/
-  background-color: #666;
 }

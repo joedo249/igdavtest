@@ -9,6 +9,7 @@ let bodyWidthParse = parseInt(bodyWidth);
 //cl(bodyWidthParse);
 
 // value of wrapper left-margin
+// maybe unneccesary as wrapper as no margin defined
 const wrapper = document.querySelector("#wrapper");
 const wrapperLeftMargin = getComputedStyle(wrapper).marginLeft;
 cl(wrapperLeftMargin);
@@ -111,7 +112,7 @@ function end_Touch(ev) {
 
   // if sliding horizontally
   if (Math.abs(distX) > Math.abs(distY) && elapsedTime < allowedTime) {
-    cl("horizontal sliding");
+  // cl("horizontal sliding");
 
     let threshold = screen.width / 4;
 
