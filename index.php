@@ -10,7 +10,9 @@
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
+-->
   <link rel="stylesheet" href="css/stylesheet_body.css">
   <link rel="stylesheet" href="css/stylesheet_header.css">
   <link rel="stylesheet" href="css/stylesheet_navbar.css">
@@ -26,14 +28,14 @@
 
     <?php include("igdnavbar.html"); ?>
 
-<!-- simulate click on link to activate index.php on website opening
+<!-- simulate click on first link to activate index.php on website opening
 https://www.javascripttutorial.net/javascript-dom/javascript-onload/
 https://stackoverflow.com/questions/31867229/how-can-i-execute-a-javascript-function-on-the-first-page-load
 using the window.session Storage stores the value only for that session.
 -->
 
 <script>
-  window.onload = function() {
+    window.onload = function() {
     if (!("hasRunBefore" in sessionStorage)) {
       document.getElementById("first").click();
       sessionStorage.setItem("hasRunBefore", true);
