@@ -22,9 +22,9 @@
 <body>
   <div id="wrapper">
 
-    <?php include("en_header.php"); ?>
+    <?php include("en_header.html"); ?>
 
-    <?php include("en_navbar.php"); ?>
+    <?php include("en_navbar.html"); ?>
 
     <picture>
       <source media="(max-width: 479px)" srcset="../img/arc-de-triomphe-7-mob.jpg">
@@ -54,11 +54,11 @@
           <li>Loyalty and ethics</li>
         </ul>
         <button class="button">
-          <p class=inner-text><a href="team.php">Know more about us !</a></p>
+          <span class=inner-text><a href="team.php">Know more about us !</a></span>
         </button>
       </article>
     </section>
 
-    <?php include("en_footer.php"); ?>
+    <?php include("en_footer.html"); ?>
 
 </html>

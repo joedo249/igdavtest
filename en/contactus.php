@@ -21,9 +21,9 @@
 <body>
   <div id="wrapper">
 
-    <?php include("en_header.php"); ?>
+    <?php include("en_header.html"); ?>
 
-    <?php include("en_navbar.php"); ?>
+    <?php include("en_navbar.html"); ?>
 
     <picture>
       <source media="(max-width: 479px)" srcset="../img/immeuble-7-mob.jpg">
@@ -166,7 +166,7 @@
 
   </div> <!-- end wrapper -->
 
-  <?php include("en_footer.php"); ?>
+  <?php include("en_footer.html"); ?>
 
 </body>
 

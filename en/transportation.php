@@ -20,9 +20,9 @@
 <body>
 	<div id="wrapper">
 
-		<?php include("en_header.php"); ?>
+		<?php include("en_header.html"); ?>
 
-		<?php include("en_navbar.php"); ?>
+		<?php include("en_navbar.html"); ?>
 
 		<picture>
 			<source media="(max-width: 479px)" srcset="../img/camion-7-mob.jpg">
@@ -50,6 +50,6 @@
 			</p>
 		</article>
 
-		<?php include("en_footer.php"); ?>
+		<?php include("en_footer.html"); ?>
 
 </html>

@@ -46,7 +46,7 @@
 					</article>
 			</section>
 			<button class="button">
-					<p class="inner-text"><a href="contact.php#contactForm">Demander un devis gratuit en ligne</a></p>
+					<span class="inner-text"><a href="contact.php#contactForm">Demander un devis gratuit en ligne</a></span>
 			</button>
 		</div> <!-- /gestZone -->
 

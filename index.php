@@ -53,7 +53,7 @@ using the window.session Storage stores the value only for that session.
       <section>
         <article id="cabinet">
           <h1>Le cabinet IGD Avocats</h1>
-          <p>Ceci est la version test. Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
+          <p>Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
           <p>La force de notre cabinet repose sur une grande maîtrise de son cœur de métier et sur la diversité de sa clientèle qui va des grandes entreprises aux particuliers.</p>
           <h2>Conseil et activité contentieuse</h2>
           <p>La pratique quotidienne des Juridictions nous permet d'offrir un conseil pertinent intégrant le risque contentieux, alors que notre activité de conseil conforte, dans nos domaines de compétence, la qualité de l'argumentation qui sera développée à la barre.</p>
@@ -66,7 +66,6 @@ using the window.session Storage stores the value only for that session.
         </article>
       </section>
 		</div> <!-- /gestZone -->
-
 
     <?php include('igdfooter.html'); ?>
 

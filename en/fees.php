@@ -20,9 +20,9 @@
 <body>
     <div id="wrapper">
 
-        <?php include("en_header.php"); ?>
+        <?php include("en_header.html"); ?>
 
-        <?php include("en_navbar.php"); ?>
+        <?php include("en_navbar.html"); ?>
 
         <picture>
             <source media="(max-width: 479px)" srcset="../img/bureau-7-mob.jpg">
@@ -43,9 +43,9 @@
             </article>
         </section>
         <button class="button">
-            <p class="inner-text"><a href="contactus.php#contactForm">Contact us on line for a free quote</a></p>
+            <span class="inner-text"><a href="contactus.php#contactForm">Contact us on line for a free quote</a></span>
         </button>
 
-        <?php include("en_footer.php"); ?>
+        <?php include("en_footer.html"); ?>
 
 </html>

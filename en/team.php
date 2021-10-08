@@ -20,9 +20,9 @@
 <body>
   <div id="wrapper">
 
-    <?php include("en_header.php"); ?>
+    <?php include("en_header.html"); ?>
 
-    <?php include("en_navbar.php"); ?>
+    <?php include("en_navbar.html"); ?>
 
     <article>
       <h1>Our People</h1>
@@ -45,6 +45,6 @@
 
     </section>
 
-    <?php include("en_footer.php"); ?>
+    <?php include("en_footer.html"); ?>
 
 </html>
