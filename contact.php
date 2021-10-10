@@ -10,12 +10,13 @@
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://www.google.com/recaptcha/api.js www.gstatic.com www.google.com">
-  <link rel="stylesheet" href="css/stylesheet_body.css">
-  <link rel="stylesheet" href="css/stylesheet_header.css">
-  <link rel="stylesheet" href="css/stylesheet_navbar.css">
-  <link rel="stylesheet" href="css/stylesheet_form.css">
-  <link rel="stylesheet" href="css/stylesheet_footer.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://www.google.com/recaptcha/api.js www.gstatic.com www.google.com"
+   Cross-Origin-Embedder-Policy: require-corp>
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
     <?php include("igdnavbar.html"); ?>
 
     <div class ="gestZone">
-		<script src="js/touchmove.js"></script>
+		<script src="js/touchMove.js"></script>
       <picture>
         <source media="(max-width: 479px)" srcset="img/immeuble-7-mob.jpg">
         <source media="(min-width: 480px)" srcset="img/immeuble-7.jpg">
@@ -171,7 +172,7 @@
         </div> <!-- /container -->
       </section> <!-- /section plan -->
     </div> <!-- /gestZone -->
-
+  
   <?php include("igdfooter.html"); ?>
 
 </html>

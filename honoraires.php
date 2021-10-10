@@ -11,10 +11,10 @@
 	<meta name="theme-color" content="#0a4263">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
-	<link rel="stylesheet" href="css/stylesheet_body.css">
-	<link rel="stylesheet" href="css/stylesheet_header.css">
-	<link rel="stylesheet" href="css/stylesheet_navbar.css">
-	<link rel="stylesheet" href="css/stylesheet_footer.css">
+	<link rel="stylesheet" href="css/body.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -33,20 +33,20 @@
 			</picture>
 
 			<section>
-					<aside>
-						<img src="img/logo-avocats-paris.jpg" loading="lazy" alt="ordre des avocats Paris" id="avocats_paris">
-					</aside>
-					<article id="honoraires">
-						<h1>Honoraires</h1>
-						<p>Les rapports de confiance que le cabinet entretient avec ses clients sont fondés sur une <b>transparence totale</b> à leur égard tant en ce qui concerne le compte rendu des actions menées que les éléments de facturation.</p>
-						<p>Le montant des honoraires est déterminé en fonction de la complexité de l'affaire et de l'importance des intérêts en cause.</p>
-						<p>Si le client décide, en accord avec l'avocat, qu’une procédure doit être engagée ou poursuivie, en demande ou en défense, une convention d'honoraires sera signée.</p>
-						<p>Les honoraires sont facturés au forfait ou au temps passé. Le cas échéant, un honoraire de résultat peut également s'appliquer.</p>
-						<p>Dans tous les cas, le montant des honoraires est établi en accord avec le client.</p>
-					</article>
+				<aside>
+					<img src="img/logo-avocats-paris.jpg" loading="lazy" alt="ordre des avocats Paris" id="avocats_paris">
+				</aside>
+				<article id="honoraires">
+					<h1>Honoraires</h1>
+					<p>Les rapports de confiance que le cabinet entretient avec ses clients sont fondés sur une <b>transparence totale</b> à leur égard tant en ce qui concerne le compte rendu des actions menées que les éléments de facturation.</p>
+					<p>Le montant des honoraires est déterminé en fonction de la complexité de l'affaire et de l'importance des intérêts en cause.</p>
+					<p>Si le client décide, en accord avec l'avocat, qu’une procédure doit être engagée ou poursuivie, en demande ou en défense, une convention d'honoraires sera signée.</p>
+					<p>Les honoraires sont facturés au forfait ou au temps passé. Le cas échéant, un honoraire de résultat peut également s'appliquer.</p>
+					<p>Dans tous les cas, le montant des honoraires est établi en accord avec le client.</p>
+				</article>
 			</section>
 			<button class="button">
-					<span class="inner-text"><a href="contact.php#contactForm">Demander un devis gratuit en ligne</a></span>
+				<span class="inner-text"><a href="contact.php#contactForm">Demander un devis gratuit en ligne</a></span>
 			</button>
 		</div> <!-- /gestZone -->
 

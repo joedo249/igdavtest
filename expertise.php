@@ -11,21 +11,21 @@
 	<meta name="theme-color" content="#0a4263">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
-	<link rel="stylesheet" href="css/stylesheet_body.css">
-	<link rel="stylesheet" href="css/stylesheet_header.css">
-	<link rel="stylesheet" href="css/stylesheet_navbar.css">
-	<link rel="stylesheet" href="css/stylesheet_footer.css">
+	<link rel="stylesheet" href="css/body.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
 	<div id="wrapper">
 
-		<?php include("igdheader.html"); ?>
+	<?php include("igdheader.html"); ?>
 
-		<?php include("igdnavbar.html"); ?>
+	<?php include("igdnavbar.html"); ?>
 
 	<div class ="gestZone">
-		<script src="js/touchmove.js"></script>
+	<script src="js/touchMove.js"></script>
 		<picture>
 			<source media="(max-width: 479px)" srcset="img/fronton-palais-justice-7-mob.jpg">
 			<source media="(min-width: 480px)" srcset="img/fronton-palais-justice-7.jpg">
@@ -94,7 +94,7 @@
 				</ul>
 				<p>A toutes les étapes de la vie d'un contrat de travail, l'avis de l'avocat est souhaitable. C'est un droit d'actualité avec une réglementation abondante et en perpétuelle évolution qui suscite des questions et litiges très nombreux.</p>
 				<p>Il suffit de consulter le site <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank"><b>Service-Public</b></a> de l'administration française en cliquant sur le logo ci-dessous pour constater que la réglementation du travail est en perpétuelle évolution.</p>
-				<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank">
+				<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/N24267" target="_blank" rel="noopener noreferrer">
 					<img src="img/logo-service-public-pro.png" alt="site Service Public" id="servpub-pro"></a>
 			</article>
 		</section>

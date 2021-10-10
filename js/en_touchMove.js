@@ -36,10 +36,10 @@ if (bodyWidthParse >= 480) {
   // 2 - modify pages array
   // 2.1 original array
   let pages = [
-    { name: "index.php", class: "" },
-    { name: "expertise.php", class: "" },
-    { name: "honoraires.php", class: "" },
-    { name: "contact.php", class: "" },
+    { name: "aboutus.php", class: "" },
+    { name: "practices.php", class: "" },
+    { name: "fees.php", class: "" },
+    { name: "contactus.php", class: "" },
   ];
 
   //2.2 get index of activePage to enable swipe left and right
