@@ -27,8 +27,7 @@
     <?php include("en_navbar.html"); ?>
 
     <div class ="gestZone">
-		<script src="../js/touchMove.js"></script>
-
+		<script src="../js/en_touchMove.js"></script>
     <picture>
       <source media="(max-width: 479px)" srcset="../img/arc-de-triomphe-7-mob.jpg">
       <source media="(min-width: 480px)" srcset="../img/arc-de-triomphe-7.jpg">

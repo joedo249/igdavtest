@@ -9,7 +9,7 @@ let bodyWidthParse = parseInt(bodyWidth);
 //cl(bodyWidthParse);
 
 // operate touchmove.js only on mobile devices (width < 480pwx)
-if (bodyWidthParse >= 480) {
+if (bodyWidthParse > 480) {
   console.log("it's a large screen");
 } else {
   console.log("it's a mobile device");
