@@ -128,30 +128,30 @@ if (bodyWidthParse > 480) {
         window.location.assign(currentPage);
       }
 
-      // if left swipe sufficient and not on the first page
-      if (distX > threshold && currentIndex > 0) {
-        //go to previous page
-        currentIndex = currentIndex - 1;
-        currentPage = pages[currentIndex].name;
-        window.location.assign(currentPage);
-      }
-
-      // if left swipe sufficient and on the first page
-      if (distX > threshold && currentIndex == 0) {
-        //do nothing
-        window.location.assign(currentPage);
-      }
-
-      // if right swipe sufficient and not on the last page
-      else if (-distX > threshold && currentIndex < pages.length - 1) {
-        // go to next page
+      // if left swipe sufficient and not on the last page
+      if (distX > threshold && currentIndex < pages.length - 1) {
+        //go to next page
         currentIndex = currentIndex + 1;
         currentPage = pages[currentIndex].name;
         window.location.assign(currentPage);
       }
 
-      // if right swipe sufficient and on the last page
-      else if (-distX > threshold && currentIndex < pages.length) {
+      // if left swipe sufficient and on the last page
+      if (distX > threshold && currentIndex == pages.length - 1) {
+        //do nothing
+        window.location.assign(currentPage);
+      }
+
+      // if right swipe sufficient and not on the first page
+      else if (-distX > threshold && currentIndex > 0) {
+        // go to previous page
+        currentIndex = currentIndex - 1;
+        currentPage = pages[currentIndex].name;
+        window.location.assign(currentPage);
+      }
+
+      // if right swipe sufficient and on the first page
+      else if (-distX > threshold && currentIndex == 0) {
         //do nothing
         window.location.assign(currentPage);
       }

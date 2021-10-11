@@ -25,7 +25,7 @@
 		<?php include("igdnavbar.html"); ?>
 
 		<div class ="gestZone">
-		<script src="js/touchmove.js"></script>
+		<script src="js/touchMove.js"></script>
 			<picture>
 				<source media="(max-width: 479px)" srcset="img/bureau-7-mob.jpg">
 				<source media="(min-width: 480px)" srcset="img/bureau-7.jpg">
