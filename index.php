@@ -44,10 +44,10 @@ using the window.session Storage stores the value only for that session.
   </script>
 
     <div class ="gestZone">
-		<script src="js/touchMove.js"></script>
+		<script src="./js/touchMove.js"></script>
 
     <picture>
-      <source media="(max-width: 479px)" srcset="img/arc-de-triomphe-7-mob.jpg">
+      <source media="(max-width: 479px)" srcset="img/arc-de-triomphe-78-mob.jpg">
       <source media="(min-width: 480px)" srcset="img/arc-de-triomphe-7.jpg">
       <img src="img/arc-de-triomphe-7-mob.jpg" alt="L'Arc de Triomphe" class="image">
       <figcaption>La défense <br>de vos droits</figcaption>
@@ -63,9 +63,7 @@ using the window.session Storage stores the value only for that session.
         <h2>Disponibilité et souplesse</h2>
         <p>Le choix de consacrer notre pratique à certains aspects du droit nous permet d'offrir une prestation aussi efficace et productive que possible et ainsi d'en optimiser le coût.</p>
         <p>Nous avons à cœur d'être réactifs face aux demandes de nos clients.Si nous pensons que nous ne sommes pas en mesure de défendre au mieux vos intérêts, nous vous en informons et pouvons vous diriger vers un cabinet spécialisé.</p>
-        <button class="button">
-            <span class="inner-text"><a href="equipe.php">En savoir plus sur notre cabinet !</a></span>
-        </button>
+        <button class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
       </article>
     </section>
   </div> <!-- /gestZone -->

@@ -27,7 +27,7 @@
 		<div class ="gestZone">
 		<script src="../js/en_touchMove.js"></script>
 			<picture>
-				<source media="(max-width: 479px)" srcset="../img/bureau-7-mob.jpg">
+				<source media="(max-width: 479px)" srcset="../img/bureau-78-mob.jpg">
 				<source media="(min-width: 480px)" srcset="../img/bureau-7.jpg">
 				<img src="../img/bureau-7-mob.jpg" alt="office of Isabelle Guyader Dousset" class="image">
 			</picture>

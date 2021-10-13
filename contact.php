@@ -29,7 +29,7 @@
     <div class ="gestZone">
 		<script src="js/touchMove.js"></script>
       <picture>
-        <source media="(max-width: 479px)" srcset="img/immeuble-7-mob.jpg">
+        <source media="(max-width: 479px)" srcset="img/immeuble-78-mob.jpg">
         <source media="(min-width: 480px)" srcset="img/immeuble-7.jpg">
         <img src="img/immeuble-7-mob.jpg" alt="immeuble 19 avenue Victor Hugo Paris" class="image">
       </picture>

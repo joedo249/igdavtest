@@ -27,8 +27,8 @@
 	<div class ="gestZone">
 	<script src="js/touchMove.js"></script>
 		<picture>
-			<source media="(max-width: 479px)" srcset="img/fronton-palais-justice-7-mob.jpg">
-			<source media="(min-width: 480px)" srcset="img/fronton-palais-justice-7.jpg">
+			<source media="(max-width: 479px)" srcset="img/fronton-palais-78-mob.jpg">
+			<source media="(min-width: 480px)" srcset="img/fronton-palais-7.jpg">
 			<img src="img/fronton-palais-justice-mob.jpg" loading="lazy" alt="Palais de Justice de Paris" class="image">
 		</picture>
 
@@ -69,9 +69,7 @@
 				<p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
 					Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
 				<p>Notre cabinet conseille les entreprises notamment dans quelques secteurs dans lesquels nous avons acquis une expertise particulière.</p>
-				<button class="button">
-					<span class="inner-text"><a href="transport.php">En savoir plus !</a></span>
-				</button>
+				<button class="button" onclick="location.href='transport.php'">Pour en savoir plus !</button>
 
 				<h2>Les domaines d'intervention du cabinet sont notamment les suivants:</h2>
 				<ul>

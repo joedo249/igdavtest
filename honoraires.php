@@ -27,7 +27,7 @@
 		<div class ="gestZone">
 		<script src="js/touchMove.js"></script>
 			<picture>
-				<source media="(max-width: 479px)" srcset="img/bureau-7-mob.jpg">
+				<source media="(max-width: 479px)" srcset="img/bureau-78-mob.jpg">
 				<source media="(min-width: 480px)" srcset="img/bureau-7.jpg">
 				<img src="img/bureau-7-mob.jpg" alt="bureau d'Isabelle Guyader Dousset" class="image">
 			</picture>
@@ -45,9 +45,8 @@
 					<p>Dans tous les cas, le montant des honoraires est établi en accord avec le client.</p>
 				</article>
 			</section>
-			<button class="button">
-				<span class="inner-text"><a href="contact.php#contactForm">Demander un devis gratuit en ligne</a></span>
-			</button>
+			<button class="button" onclick="location.href='contact.php#contactForm'">Demander un devis gratuit en ligne</button>
+
 		</div> <!-- /gestZone -->
 
 		<?php include("igdfooter.html"); ?>
