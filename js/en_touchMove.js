@@ -137,7 +137,7 @@ if (bodyWidthParse > 480) {
       }
 
       // if left swipe sufficient and on the last page
-      if (distX > threshold && currentIndex == pages.length - 1) {
+      else if (distX > threshold && currentIndex == pages.length - 1) {
         //do nothing
         window.location.assign(currentPage);
       }

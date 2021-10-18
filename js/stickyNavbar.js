@@ -1,15 +1,15 @@
-// position du bloc <header> par rapport au haut du site
-var header_height = $("header").offset().top;
+// Get the offset position of the navbar
+const navbar = document.querySelector(".fixnavbar");
+const navbarHeight = navbar.offsetTop;
+//console.log(navbarHeight);
 
-$(window).scroll(function () {
-  // valeur du scroll vertical
-  let y = $(this).scrollTop();
-
-  //si cette valeur > à header_height on ajoute la class
-  if (y >= header_height) {
-    $(".fixnavbar").addClass("sticky");
+// Add the sticky class when the scroll position is >= navbarHeight
+// Remove the sticky class
+function scrollFunction() {
+  if (window.pageYOffset >= navbarHeight) {
+    console.log(window.pageYOffset);
+    navbar.classList.addClass("sticky");
   } else {
-    // sinon, on l'enlève
-    $(".fixnavbar").removeClass("sticky");
+    navbar.classList.remove("sticky");
   }
-});
+}
