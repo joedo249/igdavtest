@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/footer.css">
+	<script src="js/touchMove.js" defer></script>
 </head>
 
 <body>
@@ -25,7 +26,6 @@
 	<?php include("igdnavbar.html"); ?>
 
 	<div class ="gestZone">
-	<script src="js/touchMove.js"></script>
 		<picture>
 			<source media="(max-width: 479px)" srcset="img/fronton-palais-78-mob.jpg">
 			<source media="(min-width: 480px)" srcset="img/fronton-palais-7.jpg">

@@ -45,9 +45,9 @@
 					<p>Dans tous les cas, le montant des honoraires est établi en accord avec le client.</p>
 				</article>
 			</section>
-			<button class="button" onclick="location.href='contact.php#contactForm'">Demander un devis gratuit en ligne</button>
-
 		</div> <!-- /gestZone -->
+
+			<button class="button" onclick="location.href='contact.php#contactForm'">Demander un devis gratuit en ligne</button>
 
 		<?php include("igdfooter.html"); ?>
 

@@ -13,8 +13,8 @@
   <!--
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
 -->
-  <link rel="stylesheet" href="css/body.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/body.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/body_slidein.css">
@@ -54,10 +54,10 @@ using the window.session Storage stores the value only for that session.
           <h2>Disponibilité et souplesse</h2>
           <p>Le choix de consacrer notre pratique à certains aspects du droit nous permet d'offrir une prestation aussi efficace et productive que possible et ainsi d'en optimiser le coût.</p>
           <p>Nous avons à cœur d'être réactifs face aux demandes de nos clients.Si nous pensons que nous ne sommes pas en mesure de défendre au mieux vos intérêts, nous vous en informons et pouvons vous diriger vers un cabinet spécialisé.</p>
-          <button class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
         </article>
       </section>
     </div> <!-- /gestZone -->
+    <button class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
 
     <?php include('igdfooter.html'); ?>
 

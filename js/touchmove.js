@@ -65,13 +65,13 @@ if (bodyWidthParse > 480) {
     initialY = ev.touches[0].clientY;
     //cl(initialX);
     //cl(initialY);
-    
+
     ev.preventDefault();
 
     // maximum time allowed from start to end of touch
     //allowedTime = 2000;
     // record time when finger first touches surface
-    //startTime = new Date().getTime();
+    startTime = new Date().getTime();
     //cl(startTime);
   }
 
@@ -85,7 +85,7 @@ if (bodyWidthParse > 480) {
     let currentY = ev.touches[0].clientY;
     let diffX = initialX - currentX;
     let diffY = initialY - currentY;
-    if (diffX > diffY) {
+    if (Math.abs(diffX) > Math.abs(diffY)) {
       let containLeftMargin = wrapperLeftMargin;
       containLeftMarginParse = parseInt(containLeftMargin);
       containLeftMarginParse = wrapperLeftMarginParse - diffX;
@@ -113,8 +113,8 @@ if (bodyWidthParse > 480) {
     cl("distX: " + distX);
     cl("distY: " + distY);
 
-    //eltouchZonesedTime = new Date().getTime() - startTime; // get time eltouchZonesed
-    //cl(eltouchZonesedTime);
+    elapsedTime = new Date().getTime() - startTime;
+    //cl(elapsedTime);
 
     // if sliding horizontally
     //if (Math.abs(distX) > Math.abs(distY) && eltouchZonesedTime < allowedTime) {
@@ -158,8 +158,9 @@ if (bodyWidthParse > 480) {
     //if sliding vertically
     else {
       cl("vertical sliding");
+      let coeffY = 800 / elapsedTime;
       window.scrollBy({
-        top: distY * 1.25,
+        top: distY*coeffY,
         left: 0,
         behavior: "smooth",
       });

@@ -70,11 +70,11 @@ picture {
 
 .button {
   display: block;
-  height: 3.5em;
   margin: 2em auto;
+  padding: 5px 10px 10px 10px;
   background-color: rgb(26, 133, 26);
   color: white;
-  padding: 5px 10px 10px 10px;
+  height: 3.5em;
   text-align: center;
   border-radius: 0.5em;
   font-size: 1.4em;
@@ -83,13 +83,8 @@ picture {
 
 .button:hover {
   background-color: #666;
-  color: rgb(240, 240, 240);
-  text-decoration: none;
-}
-
-.button:hover {
-  background-color: grey;
   color: rgb(12, 12, 129);
+  text-decoration: none;
   cursor: pointer;
 }
 
