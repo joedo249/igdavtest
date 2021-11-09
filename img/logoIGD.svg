@@ -13,5 +13,5 @@
   <!--barre verticale noire en bas et à gauche du I rouge-->
   <rect x="29" y="82" width="12" height="30" fill="black" />
   <!--barre verticale transparente en haut et à gauche du I rouge-->
-  <rect x="29" y="25" width="12" height="25" fill="white" />
+  <rect x="29" y="25" width="12" height="22" fill="rgb(240, 240, 240, 0.9)" />
 </svg>

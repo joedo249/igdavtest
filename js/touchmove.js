@@ -4,7 +4,7 @@ let cl = console.log.bind(document);
 // value of body width on load (viewport)
 const body = document.querySelector("body");
 const bodyWidth = getComputedStyle(body).width;
-cl(bodyWidth);
+console.log("bodyWidth:", bodyWidth);
 const bodyWidthParse = parseInt(bodyWidth);
 //cl(bodyWidthParse);
 
@@ -18,21 +18,19 @@ if (bodyWidthParse > 480) {
   // maybe unneccesary as wrapper as no margin defined
   const wrapper = document.querySelector("#wrapper");
   const wrapperLeftMargin = getComputedStyle(wrapper).marginLeft;
-  //cl(wrapperLeftMargin);
   wrapperLeftMarginParse = parseInt(wrapperLeftMargin);
-  //cl(wrapperLeftMarginParse);
 
-  //freeze value of wrapper width
+  // freeze value of wrapper width
   const wrapperWidthParse = bodyWidthParse - wrapperLeftMarginParse;
   wrapper.style.width = parseInt(wrapperWidthParse) + "px";
   //cl(wrapper.style.width);
 
   // 1 - find which page is active
   let activeSlashPage = window.location.pathname;
-  //cl(activeSlashPage);
+  // cl(activeSlashPage);
   let slashPosition = activeSlashPage.lastIndexOf("/");
   let activePage = activeSlashPage.substring(slashPosition + 1);
-  cl(activePage);
+  // console.log("activePage:", activePage);
   // 2 - modify pages array
   // 2.1 original array
   let pages = [
@@ -48,7 +46,6 @@ if (bodyWidthParse > 480) {
   //2.3 active page get "btn active" class
   pages[currentIndex].class = "active";
   currentPage = pages[currentIndex].name;
-  //cl(currentPage);
 
   //2.3 touch events
   const touchZone = document.querySelector(".gestZone");
@@ -63,16 +60,13 @@ if (bodyWidthParse > 480) {
   function start_Touch(ev) {
     initialX = ev.touches[0].clientX;
     initialY = ev.touches[0].clientY;
-    //cl(initialX);
-    //cl(initialY);
 
     ev.preventDefault();
 
     // maximum time allowed from start to end of touch
-    //allowedTime = 2000;
+    // allowedTime = 2500;
     // record time when finger first touches surface
     startTime = new Date().getTime();
-    //cl(startTime);
   }
 
   function move_Touch(ev) {
@@ -160,7 +154,7 @@ if (bodyWidthParse > 480) {
       cl("vertical sliding");
       let coeffY = 800 / elapsedTime;
       window.scrollBy({
-        top: distY*coeffY,
+        top: distY * coeffY,
         left: 0,
         behavior: "smooth",
       });

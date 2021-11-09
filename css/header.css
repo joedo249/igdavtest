@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: space-between;
   height: 55px;
-  color: var(--main-bg-color);
 }
 
 #entete {

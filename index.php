@@ -30,12 +30,6 @@
 
     <?php include("igdnavbar.html"); ?>
 
-<!-- simulate click on first link to activate index.php on website opening
-https://www.javascripttutorial.net/javascript-dom/javascript-onload/
-https://stackoverflow.com/questions/31867229/how-can-i-execute-a-javascript-function-on-the-first-page-load
-using the window.session Storage stores the value only for that session.
--->
-
     <div class ="gestZone">
       <picture>
         <source media="(max-width: 479px)" srcset="img/arc-de-triomphe-78-mob.jpg">
