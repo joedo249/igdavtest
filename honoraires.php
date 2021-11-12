@@ -11,10 +11,10 @@
 	<meta name="theme-color" content="#0a4263">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
-	<link rel="stylesheet" href="css/stylesheet_body.css">
-	<link rel="stylesheet" href="css/stylesheet_header.css">
-	<link rel="stylesheet" href="css/stylesheet_navbar.css">
-	<link rel="stylesheet" href="css/stylesheet_footer.css">
+  <link rel="stylesheet" href="./css/body.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
@@ -45,10 +45,9 @@
 						<p>Dans tous les cas, le montant des honoraires est établi en accord avec le client.</p>
 					</article>
 			</section>
-			<button class="button">
-					<p class="inner-text"><a href="contact.php#contactForm">Demander un devis gratuit en ligne</a></p>
-			</button>
 		</div> <!-- /gestZone -->
+		
+		<button class="button" onclick="location.href='contact.php#contactForm'">Demander un devis gratuit en ligne</button>
 
 		<?php include("igdfooter.html"); ?>
 

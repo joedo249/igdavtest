@@ -11,11 +11,11 @@
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://www.google.com/recaptcha/api.js www.gstatic.com www.google.com">
-  <link rel="stylesheet" href="css/stylesheet_body.css">
-  <link rel="stylesheet" href="css/stylesheet_header.css">
-  <link rel="stylesheet" href="css/stylesheet_navbar.css">
-  <link rel="stylesheet" href="css/stylesheet_form.css">
-  <link rel="stylesheet" href="css/stylesheet_footer.css">
+  <link rel="stylesheet" href="./css/body.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
@@ -27,6 +27,7 @@
 
     <div class ="gestZone">
 		<script src="js/touchmove.js"></script>
+
       <picture>
         <source media="(max-width: 479px)" srcset="img/immeuble-7-mob.jpg">
         <source media="(min-width: 480px)" srcset="img/immeuble-7.jpg">
@@ -58,7 +59,9 @@
       </section> <!-- /section contact -->
 
       <?php require("constant.php"); ?>
-      
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
       <script>
       //mail sending validation  
         $(document).ready(function(e) {
@@ -97,7 +100,7 @@
       </script>
 
   <!--Load the JavaScript API-->
-      <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <!--contact form-->
       <div class="content" id="contactForm">
@@ -120,9 +123,6 @@
             <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
             <div id="mail-status"></div>
             <button type="Submit" id="send-message" style="clear:both;">Envoyer</button>
-            <!--
-            <button type="Submit" class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit' id="send-message" style="clear:both;">Envoyer</button>
-            -->
           </form>
           <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
         </div> <!-- formulaire -->

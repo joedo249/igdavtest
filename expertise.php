@@ -11,10 +11,10 @@
 	<meta name="theme-color" content="#0a4263">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
-	<link rel="stylesheet" href="css/stylesheet_body.css">
-	<link rel="stylesheet" href="css/stylesheet_header.css">
-	<link rel="stylesheet" href="css/stylesheet_navbar.css">
-	<link rel="stylesheet" href="css/stylesheet_footer.css">
+  <link rel="stylesheet" href="./css/body.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
@@ -69,9 +69,9 @@
 				<p>Le cabinet conseille et défend les <strong>entreprises</strong> comme les <strong>salariés</strong> ce qui lui donne une vision globale et objective des litiges en droit du travail.
 					Au delà de la connaissance des multiples textes régissant la matière, l'expérience des tribunaux confère aux avocats en droit du travail une place stratégique dans la gestion des relations humaines au sein de l'entreprise.</p>
 				<p>Notre cabinet conseille les entreprises notamment dans quelques secteurs dans lesquels nous avons acquis une expertise particulière.</p>
-				<button class="button">
-					<span class="inner-text"><a href="transport.php">En savoir plus !</a></span>
-				</button>
+	</div> <!-- /gestZone -->
+				
+				<button class="button" onclick="location.href='transport.php'">Pour en savoir plus !</button>
 
 				<h2>Les domaines d'intervention du cabinet sont notamment les suivants:</h2>
 				<ul>
@@ -98,7 +98,6 @@
 					<img src="img/logo-service-public-pro.png" alt="site Service Public" id="servpub-pro"></a>
 			</article>
 		</section>
-	</div> <!-- /gestZone -->
 
 	<?php include("igdfooter.html"); ?>
 

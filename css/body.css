@@ -21,7 +21,6 @@ body {
   font-family: Helvetica, sans-serif;
   text-align: justify;
   font-size: 70%;
-  color: rgb(40, 40, 40);
 }
 
 body h1 {
@@ -70,35 +69,27 @@ picture {
 
 .button {
   display: block;
+  margin: 2em auto;
+  padding: 5px 10px 10px 10px;
+  background-color: rgb(26, 133, 26);
+  color: white;
   height: 3.5em;
-  margin: 3em auto;
-  background-color: var(--title-color);
-  padding: 5px 5px 10px 5px;
   text-align: center;
   border-radius: 0.5em;
+  font-size: 1.4em;
+  transition: all 0.5s;
 }
 
 .button:hover {
-  background-color: var(--main-bg-color);
+  background-color: #666;
+  color: rgb(12, 12, 129);
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.inner-text {
-  color: white;
-  font-size: 1.3em;
-  vertical-align: middle;
-}
-
-.inner-text a {
+.button:visited {
   color: white;
   text-decoration: none;
-}
-
-.inner-text a:visited {
-  color: white;
-}
-
-.inner-text a:hover {
-  color: white;
 }
 
 /*  --- L'équipe --- Our People --- */
