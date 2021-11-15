@@ -41,29 +41,32 @@
     }
 
 		// modification of ini.php file during script execution
-		$from = 'noreply@igd-avocats.fr';
-		ini_set('SMTP', 'SSL0.ovh.net');
-		ini_set('smtp_port', '587'); //'smtp_port', '465' ??
-		ini_set('sendmail_from', $from);
+		$from = "noreply@igd-avocats.fr";
+		ini_set("SMTP", "SSL0.ovh.net");
+		ini_set("smtp_port", "587");
+		ini_set("sendmail_from", $from);
 
+    $to = "jldc249@gmail.com";
+		$fromName = "IGD Avocats";
+		$subject = "Prise de contact";
+    $message = "User Name: " . $user_name . "\r\n";
+    $message .= "User Email: " . $user_email . "\r\n";
+    $message .= "User Message: " . $user_message . "\r\n";
+		
 		// Set content-type header for sending HTML email 
-		$headers = 'MIME-Version: 1.0' . '\r\n'; 
-		$headers .= 'Content-type:text/html;charset=UTF-8' . '\r\n'; 
-
-		$fromName = 'IGD Avocats';
-    $to = 'info1@igd-avocats.fr, jldc249@gmail.com';
-		$subject = 'Prise de contact';
-    $headers = 'From: ' . $fromName . '<' . $from . '>\r\n';
-    $message = 'User Name: ' . $user_name . '\n';
-    $message .= 'User Email: ' . $user_email . '\n';
-    $message .= 'User Message: ' . $user_message . '\n';
+		$headers = "MIME-Version: 1.0" . "\r\n"; 
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n"; 
+    $headers .= "From: " . $fromName . "<" . $from . "> \r\n";
+		
+		// wordwrap long content
+		$message = wordwrap($message, 70, "\r\n");
 
 		// Send email
     if (mail($to, $subject, $message, $headers)) {
-			$output = json_encode(array('type' => 'message', 'text' => 'Bonjour ' . $user_name . ', votre message a bien été envoyé.'));
+			$output = json_encode(array("type" => "message", "text" => "Bonjour " . $user_name . ", votre message a bien été envoyé."));
 			die($output);
     } else {
-			$output = json_encode(array('type' => 'error', 'text' => 'Le message n\'a pas été envoyé, merci de contacter ' . $from));
+			$output = json_encode(array("type" => "error", "text" => "Le message n\'a pas été envoyé, merci de contacter " . $from));
 			die($output);
     }
 	}
