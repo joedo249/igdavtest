@@ -19,11 +19,10 @@
             "cwd": "${fileDirname}",
             "port": 9000
         }
-    ]
-}
+    ],
 
 //VSCode Browser Sync Extension
-{
+
     "browserSync.config" : {
         "browser" : ["chrome", "firefox"],
         "codeSync" : false
