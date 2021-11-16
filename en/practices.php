@@ -28,9 +28,9 @@
 		<script src="../js/en_touchmove.js"></script>
 		
 			<picture>
-				<source media="(max-width: 479px)" srcset="../img/fronton-palais-justice-7-mob.jpg">
+				<source media="(max-width: 479px)" srcset="../img/fronton-palais-78-mob.jpg">
 				<source media="(min-width: 480px)" srcset="../img/fronton-palais-justice-7.jpg">
-				<img src="../img/fronton-palais-justice-7-mob.jpg" alt="Palais de Justice de Paris" class="image">
+				<img src=".../img/fronton-palais-78-mob.jpg" alt="Palais de Justice de Paris" class="image">
 			</picture>
 
 			<article id="expertise">

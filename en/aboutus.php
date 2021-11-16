@@ -30,9 +30,9 @@
   <script src="../js/en_touchmove.js"></script>
 
     <picture>
-      <source media="(max-width: 479px)" srcset="../img/arc-de-triomphe-7-mob.jpg">
+      <source media="(max-width: 479px)" srcset="../img/arc-de-triomphe-78-mob.jpg">
       <source media="(min-width: 480px)" srcset="../img/arc-de-triomphe-7.jpg">
-      <img src="../img/arc-de-triomphe-7-mob.jpg" alt="L'Arc de Triomphe" class="image">
+      <img src="../img/arc-de-triomphe-78-mob.jpg" alt="L'Arc de Triomphe" class="image">
       <figcaption>Defending <br>your rights</figcaption>
     </picture>
 

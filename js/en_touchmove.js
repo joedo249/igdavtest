@@ -49,8 +49,8 @@ if (bodyWidthParse > 480) {
 
   //2.3 touch events
   const touchZone = document.querySelector(".gestZone");
-  touchZone.addEventListener("touchstart", start_Touch, { passive: false });
-  touchZone.addEventListener("touchmove", move_Touch, { passive: false });
+  touchZone.addEventListener("touchstart", start_Touch, { passive: true });
+  touchZone.addEventListener("touchmove", move_Touch, { passive: true });
   touchZone.addEventListener("touchend", end_Touch, false);
 
   // 3 Swipe Left / Right
