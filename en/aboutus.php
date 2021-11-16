@@ -11,20 +11,23 @@
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
-  <link rel="stylesheet" href="../css/stylesheet_body.css">
-  <link rel="stylesheet" href="../css/stylesheet_header.css">
-  <link rel="stylesheet" href="../css/stylesheet_navbar.css">
-  <link rel="stylesheet" href="../css/stylesheet_footer.css">
-  <link rel="stylesheet" href="../css/stylesheet_body_slidein.css">
+  <link rel="stylesheet" href="../css/body.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/body_slidein.css">
   <link rel="icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <div id="wrapper">
 
-    <?php include("en_header.php"); ?>
+  <?php include("./en_header.html"); ?>
 
-    <?php include("en_navbar.php"); ?>
+  <?php include("./en_navbar.html"); ?>
+
+  <div class ="gestZone">
+  <script src="../js/en_touchmove.js"></script>
 
     <picture>
       <source media="(max-width: 479px)" srcset="../img/arc-de-triomphe-7-mob.jpg">
@@ -53,12 +56,12 @@
           <li>Responsiveness and pragmatism</li>
           <li>Loyalty and ethics</li>
         </ul>
-        <button class="button">
-          <p class=inner-text><a href="team.php">Know more about us !</a></p>
-        </button>
       </article>
     </section>
+  </div> <!-- /gestZone -->
 
-    <?php include("en_footer.php"); ?>
+    <button class=button onclick="location.href='./team.php';">Know more about us !</button>
+
+    <?php include("./en_footer.html"); ?>
 
 </html>

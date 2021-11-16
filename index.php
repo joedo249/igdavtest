@@ -22,9 +22,9 @@
 <body>
   <div id="wrapper">
 
-  <?php include('igdheader.html'); ?>
+  <?php include('./igdheader.html'); ?>
 
-  <?php include("igdnavbar.html"); ?>
+  <?php include("./igdnavbar.html"); ?>
 
   <!-- simulate click on link to activate index.php on website opening
   https://www.javascripttutorial.net/javascript-dom/javascript-onload/
@@ -41,7 +41,8 @@
   </script>
 
 <div class ="gestZone">
-<script src="js/touchmove.js"></script>
+<script src="./js/touchmove.js"></script>
+
   <picture>
     <source media="(max-width: 479px)" srcset="img/arc-de-triomphe-7-mob.jpg">
     <source media="(min-width: 480px)" srcset="img/arc-de-triomphe-7.jpg">
@@ -64,6 +65,9 @@
 </div> <!-- /gestZone -->
 
   <button class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
+
+  <!-- the end parenthesis of include is red since the implementation of the <button class="button" onclick="" line
+  instead of the former <button class="button"> with <p class="inner-text"> -->
 
   <?php include('igdfooter.html'); ?>
 

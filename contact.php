@@ -26,7 +26,7 @@
     <?php include("igdnavbar.html"); ?>
 
     <div class ="gestZone">
-		<script src="js/touchmove.js"></script>
+		  <script src="./js/touchmove.js"></script>
 
       <picture>
         <source media="(max-width: 479px)" srcset="img/immeuble-7-mob.jpg">
@@ -50,17 +50,18 @@
               <span id="contactEmail">
                 <script src="js/contactEmailScript.js" async></script>
               </span></p>
-          </div>
-
-          <div id="invitForm">
-            <p>- ou en remplissant le formulaire ci-après</p>
-          </div>
-        </article>
-      </section> <!-- /section contact -->
+            </div>
+            
+            <div id="invitForm">
+              <p>- ou en remplissant le formulaire ci-après</p>
+            </div>
+          </article>
+        </section> <!-- /section contact -->
+      </div> <!-- /gestZone -->
 
       <?php require("constant.php"); ?>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
       <script>
       //mail sending validation  
@@ -99,10 +100,10 @@
         });
       </script>
 
-  <!--Load the JavaScript API-->
-  <script src='https://www.google.com/recaptcha/api.js'></script>
+      <!--Load the JavaScript API-->
+      <script src='https://www.google.com/recaptcha/api.js'></script>
 
-  <!--contact form-->
+      <!--contact form-->
       <div class="content" id="contactForm">
         <h1>Formulaire de contact</h1>
         <p>Envoyez votre message via ce formulaire et nous vous répondrons rapidement.</p>
@@ -170,8 +171,7 @@
           </div> <!-- /col-acces -->
         </div> <!-- /container -->
       </section> <!-- /section plan -->
-    </div> <!-- /gestZone -->
 
-  <?php include("igdfooter.html"); ?>
+    <?php include("igdfooter.html"); ?>
 
 </html>

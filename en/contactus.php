@@ -11,51 +11,55 @@
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://www.google.com/recaptcha/api.js www.gstatic.com www.google.com">
-  <link rel="stylesheet" href="../css/stylesheet_body.css">
-  <link rel="stylesheet" href="../css/stylesheet_header.css">
-  <link rel="stylesheet" href="../css/stylesheet_navbar.css">
-  <link rel="stylesheet" href="../css/stylesheet_form.css">
-  <link rel="stylesheet" href="../css/stylesheet_footer.css">
+  <link rel="stylesheet" href="../css/body.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
   <div id="wrapper">
 
-    <?php include("en_header.php"); ?>
+    <?php include("./en_header.html"); ?>
 
-    <?php include("en_navbar.php"); ?>
+    <?php include("en_navbar.html"); ?>
 
-    <picture>
-      <source media="(max-width: 479px)" srcset="../img/immeuble-7-mob.jpg">
-      <source media="(min-width: 480px)" srcset="../img/immeuble-7.jpg">
-      <img src="../img/immeuble-7-mob.jpg" alt="immeuble 19 avenue Victor Hugo Paris" class="image">
-    </picture>
+    <div class ="gestZone">
+		  <script src="../js/en_touchmove.js"></script>
+ 
+      <picture>
+        <source media="(max-width: 479px)" srcset="../img/immeuble-7-mob.jpg">
+        <source media="(min-width: 480px)" srcset="../img/immeuble-7.jpg">
+        <img src="../img/immeuble-7-mob.jpg" alt="immeuble 19 avenue Victor Hugo Paris" class="image">
+      </picture>
 
-    <section id="contact">
-      <article>
-        <p><strong>Our office is located at 19 avenue Victor Hugo 75116 Paris</strong></p><br>
-        <p>Our office is open by appointment only. The telephone reception is open from Monday to Friday from 9:30 AM to 1:00 PM.</p>
-        <p>Let us help you determine the best course of action to resolve your law issue. To learn more about what our lawyers can do for you :<br><br></p>
+      <section id="contact">
+        <article>
+          <p><strong>Our office is located at 19 avenue Victor Hugo 75116 Paris</strong></p><br>
+          <p>Our office is open by appointment only. The telephone reception is open from Monday to Friday from 9:30 AM to 1:00 PM.</p>
+          <p>Let us help you determine the best course of action to resolve your law issue. To learn more about what our lawyers can do for you :<br><br></p>
 
-        <div id="contactTel">
-          <p>- call :
-            <a href="tel:+33143181025">+33 143 18 10 25</a></p>
-        </div>
+          <div id="contactTel">
+            <p>- call :
+              <a href="tel:+33143181025">+33 143 18 10 25</a></p>
+          </div>
 
-        <div id="parMail">
-          <p>- email:
-            <span id="contactEmail">
-              <script src="../js/contactEmailScript.js" async></script>
-            </span></p>
-        </div>
+          <div id="parMail">
+            <p>- email:
+              <span id="contactEmail">
+                <script src="../js/contactEmailScript.js" async></script>
+              </span></p>
+          </div>
 
-        <div id="invitForm">
-          <p>- or by completing the form below</p>
-        </div>
+          <div id="invitForm">
+            <p>- or by completing the form below</p>
+          </div>
 
-        <p><br>All information you give will be kept confidential and not passed to anyone else.</p>
-      </article>
-    </section>
+          <p><br>All information you give will be kept confidential and not passed to anyone else.</p>
+        </article>
+      </section>
+    </div> <!-- /gestZone -->
 
     <?php
     require('../constant.php');
@@ -106,15 +110,15 @@
         <form id="frmContact" action="" method="POST" novalidate="novalidate">
           <label for="contact_name">Name:</label>
           <div class="field">
-            <input type="text" id="contact_name" name="name" placeholder="enter your name here" title="Please enter your name" class="required" aria-required="true" required>
+            <input type="text" id="contact_name" name="name" placeholder="enter your name" title="Please enter your name" class="required" aria-required="true" required>
           </div>
           <label for="contact_email">Email:</label>
           <div class="field">
-            <input type="email" id="contact_email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
+            <input type="email" id="contact_email" name="email" placeholder="enter your email address" title="Please enter your email address" class="required email" aria-required="true" required>
           </div>
           <label for="contact_message">Message:</label>
           <div class="field">
-            <textarea id="contact_message" name="message" placeholder="enter your message here"></textarea>
+            <textarea id="contact_message" name="message" placeholder="enter your message"></textarea>
           </div>
           <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
           <div id="mail-status"></div>
@@ -166,7 +170,7 @@
 
   </div> <!-- end wrapper -->
 
-  <?php include("en_footer.php"); ?>
+  <?php include("./en_footer.html"); ?>
 
 </body>
 

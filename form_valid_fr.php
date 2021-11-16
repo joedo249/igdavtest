@@ -41,13 +41,13 @@
     }
 
 		// modification of ini.php file during script execution
-		$from = "noreply@igd-avocats.fr";
+		$from = $user_email;
 		ini_set("SMTP", "SSL0.ovh.net");
 		ini_set("smtp_port", "587");
 		ini_set("sendmail_from", $from);
 
-    $to = "jldc249@gmail.com";
-		$fromName = "IGD Avocats";
+    $to = "info1@igd-avocats.fr";
+		$fromName = "Site IGD Avocats";
 		$subject = "Prise de contact";
     $message = "User Name: " . $user_name . "\r\n";
     $message .= "User Email: " . $user_email . "\r\n";
