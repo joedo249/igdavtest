@@ -1,7 +1,8 @@
 # igdavtest
 
 repo de test pour le site igd-avocats.fr
-site bilingue
 mobile first
+site bilingue
 Content Security Policy
-Attempt to swipe pages
+pages swipe
+reply to reCaptcha message

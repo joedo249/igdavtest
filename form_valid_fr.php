@@ -35,13 +35,13 @@
 			$resp = $recaptcha->verify($gRecaptchaResponse);
 
 			if (!$resp->isSuccess()) {
-				$output = json_encode(array('type' => 'error', 'text' => '<b>Captcha</b> Validation Required!'));
+				$output = json_encode(array('type' => 'error', 'text' => '<b>Captcha</b> Validation Requise !'));
 				die($output);
 			}
     }
 
 		// modification of ini.php file during script execution
-		$from = $user_email;
+		$from = "info@igd-avocats.fr";
 		ini_set("SMTP", "SSL0.ovh.net");
 		ini_set("smtp_port", "587");
 		ini_set("sendmail_from", $from);
@@ -59,14 +59,24 @@
     $headers .= "From: " . $fromName . "<" . $from . "> \r\n";
 		
 		// wordwrap long content
-		$message = wordwrap($message, 70, "\r\n");
+		$message = wordwrap($message, 60, "\r\n");
+
+		// reply information
+		$replyTo = $user_email;
+		$replyccName1 = "secretariat@igd-avocats.fr";
+		$replyFromName = "IGD Avocats";
+		$replySubject = "Prise de contact";
+		$replyMessage = "Votre message a bien été reçu. Cordialement.";
+		$replyHeaders = "From: " . $replyfromName . "<" . $from . "> \r\n";
+		$replyHeaders .= "Cc: claire.dousset@igd-avocats.fr"; 
 
 		// Send email
     if (mail($to, $subject, $message, $headers)) {
 			$output = json_encode(array("type" => "message", "text" => "Bonjour " . $user_name . ", votre message a bien été envoyé."));
+			mail($replyTo, $replySubject, $replyMessage, $replyHeaders);
 			die($output);
     } else {
-			$output = json_encode(array("type" => "error", "text" => "Le message n\'a pas été envoyé, merci de contacter " . $from));
+			$output = json_encode(array("type" => "error", "text" => "Le message n\'a pas été envoyé, merci de nous contacter par téléphone."));
 			die($output);
     }
 	}
