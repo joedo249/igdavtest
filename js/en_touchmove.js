@@ -1,15 +1,11 @@
 // quick console.log
 let cl = console.log.bind(document);
 
-// value of body width on load (viewport)
-const body = document.querySelector("body");
-const bodyWidth = getComputedStyle(body).width;
-console.log("bodyWidth:", bodyWidth);
-const bodyWidthParse = parseInt(bodyWidth);
-//cl(bodyWidthParse);
+const bodyWidth = window.innerWidth;
+console.log("bodyWidth", bodyWidth);
 
 // operate touchmove.js only on mobile devices (width < 480pwx)
-if (bodyWidthParse > 480) {
+if (bodyWidthParse >= 480) {
   console.log("it's a large screen");
 } else {
   console.log("it's a mobile device");
@@ -23,7 +19,7 @@ if (bodyWidthParse > 480) {
   // freeze value of wrapper width
   const wrapperWidthParse = bodyWidthParse - wrapperLeftMarginParse;
   wrapper.style.width = parseInt(wrapperWidthParse) + "px";
-  //cl(wrapper.style.width);
+  // console.log("wrapper.style.width", wrapper.style.width);
 
   // 1 - find which page is active
   let activeSlashPage = window.location.pathname;
@@ -43,14 +39,15 @@ if (bodyWidthParse > 480) {
   //2.2 get current index of current Page (active)
   let currentIndex = pages.findIndex((page) => page.name === activePage);
   //cl("current index: " + currentIndex);
+
   //2.3 active page get "btn active" class
   pages[currentIndex].class = "active";
   currentPage = pages[currentIndex].name;
 
   //2.3 touch events
   const touchZone = document.querySelector(".gestZone");
-  touchZone.addEventListener("touchstart", start_Touch, { passive: true });
-  touchZone.addEventListener("touchmove", move_Touch, { passive: true });
+  touchZone.addEventListener("touchstart", start_Touch, { passive: false });
+  touchZone.addEventListener("touchmove", move_Touch, { passive: false });
   touchZone.addEventListener("touchend", end_Touch, false);
 
   // 3 Swipe Left / Right

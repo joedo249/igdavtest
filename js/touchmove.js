@@ -21,7 +21,6 @@ if (bodyWidth >= 480) {
   wrapper.style.width = parseInt(wrapperWidthParse) + "px";
   // console.log("wrapper.style.width", wrapper.style.width);
 
-
   // 1 - find which page is active
   let activeSlashPage = window.location.pathname;
   // console.log("activeSlashPage", activeSlashPage);

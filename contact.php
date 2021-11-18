@@ -34,22 +34,23 @@
         <img src="./img/immeuble-78-mob.jpg" alt="immeuble 19 avenue Victor Hugo Paris" class="image">
       </picture>
 
-      <section id="contact">
-        <article>
-          <p id="adressePostale"><b>Le cabinet est situé 19 avenue Victor Hugo 75116 PARIS</b></p>
-          <p>Le cabinet reçoit uniquement sur rendez-vous. L'accueil téléphonique est ouvert du lundi au vendredi de 9h30 à 13h00.<br><br>
-            Pour prendre rendez-vous ou avoir des renseignements complémentaires, n'hésitez pas à nous contacter<br></p>
+      <main>
+        <section id="contact">
+          <article>
+            <p id="adressePostale"><b>Le cabinet est situé 19 avenue Victor Hugo 75116 PARIS</b></p>
+            <p>Le cabinet reçoit uniquement sur rendez-vous. L'accueil téléphonique est ouvert du lundi au vendredi de 9h30 à 13h00.<br><br>
+              Pour prendre rendez-vous ou avoir des renseignements complémentaires, n'hésitez pas à nous contacter<br></p>
 
-          <div id="contactTel">
-            <p>- par téléphone :
-              <a href="tel:+33143181025">01 43 18 10 25</a></p>
-          </div>
+            <div id="contactTel">
+              <p>- par téléphone :
+                <a href="tel:+33143181025">01 43 18 10 25</a></p>
+            </div>
 
-          <div id="parMail">
-            <p>- par mail :
-              <span id="contactEmail">
+            <div id="parMail">
+              <p>- par mail :
+                <span id="contactEmail">
                 <script src="js/contactEmailScript.js" async></script>
-              </span></p>
+                </span></p>
             </div>
             
             <div id="invitForm">
@@ -57,7 +58,8 @@
             </div>
           </article>
         </section> <!-- /section contact -->
-      </div> <!-- /gestZone -->
+      </main>
+    </div> <!-- /gestZone -->
 
       <?php require("constant.php"); ?>
 

@@ -32,18 +32,20 @@
 			<img src="../img/bureau-78-mob.jpg" alt="office of Isabelle Guyader Dousset" class="image">
 		</picture>
 
-		<section>
-			<aside>
-				<img src="../img/logo-avocats-paris" alt="ordre des avocats Paris" id="avocats_paris">
-			</aside>
-			<article id="honoraires">
-				<h1>Transparent Fees</h1>
-				<p>The firm's relationship of trust with its clients is based on <strong>complete transparency</strong> with regard to both the reporting of actions made and the billing items.</p>
-				<p>In case of need for a written consultation, a fee will be determined in advance depending on the legal difficulty of the problem.</p>
-				<p>If the client decides, in agreement with the lawyer, that a procedure must be initiated or continued, in demand or in defense, a fee agreement will be signed.</p>
-				<p>In all cases, the amount of the fees is established in agreement with the customer.</p>
-			</article>
-		</section>
+		<main>
+			<section>
+				<aside>
+					<img src="../img/logo-avocats-paris" alt="ordre des avocats Paris" id="avocats_paris">
+				</aside>
+				<article id="honoraires">
+					<h1>Transparent Fees</h1>
+					<p>The firm's relationship of trust with its clients is based on <strong>complete transparency</strong> with regard to both the reporting of actions made and the billing items.</p>
+					<p>In case of need for a written consultation, a fee will be determined in advance depending on the legal difficulty of the problem.</p>
+					<p>If the client decides, in agreement with the lawyer, that a procedure must be initiated or continued, in demand or in defense, a fee agreement will be signed.</p>
+					<p>In all cases, the amount of the fees is established in agreement with the customer.</p>
+				</article>
+			</section>
+		</main>
 	</div> <!-- /gestZone -->
 	
 	<button class="button" onclick="location.href='contactus.php#contactForm';">Contact us on line for a free quote</button>

@@ -34,31 +34,33 @@
         <img src="../img/immeuble-78-mob.jpg" alt="immeuble 19 avenue Victor Hugo Paris" class="image">
       </picture>
 
-      <section id="contact">
-        <article>
-          <p><strong>Our office is located at 19 avenue Victor Hugo 75116 Paris</strong></p><br>
-          <p>Our office is open by appointment only. The telephone reception is open from Monday to Friday from 9:30 AM to 1:00 PM.</p>
-          <p>Let us help you determine the best course of action to resolve your law issue. To learn more about what our lawyers can do for you :<br><br></p>
+      <main>
+        <section id="contact">
+          <article>
+            <p><strong>Our office is located at 19 avenue Victor Hugo 75116 Paris</strong></p><br>
+            <p>Our office is open by appointment only. The telephone reception is open from Monday to Friday from 9:30 AM to 1:00 PM.</p>
+            <p>Let us help you determine the best course of action to resolve your law issue. To learn more about what our lawyers can do for you :<br><br></p>
 
-          <div id="contactTel">
-            <p>- call :
-              <a href="tel:+33143181025">+33 143 18 10 25</a></p>
-          </div>
+            <div id="contactTel">
+              <p>- call :
+                <a href="tel:+33143181025">+33 143 18 10 25</a></p>
+            </div>
 
-          <div id="parMail">
-            <p>- email:
-              <span id="contactEmail">
+            <div id="parMail">
+              <p>- email:
+                <span id="contactEmail">
                 <script src="../js/contactEmailScript.js" async></script>
-              </span></p>
-          </div>
+                </span></p>
+            </div>
 
-          <div id="invitForm">
-            <p>- or by completing the form below</p>
-          </div>
+            <div id="invitForm">
+              <p>- or by completing the form below</p>
+            </div>
 
-          <p><br>All information you give will be kept confidential and not passed to anyone else.</p>
-        </article>
-      </section>
+            <p><br>All information you give will be kept confidential and not passed to anyone else.</p>
+          </article>
+        </section>
+      </main>
     </div> <!-- /gestZone -->
 
     <?php

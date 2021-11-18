@@ -24,27 +24,28 @@
 
   <?php include("./en_navbar.html"); ?>
 
-  <article>
-    <h1>Our People</h1>
-    <p>Within a human-sized organization, IGD Law Firm counts two lawyers and a legal assistant.<br><br></p>
-  </article>
+  <main>
+    <article>
+      <h1>Our People</h1>
+      <p>Within a human-sized organization, IGD Law Firm counts two lawyers and a legal assistant.<br><br></p>
+    </article>
 
-  <section id="equipe">
-    <div class="portrait" id="portrait-isa">
-      <img src="../img/portrait-isa-4.jpg" alt="Isabelle Guyader Dousset" class="photoID">
-      <p class="presentation"><b>Isabelle GUYADER DOUSSET</b>, attorney at the Paris Bar, member of the Paris Bar Association's Open Law Commission, former lecturer at Paris II University (Assas). After having practiced in two renowned Parisian firms, she created her own law firm in 1995. Her areas of expertise are primarily labor law and social security law.<br><br>
-        Isabelle is the correspondent of several Human Resources firms and national Accounting Networks.<br><br><br></p>
-    </div>
+    <section id="equipe">
+      <div class="portrait" id="portrait-isa">
+        <img src="../img/portrait-isa-4.jpg" alt="Isabelle Guyader Dousset" class="photoID">
+        <p class="presentation"><b>Isabelle GUYADER DOUSSET</b>, attorney at the Paris Bar, member of the Paris Bar Association's Open Law Commission, former lecturer at Paris II University (Assas). After having practiced in two renowned Parisian firms, she created her own law firm in 1995. Her areas of expertise are primarily labor law and social security law.<br><br>
+          Isabelle is the correspondent of several Human Resources firms and national Accounting Networks.<br><br><br></p>
+      </div>
 
-    <div class="portrait" id="portrait-claire">
-      <img src="../img/portrait-claire-5.jpg" alt="Claire Dousset" class="photoID">
-      <p class="presentation"><b>Claire DOUSSET</b>, lawyer at the Paris Bar, graduated in English of Legal Communication at ISIT (Institute of Interpretation and Translation), holder of a degree in Spanish Law obtained at Las Comillas University of Madrid.<br>
-        She works in labor law, criminal law and family law. Claire is fully bilingual French-English.<br>
-        <br><br></p>
-    </div>
+      <div class="portrait" id="portrait-claire">
+        <img src="../img/portrait-claire-5.jpg" alt="Claire Dousset" class="photoID">
+        <p class="presentation"><b>Claire DOUSSET</b>, lawyer at the Paris Bar, graduated in English of Legal Communication at ISIT (Institute of Interpretation and Translation), holder of a degree in Spanish Law obtained at Las Comillas University of Madrid.<br>
+          She works in labor law, criminal law and family law. Claire is fully bilingual French-English.<br>
+          <br><br></p>
+      </div>
 
-    </section>
-
+      </section>
+    </main>
     <?php include("./en_footer.html"); ?>
 
 </html>

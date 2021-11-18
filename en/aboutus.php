@@ -36,28 +36,30 @@
       <figcaption>Defending <br>your rights</figcaption>
     </picture>
 
-    <section>
-      <article id="cabinet">
-        <h1>About Us</h1>
-        <p>We are an approachable, professional and responsive law firm providing excellent value and support to our clients.</p>
-        <p>At IGD Law Firm, we are devoted to helping our clients by offering them both comprehensive legal counsel and litigation services, ever since the practice was founded in 1995. We steer our clients through the legal process with expertise and industry knowledge, all built on a long legacy of success.</p>
-        <p>The strength of our firm is based on an in-depth knowledge of its core business and the diversity of its clientele, which ranges from large international groups to individuals.</p>
-        <h2>Counseling and litigation activity</h2>
-        <p>We assist clients with practical solutions covering all aspects of employment-related legal matters. The quality of our law practice earns us loyalty from our clients.</p>
-        <p>Our trial experience allows us to provide smart and cost-effective solutions.</p>
-        <p>Our attorneys represent and assist clients throughout the country.</p>
-        <h2>Responsiveness and flexibility</h2>
-        <p>We are committed to being responsive to any demand from our customers and to setting up a direct and personalized relationship with them.</p>
-        <p>Our firm focuses on delivering strategic counsel, as well as representing our clients’ interests before the courts in the areas that we have mastered to ensure a high level of rigor and competence.</p>
-        <p>The financial challenges of today's business environment require specialized and well-developed skills. If we believe we don’t qualify to defend a client’s best interest, we propose to recommend them to a firm which specializes in the matter.</p>
-        <p>Through our role of advice, assistance and defense, we are committed to respecting the values of:</p>
-        <ul>
-          <li>Availability</li>
-          <li>Responsiveness and pragmatism</li>
-          <li>Loyalty and ethics</li>
-        </ul>
-      </article>
-    </section>
+    <main>
+      <section>
+        <article id="cabinet">
+          <h1>About Us</h1>
+          <p>We are an approachable, professional and responsive law firm providing excellent value and support to our clients.</p>
+          <p>At IGD Law Firm, we are devoted to helping our clients by offering them both comprehensive legal counsel and litigation services, ever since the practice was founded in 1995. We steer our clients through the legal process with expertise and industry knowledge, all built on a long legacy of success.</p>
+          <p>The strength of our firm is based on an in-depth knowledge of its core business and the diversity of its clientele, which ranges from large international groups to individuals.</p>
+          <h2>Counseling and litigation activity</h2>
+          <p>We assist clients with practical solutions covering all aspects of employment-related legal matters. The quality of our law practice earns us loyalty from our clients.</p>
+          <p>Our trial experience allows us to provide smart and cost-effective solutions.</p>
+          <p>Our attorneys represent and assist clients throughout the country.</p>
+          <h2>Responsiveness and flexibility</h2>
+          <p>We are committed to being responsive to any demand from our customers and to setting up a direct and personalized relationship with them.</p>
+          <p>Our firm focuses on delivering strategic counsel, as well as representing our clients’ interests before the courts in the areas that we have mastered to ensure a high level of rigor and competence.</p>
+          <p>The financial challenges of today's business environment require specialized and well-developed skills. If we believe we don’t qualify to defend a client’s best interest, we propose to recommend them to a firm which specializes in the matter.</p>
+          <p>Through our role of advice, assistance and defense, we are committed to respecting the values of:</p>
+          <ul>
+            <li>Availability</li>
+            <li>Responsiveness and pragmatism</li>
+            <li>Loyalty and ethics</li>
+          </ul>
+        </article>
+      </section>
+    </main>
   </div> <!-- /gestZone -->
 
     <button class=button onclick="location.href='./team.php';">Know more about us !</button>

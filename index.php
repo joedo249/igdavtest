@@ -26,11 +26,7 @@
 
   <?php include("./igdnavbar.html"); ?>
 
-  <!-- simulate click on link to activate index.php on website opening
-  https://www.javascripttutorial.net/javascript-dom/javascript-onload/
-  https://stackoverflow.com/questions/31867229/how-can-i-execute-a-javascript-function-on-the-first-page-load
-  using the window.session Storage stores the value only for that session.
-  -->
+  <!-- simulate click on link to activate index.php on website opening. -->
   <script>
     window.onload = function() {
       if (!("hasRunBefore" in sessionStorage)) {
@@ -50,23 +46,25 @@
     <figcaption>La défense <br>de vos droits</figcaption>
   </picture>
 
-  <section>
-    <article id="cabinet">
-      <h1>Le cabinet IGD Avocats</h1>
-      <p>Ceci est la version test. Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
-      <p>La force de notre cabinet repose sur une grande maîtrise de son cœur de métier et sur la diversité de sa clientèle qui va des grandes entreprises aux particuliers.</p>
-      <h2>Conseil et activité contentieuse</h2>
-      <p>La pratique quotidienne des Juridictions nous permet d'offrir un conseil pertinent intégrant le risque contentieux, alors que notre activité de conseil conforte, dans nos domaines de compétence, la qualité de l'argumentation qui sera développée à la barre.</p>
-      <h2>Disponibilité et souplesse</h2>
-      <p>Le choix de consacrer notre pratique à certains aspects du droit nous permet d'offrir une prestation aussi efficace et productive que possible et ainsi d'en optimiser le coût.</p>
-      <p>Nous avons à cœur d'être réactifs face aux demandes de nos clients.Si nous pensons que nous ne sommes pas en mesure de défendre au mieux vos intérêts, nous vous en informons et pouvons vous diriger vers un cabinet spécialisé.</p>
-    </article>
-  </section>
+  <main>
+    <section>
+      <article id="cabinet">
+        <h1>Le cabinet IGD Avocats</h1>
+        <p>Ceci est la version test. Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
+        <p>La force de notre cabinet repose sur une grande maîtrise de son cœur de métier et sur la diversité de sa clientèle qui va des grandes entreprises aux particuliers.</p>
+        <h2>Conseil et activité contentieuse</h2>
+        <p>La pratique quotidienne des Juridictions nous permet d'offrir un conseil pertinent intégrant le risque contentieux, alors que notre activité de conseil conforte, dans nos domaines de compétence, la qualité de l'argumentation qui sera développée à la barre.</p>
+        <h2>Disponibilité et souplesse</h2>
+        <p>Le choix de consacrer notre pratique à certains aspects du droit nous permet d'offrir une prestation aussi efficace et productive que possible et ainsi d'en optimiser le coût.</p>
+        <p>Nous avons à cœur d'être réactifs face aux demandes de nos clients.Si nous pensons que nous ne sommes pas en mesure de défendre au mieux vos intérêts, nous vous en informons et pouvons vous diriger vers un cabinet spécialisé.</p>
+      </article>
+    </section>
+  </main>
 </div> <!-- /gestZone -->
 
   <button class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
 
-  <!-- the end parenthesis of include is red since the implementation of the <button class="button" onclick="" line
+  <!-- the end parenthesis of include is red since the implementation of <button class="button" onclick=""... line
   instead of the former <button class="button"> with <p class="inner-text"> -->
 
   <?php include('igdfooter.html'); ?>
