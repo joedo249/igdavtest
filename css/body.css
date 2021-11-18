@@ -52,13 +52,12 @@ body ul {
 }
 
 #wrapper {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0 2px;
   background-color: rgb(240, 240, 240);
 }
 
 main {
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 .image {

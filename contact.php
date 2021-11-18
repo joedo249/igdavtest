@@ -113,15 +113,15 @@
           <form id="frmContact" action="?" method="POST" novalidate="novalidate">
             <label for="contact_name">Nom :</label>
             <div class="field">
-              <input type="text" id="contact_name" name="name" placeholder="entrez votre nom ici" class="required" aria-required="true" required>
+              <input type="text" id="contact_name" name="name" placeholder="entrez votre nom" class="required" aria-required="true" required>
             </div>
             <label for="contact_email">Email :</label>
             <div class="field">
-              <input type="email" id="contact_email" name="email" placeholder="entrez votre adresse mail ici" class="required email" aria-required="true" required>
+              <input type="email" id="contact_email" name="email" placeholder="entrez votre adresse mail" class="required email" aria-required="true" required>
             </div>
             <label for="contact_message">Message :</label>
             <div class="field">
-              <textarea id="contact_message" name="message" placeholder="entrez votre message ici"></textarea>
+              <textarea id="contact_message" name="message" placeholder="entrez votre message"></textarea>
             </div>
             <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
             <div id="mail-status"></div>

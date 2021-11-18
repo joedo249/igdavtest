@@ -2,10 +2,10 @@
 let cl = console.log.bind(document);
 
 const bodyWidth = window.innerWidth;
-console.log("bodyWidth", bodyWidth);
+console.log("bodyWidth:", bodyWidth);
 
 // operate touchmove.js only on mobile devices (width < 480pwx)
-if (bodyWidthParse >= 480) {
+if (bodyWidth >= 480) {
   console.log("it's a large screen");
 } else {
   console.log("it's a mobile device");
@@ -17,7 +17,7 @@ if (bodyWidthParse >= 480) {
   wrapperLeftMarginParse = parseInt(wrapperLeftMargin);
 
   // freeze value of wrapper width
-  const wrapperWidthParse = bodyWidthParse - wrapperLeftMarginParse;
+  const wrapperWidthParse = bodyWidth - wrapperLeftMarginParse;
   wrapper.style.width = parseInt(wrapperWidthParse) + "px";
   // console.log("wrapper.style.width", wrapper.style.width);
 
@@ -82,7 +82,7 @@ if (bodyWidthParse >= 480) {
       containLeftMarginParse = wrapperLeftMarginParse - diffX;
       cl(containLeftMarginParse);
       wrapper.style.marginLeft =
-        Math.min(containLeftMarginParse, bodyWidthParse) + "px";
+        Math.min(containLeftMarginParse, bodyWidth) + "px";
       cl(wrapper.style.marginLeft);
     }
     cl(ev.touches, ev.type);

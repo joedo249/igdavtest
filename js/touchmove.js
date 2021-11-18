@@ -2,7 +2,7 @@
 let cl = console.log.bind(document);
 
 const bodyWidth = window.innerWidth;
-console.log("bodyWidth", bodyWidth);
+console.log("bodyWidth:", bodyWidth);
 
 // operate touchmove.js only on mobile devices (width < 480pwx)
 if (bodyWidth >= 480) {
