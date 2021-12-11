@@ -62,7 +62,7 @@
   </main>
 </div> <!-- /gestZone -->
 
-  <button class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
+  <button type="button" class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
 
   <!-- the end parenthesis of include is red since the implementation of <button class="button" onclick=""... line
   instead of the former <button class="button"> with <p class="inner-text"> -->

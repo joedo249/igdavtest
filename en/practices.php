@@ -29,7 +29,7 @@
 		
 			<picture>
 				<source media="(max-width: 479px)" srcset="../img/fronton-palais-78-mob.jpg">
-				<source media="(min-width: 480px)" srcset="../img/fronton-palais-justice-7.jpg">
+				<source media="(min-width: 480px)" srcset="../img/fronton-palais-7.jpg">
 				<img src=".../img/fronton-palais-78-mob.jpg" alt="Palais de Justice de Paris" class="image">
 			</picture>
 

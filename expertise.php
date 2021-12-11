@@ -99,7 +99,7 @@
 		</main>
 	</div> <!-- /gestZone -->
 			
-		<button class="button" onclick="location.href='transport.php';">Pour en savoir plus !</button>
+		<button type="button" class="button" onclick="location.href='transport.php';">Pour en savoir plus !</button>
 	
 		<?php include("igdfooter.html"); ?>
 

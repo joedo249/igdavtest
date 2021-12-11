@@ -49,7 +49,7 @@
 			</main>
 		</div> <!-- /gestZone -->
 		
-		<button class="button" onclick="location.href='contact.php#contactForm';">Demander un devis gratuit en ligne</button>
+		<button type="button" class="button" onclick="location.href='contact.php#contactForm';">Demander un devis gratuit en ligne</button>
 
 		<?php include("igdfooter.html"); ?>
 
