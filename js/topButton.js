@@ -1,22 +1,24 @@
-$(document).ready(function () {
-  // Add return on top button
-  $("body").append(
-    '<div type="button" class="returnTop" title="Retour haut">&nbsp;</div>'
-  );
+// Get the button
+returnButton = document.querySelector('.returnTop');
 
-  // On button click, scroll up to top
-  $(".returnTop").click(function () {
-    $("html,body").animate(
-      {
-        scrollTop: 0,
-      },
-      "slow"
-    );
-  });
-});
+// If on top fade the bouton out, else fade it in
+window.onscroll = function () {
+  scrollFunction();
+};
 
-$(window).scroll(function () {
-  // If on top fade the bouton out, else fade it in
-  if ($(window).scrollTop() < 200) $(".returnTop").fadeOut();
-  else $(".returnTop").fadeIn();
-});
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    returnButton.style.display = 'block';
+  } else {
+    returnButton.style.display = 'none';
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}

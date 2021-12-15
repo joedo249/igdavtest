@@ -1,9 +1,33 @@
 /* Feuille de style applicable à toutes les pages
-Taille normale par défaut ("mobile first")  */
+Taille normale par défaut ("mobile first")
+*/
+
+/* || CSS reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+*/
+
+/* || General styles */
 
 :root {
   --main-bg-color: #0a4263;
   --title-color: #21639f;
+}
+
+/* RESET RULES 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --lightgray: #efefef;
+  --blue: steelblue;
+  --white: #fff;
+  --black: rgba(0, 0, 0, 0.8);
+  --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
 }
 
 * {
@@ -12,13 +36,17 @@ Taille normale par défaut ("mobile first")  */
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin-top: 0px;
   max-width: 1200px;
   min-width: 360px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Verdana, sans-serif;
   text-align: justify;
   font-size: 75%;
 }
@@ -255,7 +283,7 @@ section {
 }
 
 /* Attention, media queries après le reste du code */
-/* --- Media queries pour tablets --- */
+/* --- Media queries for tablets --- */
 
 @media screen and (min-width: 480px) {
   body {
@@ -277,7 +305,7 @@ section {
   }
 }
 
-/*  Media queries pour desktop */
+/*  Media queries for desktop */
 
 @media screen and (min-width: 768px) {
   body {
@@ -288,12 +316,12 @@ section {
     flex-direction: row;
   }
 
-  /*--- Accueil -- About Us --- */
+  /* --- Mq --- Accueil -- About Us --- */
   figcaption br {
     display: none;
   }
 
-  /*  --- L'équipe --- Our People --- */
+  /* --- Mq --- L'équipe --- Our People --- */
 
   #equipe {
     display: flex;
@@ -317,7 +345,7 @@ section {
     width: 45%;
   }
 
-  /*--- Expertise -- Practices --*/
+  /* --- Mq --- Expertise -- Practices --*/
 
   .expert {
     display: flex;
@@ -343,13 +371,13 @@ section {
     flex-grow: 2;
   }
 
-  /* --- Honoraires--- Fees */
+  /* --- Mq --- Honoraires--- Fees */
   aside {
     display: block;
   }
-}
 
-/*--- Contact ---*/
-.station {
-  margin-left: 38px;
+  /* --- Mq --- Contact ---*/
+  .station {
+    margin-left: 38px;
+  }
 }

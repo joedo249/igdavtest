@@ -1,131 +1,167 @@
 footer {
-    margin-top: 30px;
-    padding-bottom: 20px;
-    border-top: 3px solid var(--main-bg-color);
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-top: 3px solid var(--main-bg-color);
 }
 
 footer ul {
-    position: relative;
-    right: 20px;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding-inline-start: 0px;
+  position: relative;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-inline-start: 0px;
 }
 
 footer li {
-    font-size: 1em;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+  color: var(--main-bg-color);
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
 }
 
 footer a:link {
-    color: var(--main-bg-color);
-    font-weight: bold;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer a:visited {
-    color: var(--main-bg-color);
+  color: var(--main-bg-color);
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
 }
+
+/* plan du site */
+
+.modal-header h2 {
+  margin-top: 1rem;
+  padding-right: 20px;
+  font-size: 2.5rem;
+}
+
+.modal-content h3 {
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+}
+
+.modal-content h4 {
+  font-size: 1.2rem;
+  margin: 0 0 5px 10px;
+}
+
+/* MODAL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: var(--black);
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.35s ease-in;
+}
+
+.modal.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-dialog {
+  position: relative;
+  max-width: 800px;
+  max-height: 80vh;
+  border-radius: 5px;
+  background: var(--white);
+  overflow: auto;
+  cursor: default;
+}
+
+.modal-dialog > * {
+  padding: 1rem;
+}
+
+.modal-header,
+.modal-footer {
+  background: var(--lightgray);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header .close-modal {
+  font-size: 1.5rem;
+}
+
+.modal p + p {
+  margin-top: 1rem;
+}
+
+/* ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[data-animation] .modal-dialog {
+  opacity: 0;
+  transition: all 0.5s var(--bounceEasing);
+}
+
+[data-animation].is-visible .modal-dialog {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+[data-animation='slideInOutLeft'] .modal-dialog {
+  transform: translateX(-100%);
+}
+
+[data-animation='slideInOutRight'] .modal-dialog {
+  transform: translateX(100%);
+}
+
+[data-animation='slideInOutLeft'].is-visible .modal-dialog,
+[data-animation='slideInOutRight'].is-visible .modal-dialog,
+[data-animation='rotateInOutDown'].is-visible .modal-dialog {
+  transform: none;
+}
+
 
 /* Bouton de retour vers le haut de page */
 
-#returnOnTop {
-    z-index: 1;
-    bottom: 1%;
-    cursor: pointer;
-    display: none;
-    filter: alpha(opacity=50);
-    /* IE < 8 */
-    height: 40px;
-    opacity: 0.5;
-    position: fixed;
-    right: 1%;
-    width: 40px;
+.returnTop {
+  z-index: 1;
+  bottom: 1%;
+  cursor: pointer;
+  display: none;
+  filter: alpha(opacity=50);
+  /* IE < 8 */
+  height: 40px;
+  opacity: 0.5;
+  position: fixed;
+  right: 1%;
+  width: 40px;
 }
 
-#returnOnTop:hover {
-    filter: alpha(opacity=100);
-    /* IE < 8 */
-    opacity: 1;
+.returnTop:hover {
+  filter: alpha(opacity=100);
+  /* IE < 8 */
+  opacity: 1;
 }
-
-/*
-   CSS Styles for animated modal fancyBox
-   #2 - Custom open/close animation
-   ======================================
-*/
-
-#fancybox-wrap {
-    position: relative;
-}
-
-#fancybox-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#modal {
-    top: 0;
-    left: 0;
-    border-radius: 4px;
-    min-width: 220px;
-}
-
-#modal h4 {
-    font-size: 1em;
-    line-height: 1em;
-    margin-left: 10%;
-}
-
-
-/* Start state */
-/*remarque: justify-content ne fonctionne pas ? */
-.animated-modal {
-    max-width: 550px;
-    border-radius: 4px;
-    overflow: hidden;
-    transform: translateY(-50px);
-    transition: all .7s;
-    text-align: justify;
-}
-
-.animated-modal h2,
-.animated-modal p {
-    transform: translateY(-50px);
-    opacity: 0;
-    transition-property: transform, opacity;
-    transition-duration: .4s;
-}
-
-/* Final state */
-.fancybox-slide--current .animated-modal,
-.fancybox-slide--current .animated-modal h2,
-.fancybox-slide--current .animated-modal p {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-/* Reveal content with different delays */
-.fancybox-slide--current .animated-modal h2 {
-    transition-delay: .1s;
-}
-
-.fancybox-slide--current .animated-modal p {
-    transition-delay: .3s;
-}
-
 
 /* --- Media queries pour tablets et desktop --- */
 
 @media only screen and (min-width: 380px) {
-    footer ul {
-        right: 0px;
-    }
+  footer ul {
+    right: 0px;
+  }
 }

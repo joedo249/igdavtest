@@ -1,8 +1,4 @@
-<!-- Bouton retour haut de page -->
-<img src="../img/retour-haut-bleu.png" alt="Retour haut" class="returnTop" id="returnOnTop">
-<script src="../js/topButton.js"></script>
-
-<!-- Pied de la page -->
+<!-- Footer -->
 <footer>
 	<div class="navfooter">
 		<ul>
@@ -10,43 +6,57 @@
 				<a href="aboutus.php">Home</a>
 			</li>
 			<li>
-				<a id="boxsitemap" data-fancybox data-src="#modal" href="javascript:;">Sitemap</a>
+				<a class="open-modal" data-open="modal1"
+				>Sitemap</a>
 			</li>
 			<li>
-				<a id="boxml" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">Legal notice</a>
+				<a class="open-modal" data-open="modal2"
+				>Legal notice</a>
 			</li>
 		</ul>
 	</div>
-</footer>
-
-<link rel="stylesheet" type="text/css" href="../fancybox-master/dist/jquery.fancybox.min.css">
-
-<!-- Animated fancyBox 
-            ================= -->
-<!-- source du code : https://codepen.io/fancyapps/pen/mqEqgr?editors=1010 -->
-<!--  inline content window -->
 
 <!-- Sitemap -->
 
-<div style="display: none;" id="modal">
-	<h2>Sitemap</h2>
-	<h3><a href="aboutus.php">About us</a></h3>
-	<h4><a href="team.php">Our team</a></h4>
-	<h3><a href="expert.php">Expertise</a></h3>
-	<h4><a href="expert.php#family">Family Law</a></h4>
-	<h4><a href="expert.php#labor">Labor Law</a></h4>
-	<h5><a href="transportation.php">Transportation sector</a></h5>
-	<h3><a href="fees.php">Fees</a></h3>
-	<h3><a href="contactus.php">Contact Us</a></h3>
+<div class="modal" id="modal1" data-animation="slideInOutLeft">
+	<div class="modal-dialog">
+		<div class="modal-header">
+			<h2>Sitemap</h2>
+			<button class="close-modal" aria-label="close modal" data-close>
+				✕
+			</button>
+		</div>
+
+		<section class="modal-content">
+			<h3><a href="aboutus.php">About us</a></h3>
+			<h4><a href="team.php">Our team</a></h4>
+			<h3><a href="expert.php">Expertise</a></h3>
+			<h4><a href="expert.php#family">Family Law</a></h4>
+			<h4><a href="expert.php#labor">Labor Law</a></h4>
+			<h4><a href="transportation.php">Transportation sector</a></h4>
+			<h3><a href="fees.php">Fees</a></h3>
+			<h3><a href="contactus.php">Contact Us</a></h3>
+		</section>
+		<div class="modal-footer">
+			<p>Press ✕, ESC, or click outside to close</p>
+		</div>
+		<!-- end "modal-content" -->
+	</div>
+	<!-- end "modal-dialog" -->
 </div>
+<!-- end "modal1" -->
 
-<!-- FancyBox "Sitemap" -->
-<script src="../fancybox-master/dist/jquery.fancybox.min.js"></script>
-<script src="../js/FB_SiteMap.js"></script>
+<div class="modal" id="modal2" data-animation="slideInOutLeft">
+	<div class="modal-dialog">
+		<div class="modal-header">
+			<h2>Legal notice in French</h2>
+			<button class="close-modal" aria-label="close modal" data-close>
+				✕
+			</button>
+		</div>
 
-<!-- FancyBox "Legal notice" -->
-<div style="display: none;" id="animatedModal" class="animated-modal">
-	<h2>Legal notice in French</h2>
+		<section class="modal-content">
+			<br />
 	<h3>Conditions d'utilisation</h3>
 	<p>Le Site web du cabinet IGD Avocats, désigné ci-après par le terme "le Site", vous est proposé sous certaines conditions d'utilisation, définissant l'ensemble des relations entre vous et le Site.</p>
 	<p>Ces conditions d'utilisation sont définies ci-dessous et la simple utilisation et/ou consultation de ce Site implique, de façon automatique et inconditionnelle, votre acceptation pleine et entière de l'ensemble de ces conditions d'utilisation.</p>
@@ -80,13 +90,22 @@
 			https://www.igd-avocats.fr/<br>
 			<p>Ce site a été réalisé par Joel Dousset<br>
 					©2014 - Tous droits réservés</p>
+				</section>
+				<div class="modal-footer">
+					<p>Press ✕, ESC, or click outside to close</p>
+				</div>
+				<!-- end "modal-content" -->
+			</div>
+			<!-- end "modal-dialog" -->
+		</div>
+		<!-- end "modal2" -->
+	</footer>
+	<script src="../js/modal-tut.js"></script>
 
-	<!-- bouton Close of Legal Notice -->
-	<p><button data-fancybox-close class="btn">Close</button></p>
-	</div> <!-- /animatedModal-->
 
-<!-- FancyBox "Legal notice" -->
-<script src="../js/FB_LegalNotice.js"></script>
+<!-- Bouton retour haut de page -->
+<img src="../img/retour-haut-bleu.png" alt="Retour haut" class="returnTop" id="returnOnTop">
+<script src="../js/topButton.js"></script>
 
 </div><!-- end wrapper -->
 </body>
