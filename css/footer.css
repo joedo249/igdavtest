@@ -34,10 +34,10 @@ footer a:hover {
   cursor: pointer;
 }
 
-/* Plan du site - Site Map*/
-
 /* MODAL
 –––––––––––––––––––––––––––––––––––––––––– */
+
+/* Plan du site - Site Map*/
 .modal {
   position: fixed;
   top: 0;
@@ -62,7 +62,7 @@ footer a:hover {
 
 .modal-dialog {
   position: relative;
-  width: 350px;
+  width: 420px;
   max-height: 80vh;
   border-radius: 5px;
   background: var(--white);
@@ -90,12 +90,12 @@ footer a:hover {
 
 .modal-content h3 {
   font-size: 1.5rem;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 10px;
 }
 
 .modal-content h4 {
   font-size: 1.2rem;
-  margin: 0 0 5px 10px;
+  margin: 0 0 5px 20px;
 }
 
 .modal-header,
