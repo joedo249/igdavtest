@@ -33,7 +33,8 @@
       <section id="equipe">
         <div class="portrait" id="portrait-isa">
           <img src="img/portrait-isa-4.jpg" loading="lazy" alt="Isabelle Guyader Dousset" class="photoID">
-          <p class="presentation"><b>Isabelle GUYADER DOUSSET</b>, avocat au barreau de Paris, est diplômée de l’Université Panthéon-Assas, membre de la Commission ouverte de droit social du Barreau de Paris, ancien chargé d'enseignement à l'Université Paris II (Assas). Après avoir exercé au sein de deux cabinets parisiens renommés, elle a créé sa propre structure en 1995. Ses domaines d'expertise sont principalement le droit du travail et le droit de la sécurité sociale tant en conseil qu’en contentieux.<br><br>
+          <p class="presentation"><b>Isabelle GUYADER DOUSSET</b>, avocat au barreau de Paris, est diplômée de l’Université Panthéon-Assas, membre de la Commission ouverte de droit social du Barreau de Paris, ancien chargé d'enseignement à l'Université Paris II (Assas).
+           Après avoir exercé au sein de deux cabinets parisiens renommés, elle a créé sa propre structure en 1995. Ses domaines d'expertise sont principalement le droit du travail et le droit de la sécurité sociale tant en conseil qu’en contentieux.<br><br>
             Isabelle GUYADER DOUSSET est le correspondant de plusieurs cabinets de Ressources Humaines et de réseaux nationaux d'Expertise comptable.<br><br></p>
         </div>
 

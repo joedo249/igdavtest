@@ -36,14 +36,26 @@
     }
   </script>
 
+<div class="modal-cookie">
+  <div class="modal-cookie-content">
+    <button onclick="hideModal()" class="close-btn" id="close">X</button>
+    <img src="./img/cookie.jpg" id="img-cookie" alt="cookie" />
+    <p>We don't use any cookie!</p>
+    <button onclick="hideModal()" class="close-btn" id="accept">
+      That's fine!
+    </button>
+  </div>
+</div>
+<script src="./js/cookie.js"></script>
+
 <div class ="gestZone">
 <script src="./js/touchmove.js"></script>
 
   <picture>
-    <source media="(max-width: 479px)" srcset="./img/arc-de-triomphe-78-mob.jpg">
-    <source media="(min-width: 480px)" srcset="./img/arc-de-triomphe-7.jpg">
-    <img src="./img/arc-de-triomphe-78-mob.jpg" alt="L'Arc de Triomphe" class="image">
-    <figcaption>La défense <br>de vos droits</figcaption>
+    <source media="(max-width: 479px)" srcset="./img/snowman.jpg">
+    <source media="(min-width: 480px)" srcset="./img/snowman.jpg">
+    <img src="./img/snowman.jpg" alt="bonhomme de neige" class="image">
+    <!-- <figcaption>La défense <br>de vos droits</figcaption> -->
   </picture>
 
   <main>
@@ -62,7 +74,7 @@
   </main>
 </div> <!-- /gestZone -->
 
-  <button type="button" class="button" onclick="location.href='equipe.php'">Pour en savoir plus sur notre cabinet !</button>
+  <button type="button" class="button" onclick="location.href='./equipe.php'">Pour en savoir plus sur notre cabinet !</button>
 
   <!-- the end parenthesis of include is red since the implementation of <button class="button" onclick=""... line
   instead of the former <button class="button"> with <p class="inner-text"> -->
