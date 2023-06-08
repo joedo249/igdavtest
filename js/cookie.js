@@ -1,20 +1,23 @@
 const modalCookie = document.querySelector('.modal-cookie');
 
-// The modal-cookie is displayed 3 seconds after page load
+// The .modal-cookie is displayed 3 seconds after first page load
 window.onload = function () {
-  setTimeout(function () {
-    modalCookie.style.display = 'block';
-  }, 3000);
+  if (!('cookieHasRunBefore' in sessionStorage)) {
+    setTimeout(function () {
+      modalCookie.style.display = 'block';
+    }, 3000);
+    sessionStorage.setItem('cookieHasRunBefore', true);
+  }
 };
 
-// When the user clicks on X or the button close the modal-cookie
+// Close .modal-cookie when the user clicks on X or the button
 function hideModal() {
   modalCookie.style.display = 'none';
 }
 
-// When the user clicks anywhere outside of the modal-cookie, close it
+// Close .modal-cookie when the user clicks anywhere outside of the modal-cookie
 window.onclick = function (event) {
-  if (event.target = modal-cookie) {
+  if ((event.target = modalCookie)) {
     modalCookie.style.display = 'none';
   }
 };

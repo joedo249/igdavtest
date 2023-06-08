@@ -40,9 +40,11 @@
   <div class="modal-cookie-content">
     <button onclick="hideModal()" class="close-btn" id="close">X</button>
     <img src="./img/cookie.jpg" id="img-cookie" alt="cookie" />
-    <p>We don't use any cookie!</p>
+    <!--<p>We don't use any cookies!</p>
+    That's fine! -->
+    <p>Ce site n'utilise pas de cookies !</p>
     <button onclick="hideModal()" class="close-btn" id="accept">
-      That's fine!
+      Très bien !
     </button>
   </div>
 </div>
@@ -51,18 +53,18 @@
 <div class ="gestZone">
 <script src="./js/touchmove.js"></script>
 
-  <picture>
-    <source media="(max-width: 479px)" srcset="./img/snowman.jpg">
-    <source media="(min-width: 480px)" srcset="./img/snowman.jpg">
-    <img src="./img/snowman.jpg" alt="bonhomme de neige" class="image">
-    <!-- <figcaption>La défense <br>de vos droits</figcaption> -->
-  </picture>
+<picture>
+        <source media="(max-width: 479px)" srcset="img/arc-de-triomphe-78-mob.jpg">
+        <source media="(min-width: 480px)" srcset="img/arc-de-triomphe-7.jpg">
+        <img src="img/arc-de-triomphe-7-mob.jpg" alt="L'Arc de Triomphe" class="image">
+        <figcaption>La défense <br>de vos droits</figcaption>
+      </picture>
 
   <main>
     <section>
       <article id="cabinet">
         <h1>Le cabinet IGD Avocats</h1>
-        <p>Ceci est la version test. Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
+        <p>Depuis sa création en 1995, le cabinet IGD Avocats vous conseille et, lors des procédures judiciaires, vous assiste ou vous représente sur tout le territoire français.</p>
         <p>La force de notre cabinet repose sur une grande maîtrise de son cœur de métier et sur la diversité de sa clientèle qui va des grandes entreprises aux particuliers.</p>
         <h2>Conseil et activité contentieuse</h2>
         <p>La pratique quotidienne des Juridictions nous permet d'offrir un conseil pertinent intégrant le risque contentieux, alors que notre activité de conseil conforte, dans nos domaines de compétence, la qualité de l'argumentation qui sera développée à la barre.</p>
