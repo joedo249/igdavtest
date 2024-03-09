@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>IGD Avocats garantit une transparence totale sur le montant des honoraires.</title>
+	<title>Honoraires</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="IGD Avocats garantit une transparence totale des honoraires en proposant des honoraires forfaitaires ou une convention d'honoraires. Notre structure légère et la compétence de nos avocats permettent d'assurer un bon rapport qualité-prix.">
 	<meta name="keywords" content="honoraire, transparence, rapport qualité-prix, convention, accord, confiance, forfait, suivi">

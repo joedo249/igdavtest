@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>IGD Avocats est ouvert tous les jours de la semaine.</title>
+  <title>Nous contacter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IGD Avocats répond rapidement à toutes demandes par téléphone ou par courriel. Vous avez un interlocuteur unique tout au long de l'affaire. Le cabinet est facilement accessible par les transports en commun.">
   <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du Général de Gaule, Etoile, métro, bus, RER, autolib, parking">
@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/form.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -102,9 +103,8 @@
         });
       </script>
 
-      <!--Load the JavaScript API-->
-      <script src='https://www.google.com/recaptcha/api.js'></script>
 
+      <!-- source https://phppot.com/php/php-contact-form-with-google-recaptcha/ -->
       <!--contact form-->
       <div class="content" id="contactForm">
         <h1>Formulaire de contact</h1>
@@ -117,7 +117,7 @@
             </div>
             <label for="contact_email">Email :</label>
             <div class="field">
-              <input type="email" id="contact_email" name="email" placeholder="entrez votre adresse mail" class="required email" aria-required="true" required>
+              <input type="text" id="contact_email" name="email" placeholder="entrez votre adresse mail" class="required email" aria-required="true" required>
             </div>
             <label for="contact_message">Message :</label>
             <div class="field">
@@ -125,11 +125,11 @@
             </div>
             <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
             <div id="mail-status"></div>
-            <button type="Submit" id="send-message" style="clear:both;">Envoyer</button>
+            <input type="Submit" id="send-message" style="clear:both" value="Envoyer"/>
           </form>
           <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
         </div> <!-- formulaire -->
-      </div> <!-- content -->
+      </div> <!-- contact form -->
 
       <section id="plan">
         <div class="container">

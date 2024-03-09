@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>IGD Avocats est spécialisé en droit du travail.</title>
+	<title>Expertise</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="IGD Avocats intervient en droit du travail, droit de la sécurité dans les secteurs du transport de personnes et de marchandises, du recyclage et du traitement des déchets. Le cabinet intervient également en droit de la famille et en droit pénal.">
 	<meta name="keywords" content="avocat, avocats, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité, famille, divorce, séparation, enfants">
