@@ -11,12 +11,12 @@
 	<meta name="theme-color" content="#0a4263">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
-  <link rel="stylesheet" href="./css/body.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/navbar.css">
-  <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" type="text/css" href="./php/styles.php">
-</head>
+	<link rel="stylesheet" href="./css/body.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/navbar.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" type="text/css" href="./php/styles.php">
+	</head>
 
 <body>
 	<div id="wrapper">
@@ -34,7 +34,7 @@
 			</picture>
 
 			<main>
-			<br>
+				<br>
 			
 				<?php
 				$aDeviner = 150;
@@ -55,41 +55,28 @@
 				}
 				?>
 
-			<?php
-				echo "class=\"alert-serveur\""
-
-
-			?>
-
-			<?php if($erreur): ?>
-				<div class="alert-erreur">
-					<?= $erreur ?>
-				</div>
-				<?php elseif($succes): ?>
-					<div class="alert-succes">
-						<?= $succes ?>
+				<?php if($erreur): ?>
+					<div class="alert-erreur">
+						<?= $erreur ?>
 					</div>
-				<?php endif ?>
+					<?php elseif($succes): ?>
+						<div class="alert-succes">
+							<?= $succes ?>
+						</div>
+					<?php endif ?>
 
-
-
-			<form action="/jeu.php" method="GET">
-				<input type="number" name="chiffre" placeholder="entre 0 et 1000" value="<?php $value ?>">
-				<button type="submit">Deviner</button>
-
-
-			</form>
-
-
-			
-
-
+				<br>
+				<form action="/jeu.php" method="GET">
+					<div class="form-group">
+						<input type="number" name="chiffre" placeholder="entre 0 et 1000" value="<?php $value ?>">
+					</div>
+				<br>
+					<button type="submit" class="button-submit">Deviner</button>
+				</form>		
 
 			</main>
 		</div> <!-- /gestZone -->
 
-
-		<br><br>
 		<br><br>
 		<br><br>
 		<br><br>
