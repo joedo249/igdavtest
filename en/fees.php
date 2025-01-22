@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>IGD Avocats provides cost-effective client service</title>
+	<title>Fees</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Our light structure allows us to provide cost-effective client service, offering good value for money. Fees are established in agreement with the customer.">
 	<meta name="keywords" content="fees, transparency, value-for-money, agreement, trust, flat rate, inclusive, follow-up, monitoring">

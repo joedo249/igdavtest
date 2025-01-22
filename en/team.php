@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>IGD Avocats specializes in Employment and Labor Law</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IGD Avocats specializes in labor law, social security law, criminal law, family law. The firm is a light and responsive structure. We are committed to being responsive to any demand from our customers and to setting up a direct and personalized relationship with our clients">
   <meta name="keywords" content="lawyer, lawyers, negotiation, result, indemnity, competence, quality, rigor, availability, responsiveness, pragmatism, tenacity, loyalty, ethics, transparency, training">

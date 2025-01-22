@@ -3,7 +3,6 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>IGD Avocats est spécialisé en droit du travail.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="IGD Avocats intervient en droit du travail, droit de la sécurité dans les secteurs du transport de personnes et de marchandises, du recyclage et du traitement des déchets.">
 	<meta name="keywords" content="avocat, droit du travail, licenciement, faute grave, abusif, harcèlement, transport, logistique, sécurité">
@@ -20,7 +19,7 @@
 <body>
 	<div id="wrapper">
 
-		<?php include("igdheader.html"); ?>
+		<?php include("igdheader.php"); ?>
 
 		<?php include("igdnavbar.html"); ?>
 

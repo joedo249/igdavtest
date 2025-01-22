@@ -6,7 +6,7 @@
 		// source : https://stackoverflow.com/questions/53772277/php-code-giving-me-an-error-upon-form-submission
 
 		$user_name  = filter_var($_POST['name'], FILTER_UNSAFE_RAW); //remove illegal characters from name
-		$user_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL); //remove illegal characters from email addresses
+		$user_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL); //remove illegal characters
 		$user_message = filter_var($_POST['message'], FILTER_UNSAFE_RAW); //remove tags from string values
 
 		if (empty($user_name)) {
@@ -23,7 +23,7 @@
 				die($output);
 		}
 		if (!filter_var($user_email, FILTER_VALIDATE_EMAIL)) { //email format validation
-				$output = json_encode(array('type' => 'error', 'text' => '<b>' . $user_email . '</b> est une adresse mail non valide.'));
+				$output = json_encode(array('type' => 'error', 'text' => '<b>' . htmlentities($user_email) . '</b> est une adresse mail non valide.'));
 				die($output);
 		}
 

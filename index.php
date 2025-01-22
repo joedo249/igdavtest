@@ -10,32 +10,22 @@
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' script-src 'self' 'nonce-$RANDOM' 'unsafe-inline' https://ajax.googleapis.com">
   <link rel="stylesheet" href="./css/body.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/body_slidein.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <!-- titre de l'onglet de la page
-  https://www.youtube.com/watch?v=_WprUvG1mbs -->
-  <title>
-    <?php if (isset($title)) : ?>
-      <?= $title ?>
-    <?php else : ?>
-        IGD Avocats
-      <?php endif ?>
-  </title>
 </head>
 
-<body>
+ <body>
+  
+  <?php require './igdheader.php'; ?>
+
+  <?php include "./igdnavbar.html"; ?>
+
   <div id="wrapper">
-
-
-  <?php include('./igdheader.html'); ?>
-
-  <?php include("./igdnavbar.html"); ?>
-
   <!-- simulate click on link to activate index.php on website opening. -->
   <script>
     window.onload = function() {

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>IGD Avocats is opened every working day</title>
+  <title>Contact us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IGD Avocats answers quickly to all requests by phone or email. The office is easily accessible by public transport">
   <meta name="keywords" content="Paris, 19, avenue Victor Hugo, place du General de Gaule, Etoile, public transport, metro, bus, RER, parking">
@@ -109,7 +109,7 @@
       <h1>Contact Form</h1>
       <p>Send your message through this form and we will get back to you. </p>
       <div id="formulaire">
-        <form id="frmContact" action="" method="POST" novalidate="novalidate">
+        <form id="frmContact" action="form_valid_en.php" method="POST" novalidate="novalidate">
           <label for="contact_name">Name:</label>
           <div class="field">
             <input type="text" id="contact_name" name="name" placeholder="enter your name" title="Please enter your name" class="required" aria-required="true" required>

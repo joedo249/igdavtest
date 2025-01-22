@@ -7,7 +7,7 @@
 
     $font_family = 'Trebuchet MS, Verdana, Helvetica';
     $font_size = '1em';
-    $font_color = '#ffffff';
+    $font_color = 'black';
     $backgroundColor = [
       $background_color = '#808080',
       $background_color = '#F6B6B5',

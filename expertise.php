@@ -20,7 +20,7 @@
 <body>
 	<div id="wrapper">
 
-		<?php include("igdheader.html"); ?>
+		<?php include("igdheader.php"); ?>
 
 		<?php include("igdnavbar.html"); ?>
 

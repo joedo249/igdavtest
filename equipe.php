@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>IGD Avocats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IGD Avocats est spécialisé en droit du travail, en droit de la famille et en droit pénal. Le cabinet IGD Avocats est une structure légère et réactive.">
   <meta name="keywords" content="avocat, avocats, droit du travail, social, famille, pénal, négociation, résultat, indemnité, compétence, qualité, rigueur, disponibilité, réactivité, pragmatisme, ténacité, loyauté, éthique, transparence, formation permanente">
@@ -20,7 +19,7 @@
 <body>
   <div id="wrapper">
 
-    <?php include("igdheader.html"); ?>
+    <?php include("igdheader.php"); ?>
 
     <?php include("igdnavbar.html"); ?>
 

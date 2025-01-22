@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>IGD Avocats specializes in Employment and Labor Law</title>
+  <title>IGD Avocats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IGD Avocats is a Law Firm in Paris specializing in Employment and Labor Law, Social Security Law, Family Law and Criminal Law.">
   <meta name="keywords" content="Isabelle Guyader Dousset, Claire Dousset, lawyer, Paris, unfair dismissal, moral harassment, sexual harassment, labor law, social law, social security, family, transportation, logistics, litigation, Labor Court, High Court">
