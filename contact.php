@@ -50,7 +50,7 @@
             <div id="parMail">
               <p>- par mail :
                 <span id="contactEmail">
-                <script src="js/contactEmailScript.js" async></script>
+                <script src="js/contactEmailScript.js" nonce="<?php echo $nonce; ?>" async></script>
                 </span></p>
             </div>
             

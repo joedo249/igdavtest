@@ -1,5 +1,4 @@
 // Protection de l'adresse email
-nonce="$RANDOM";
 const nom = "info1";
 const pseudo = "info";
 const domaine = "igd-avocats";

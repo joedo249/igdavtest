@@ -1,3 +1,7 @@
+<?php
+// Generate a nonce
+$nonce = base64_encode(random_bytes(16));
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -10,7 +14,7 @@
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a4263">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' script-src 'self' 'nonce-$RANDOM' 'unsafe-inline' https://ajax.googleapis.com">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'nonce-<?php echo $nonce; ?>' 'unsafe-inline' https://ajax.googleapis.com">
   <link rel="stylesheet" href="./css/body.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/navbar.css">
@@ -27,8 +31,8 @@
 
   <div id="wrapper">
   <!-- simulate click on link to activate index.php on website opening. -->
-  <script>
-    window.onload = function() {
+  <script nonce="<?php echo $nonce; ?>">
+     window.onload = function() {
       if (!("hasRunBefore" in sessionStorage)) {
         document.getElementById("first").click();
         sessionStorage.setItem("hasRunBefore", true);
