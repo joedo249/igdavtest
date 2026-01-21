@@ -39,7 +39,7 @@
         <section id="contact">
           <article>
             <p id="adressePostale"><b>Le cabinet est situé 19 avenue Victor Hugo 75116 PARIS</b></p>
-            <p>Le cabinet reçoit uniquement sur rendez-vous. L'accueil téléphonique est ouvert du lundi au vendredi de 9h30 à 13h00.<br><br>
+            <p>Le cabinet reçoit uniquement sur rendez-vous. L'accueil téléphonique est ouvert du lundi au vendredi de <time>9h30</time> à <time>13h00</time>.<br><br>
               Pour prendre rendez-vous ou avoir des renseignements complémentaires, n'hésitez pas à nous contacter<br></p>
 
             <div id="contactTel">
